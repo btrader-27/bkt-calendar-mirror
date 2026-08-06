@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T04:31:11Z",
+ "generated_at": "2026-08-06T09:58:56Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,10 +16,10 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 92,
+ "count": 94,
  "count_by_impact": {
   "holiday": 2,
-  "low": 74,
+  "low": 76,
   "medium": 8,
   "high": 8
  },
@@ -932,6 +932,34 @@
    "all_day": false,
    "forecast": "40.0",
    "previous": "38.4",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "5a3abe799f73",
+   "ccy": "EUR",
+   "title": "Spanish 10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-08-06T08:41:00Z",
+   "local_date": "2026-08-06",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.40|1.8",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "4a407df2f721",
+   "ccy": "EUR",
+   "title": "French 10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-08-06T08:57:00Z",
+   "local_date": "2026-08-06",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.68|3.3",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
