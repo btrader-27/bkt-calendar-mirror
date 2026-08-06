@@ -21,6 +21,7 @@ Safety rules baked in:
   - Rows older than PRUNE_DAYS are dropped so the file cannot grow forever.
 """
 
+import functools
 import hashlib
 import json
 import os
@@ -32,9 +33,16 @@ from urllib.request import Request, urlopen
 
 # ---------------------------------------------------------------- config
 
+# ForexFactory only publishes the CURRENT week. ff_calendar_nextweek.json
+# returns a hard 404 and, going by FF's own rate-limit notice, never existed:
+# the only documented export URLs are the four thisweek variants.
+#
+# Forward coverage comes from the merge instead. FF rolls this file to the new
+# week on Sunday, so the Sunday 07:17 UTC run picks up the upcoming week about
+# 14 hours before the Sunday 17:00 ET open, and merge() folds it into the
+# rolling window alongside the week that is ending.
 FEEDS = [
     ("thisweek", "https://nfs.faireconomy.media/ff_calendar_thisweek.json"),
-    ("nextweek", "https://nfs.faireconomy.media/ff_calendar_nextweek.json"),
 ]
 
 # G-7 (US, UK, Canada, Japan, and EUR for Germany/France/Italy) plus CHF, AUD, NZD.
@@ -42,12 +50,15 @@ KEEP_CCY = {"USD", "EUR", "GBP", "JPY", "CAD", "CHF", "AUD", "NZD"}
 
 OUT_PATH = "calendar.json"
 
-# Gap between the two feed pulls. FF allows roughly 2 pulls per 5 minutes per IP.
-# Three minutes keeps us comfortably inside that even on a retry.
-FEED_GAP_SECONDS = 180
+# FF allows roughly 2 weekly-file pulls per 5 minutes per IP. Against a
+# rate-limited endpoint, fast retries are worse than no retries: they land
+# inside the same window and are guaranteed to fail, while also pushing the
+# NEXT legitimate request further behind. So every gap here is a full window.
+# Public repos get unlimited Actions minutes, so the wall clock costs nothing.
+FEED_GAP_SECONDS = 330
 
-RETRIES = 3
-RETRY_BACKOFF_SECONDS = 45
+RETRIES = 2
+RETRY_BACKOFF_SECONDS = 330
 TIMEOUT_SECONDS = 30
 
 # Sanity floor. A normal two-week window carries several hundred rows. Anything
@@ -61,6 +72,11 @@ UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
+
+# stderr flushes immediately but stdout is block-buffered on a CI runner, so
+# without this the failure lines print ABOVE the success lines and the log
+# reads in the wrong order. Cost us a wrong diagnosis once already.
+print = functools.partial(print, flush=True)  # noqa: A001
 
 IMPACT_MAP = {
     "high": "high",
@@ -81,20 +97,38 @@ def fetch_feed(name, url):
         try:
             req = Request(url, headers={"Accept": "application/json", "User-Agent": UA})
             with urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
+                status = resp.status
                 body = resp.read().decode("utf-8", errors="replace")
+            print(f"[{name}] HTTP {status}, {len(body)} bytes")
             stripped = body.lstrip()
             if stripped.startswith("<"):
-                raise ValueError("feed returned HTML (rate limited or blocked)")
+                raise ValueError(
+                    f"feed returned HTML, first 200 chars: {stripped[:200]!r}"
+                )
             data = json.loads(body)
             if not isinstance(data, list):
                 raise ValueError("feed shape unexpected, expected a JSON array")
             print(f"[{name}] ok, {len(data)} raw rows (attempt {attempt})")
             return data
-        except (HTTPError, URLError, ValueError, json.JSONDecodeError, OSError) as e:
+        except HTTPError as e:
+            # Read the error body too. A 404 and a rate-limit block look
+            # identical in the status line alone, and the fixes differ.
+            try:
+                snippet = e.read().decode("utf-8", errors="replace")[:200]
+            except Exception:
+                snippet = "(no body)"
             last_err = e
-            print(f"[{name}] attempt {attempt} failed: {e}", file=sys.stderr)
-            if attempt < RETRIES:
-                time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+            print(
+                f"[{name}] attempt {attempt} failed: HTTP {e.code} {e.reason}, "
+                f"body: {snippet!r}",
+                file=sys.stderr,
+            )
+        except (URLError, ValueError, json.JSONDecodeError, OSError) as e:
+            last_err = e
+            print(f"[{name}] attempt {attempt} failed: {type(e).__name__}: {e}", file=sys.stderr)
+        if attempt < RETRIES:
+            print(f"[{name}] backing off {RETRY_BACKOFF_SECONDS}s before retry")
+            time.sleep(RETRY_BACKOFF_SECONDS)
     print(f"[{name}] GIVING UP: {last_err}", file=sys.stderr)
     return None
 
