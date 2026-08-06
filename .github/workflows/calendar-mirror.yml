@@ -10,8 +10,11 @@ name: calendar-mirror
 
 on:
   schedule:
-    # Every 6 hours. Times are UTC.
-    - cron: '17 1,7,13,19 * * *'
+    # Every 3 hours. Times are UTC. A normal run is a single HTTP request and
+    # finishes in well under a minute, and public repos get unlimited Actions
+    # minutes, so frequency is effectively free. The Sunday 07:17 run is the
+    # important one: it catches FF's weekly roll before the 17:00 ET open.
+    - cron: '17 1,4,7,10,13,16,19,22 * * *'
   workflow_dispatch:
 
 permissions:
@@ -24,7 +27,9 @@ concurrency:
 jobs:
   mirror:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # One feed, one retry with a 330s backoff. Happy path is under a minute,
+    # worst case about 6.
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
