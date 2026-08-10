@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T14:32:19Z",
+ "generated_at": "2026-08-10T17:08:53Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,10 +16,10 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 166,
+ "count": 167,
  "count_by_impact": {
   "holiday": 3,
-  "low": 128,
+  "low": 129,
   "medium": 16,
   "high": 19
  },
@@ -1422,6 +1422,20 @@
    "all_day": false,
    "forecast": "-0.7",
    "previous": "-3.1",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "1286c116f74b",
+   "ccy": "USD",
+   "title": "Cleveland Fed Inflation Expectations",
+   "impact": "low",
+   "instant": "2026-08-10T13:45:00Z",
+   "local_date": "2026-08-10",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.7%",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
