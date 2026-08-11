@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T11:05:32Z",
+ "generated_at": "2026-08-11T14:31:48Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,10 +16,10 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 167,
+ "count": 168,
  "count_by_impact": {
   "holiday": 3,
-  "low": 129,
+  "low": 130,
   "medium": 16,
   "high": 19
  },
@@ -1595,6 +1595,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "6d2b72f11c8a",
+   "ccy": "USD",
+   "title": "ADP Weekly Employment Change",
+   "impact": "low",
+   "instant": "2026-08-11T12:14:00Z",
+   "local_date": "2026-08-11",
+   "all_day": false,
+   "forecast": "",
+   "previous": "15.0K",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "c981bd3a770f",
    "ccy": "USD",
    "title": "ADP Weekly Employment Change",
@@ -1603,7 +1617,7 @@
    "local_date": "2026-08-11",
    "all_day": false,
    "forecast": "",
-   "previous": "",
+   "previous": "11.0K",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
