@@ -1,48 +1,57 @@
 name: calendar-mirror
-
 # Pulls the ForexFactory weekly feeds from a GitHub runner (its own egress IP,
 # so no Cloudflare shared-IP rate limiting) and commits the normalized
 # calendar.json that the bkt-calendar Worker reads.
 #
+# TWO STEPS, TWO SOURCES (v2):
+#   fetch_calendar.py  the weekly JSON feed. Schedule data: what is coming,
+#                      when, with forecast and previous. Stable for days.
+#   fetch_actuals.py   the calendar HTML page. Released values only. The JSON
+#                      feed has no actual column and never has, so this is the
+#                      only place a printed number can come from.
+#
 # GitHub's scheduler can run late under load, sometimes by 10 to 15 minutes.
-# That is fine here: the weekly feeds cover a full week ahead, so freshness is
-# measured in hours, not minutes.
-
+# That was fine when this only carried schedule data measured in hours. It is
+# tighter now: a 6:00 AM ET European print needs to be in calendar.json before
+# the 7:00 AM brief goes out, so the cadence moved from 3 hourly to hourly.
+# A run is two HTTP requests and finishes in well under a minute, and public
+# repos get unlimited Actions minutes, so the extra frequency costs nothing.
 on:
   schedule:
-    # Every 3 hours. Times are UTC. A normal run is a single HTTP request and
-    # finishes in well under a minute, and public repos get unlimited Actions
-    # minutes, so frequency is effectively free. The Sunday 07:17 run is the
-    # important one: it catches FF's weekly roll before the 17:00 ET open.
-    - cron: '17 1,4,7,10,13,16,19,22 * * *'
+    # Hourly at :17. The Sunday 07:17 run is still the important one for the
+    # weekly roll: it catches FF's roll before the 17:00 ET open.
+    - cron: '17 * * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 concurrency:
   group: calendar-mirror
   cancel-in-progress: false
-
 jobs:
   mirror:
     runs-on: ubuntu-latest
-    # One feed, one retry with a 330s backoff. Happy path is under a minute,
-    # worst case about 6.
+    # One feed, one retry with a 330s backoff, plus up to a few day pages for
+    # actuals. Happy path is under a minute, worst case about 8.
     timeout-minutes: 15
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
+      - name: Install dependencies
+        run: pip install --quiet beautifulsoup4
       - name: Fetch and normalize calendar
         run: python scripts/fetch_calendar.py
-
+      # Backfills the `actual` field on events that have already passed.
+      # Deliberately NOT fatal: ForexFactory may challenge the runner or change
+      # its markup, and neither should take down the schedule data that the
+      # member facing calendar depends on. The script exits 0 and leaves
+      # calendar.json untouched on any soft failure, and `|| true` guards
+      # against an unhandled crash doing the same.
+      - name: Backfill released values
+        run: python scripts/fetch_actuals.py || true
       - name: Commit if changed
         run: |
           git config user.name "calendar-bot"
