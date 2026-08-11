@@ -1,0 +1,38 @@
+name: actuals-probe
+# MANUAL ONLY. Never runs on a schedule and never commits anything.
+#
+# Purpose: prove that a GitHub runner can actually fetch and parse the
+# ForexFactory calendar HTML before wiring the scraper into the live mirror.
+# ForexFactory sits behind Cloudflare and may challenge a runner even when the
+# same request works fine from a laptop, so this has to be tested here rather
+# than locally.
+#
+# Run it from the Actions tab: pick "actuals-probe", press "Run workflow",
+# then open the run and read the "Probe for released values" step log.
+#
+# Reading the output:
+#   values listed          the scrape works, safe to wire into calendar-mirror
+#   "likely a bot challenge"   Cloudflare is blocking, needs another approach
+#   "parsed 0 released values" page loaded but the CSS selectors moved
+#
+# calendar.json is read but never written, and nothing is committed, so this
+# workflow cannot affect the live calendar in any way.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install --quiet beautifulsoup4
+      - name: Probe for released values
+        run: python scripts/fetch_actuals.py --probe --days 3
