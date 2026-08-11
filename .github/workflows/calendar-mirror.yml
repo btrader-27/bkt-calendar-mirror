@@ -35,7 +35,12 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout
+        # fetch-depth 0 rather than the default shallow clone: the push step
+        # rebases onto origin/main when a concurrent run has already landed,
+        # and a depth-1 clone has no history to rebase against.
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -53,13 +58,52 @@ jobs:
       - name: Backfill released values
         run: python scripts/fetch_actuals.py || true
       - name: Commit if changed
+        # PUSH HARDENING (v3). At 3 hourly cadence a collision was unlikely. At
+        # hourly it is a matter of time, and a plain `git push` fails with
+        # "! [rejected] main -> main (fetch first)" the moment anything else has
+        # landed on main since checkout. That is not hypothetical: it was hit on
+        # 2026-08-11 when a re-run of an older scheduled run tried to push from
+        # a commit that was behind.
+        #
+        # Two sources of collision:
+        #   1. A human commit to the repo while a scheduled run is in flight.
+        #   2. Two mirror runs overlapping. The concurrency group serialises
+        #      them, but a queued run still checked out its own ref earlier.
+        #
+        # Rebase is the right merge strategy here rather than a merge commit:
+        # calendar.json is machine generated, our commit is always a single
+        # whole-file replacement, and replaying it on top of whatever landed is
+        # exactly the intended outcome. Retried three times with a short sleep
+        # so a burst of activity does not need a manual re-run.
         run: |
+          set -euo pipefail
           git config user.name "calendar-bot"
           git config user.email "calendar-bot@users.noreply.github.com"
           git add calendar.json
           if git diff --staged --quiet; then
             echo "No change, nothing to commit."
-          else
-            git commit -m "calendar: refresh $(date -u '+%Y-%m-%dT%H:%MZ')"
-            git push
+            exit 0
           fi
+          git commit -m "calendar: refresh $(date -u '+%Y-%m-%dT%H:%MZ')"
+          # Explicit refspec rather than a bare `git push`: that form depends on
+          # upstream tracking config being exactly right, and fails confusingly
+          # ("upstream branch does not match") when it is not. HEAD:main states
+          # the intent directly and is immune to that.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt, rebasing onto origin/main."
+            # --autostash covers any stray working-tree change; without it a
+            # dirty tree aborts the rebase and the retry loop spins pointlessly.
+            git fetch origin main
+            git rebase --autostash origin/main || {
+              echo "Rebase failed. Leaving main untouched rather than forcing."
+              git rebase --abort || true
+              exit 1
+            }
+            sleep 5
+          done
+          echo "Push still failing after 3 attempts."
+          exit 1
