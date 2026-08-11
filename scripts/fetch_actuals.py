@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-scripts/fetch_actuals.py                                                v1.0.0
+scripts/fetch_actuals.py                                                v1.1.0
 
 Fills in the `actual` field on calendar.json.
 
@@ -28,10 +28,24 @@ DESIGN: ADDITIVE POST-PROCESSING
     mirror exists.
 
 MATCHING
-    On the tuple (currency, normalized title, Eastern calendar date), NOT on
-    id. The ids in calendar.json are hashes minted by fetch_calendar.py and
-    nothing in the HTML corresponds to them. The tuple is stable across any
-    change to id generation on either side.
+    On (currency, normalized title) plus a date within one day, NOT on id. The
+    ids in calendar.json are hashes minted by fetch_calendar.py and nothing in
+    the HTML corresponds to them.
+
+    THE ONE DAY TOLERANCE IS NOT SLOPPINESS, it is required. ForexFactory
+    serves a logged-out client in fixed EST (UTC-5) with no daylight saving,
+    while calendar.json's local_date is true America/New_York, which is EDT
+    (UTC-4) in summer. Any event in the first hour after ET midnight therefore
+    sits on the PREVIOUS day's FF page.
+
+    Caught on the RBA Cash Rate of 2026-08-11T04:30:00Z. That is 00:30 EDT on
+    Aug 11, so local_date reads 2026-08-11, but FF grouped it under aug10 and
+    an exact-day match skipped the most important row on the board. Verified
+    against a live probe run, not theorised.
+
+    Exact-day matches are still preferred and only fall back to the adjacent
+    day when there is no exact hit, so a recurring release cannot be pulled
+    off the wrong day while its own day is present.
 
 BETTER/WORSE
     ForexFactory colours the actual green when it beat and red when it missed,
@@ -166,11 +180,44 @@ def fetch(url):
 # Parsing
 # ----------------------------------------------------------------------------
 
-def parse_day(html):
+MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun",
+     "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def parse_ff_date(text, ref_iso):
+    """
+    "Mon Aug 10" -> "2026-08-10". FF omits the year, so it is taken from the
+    requested day, with a rollover guard for the Dec/Jan boundary.
+    """
+    m = re.search(r"([A-Za-z]{3})\s*(\d{1,2})", text or "")
+    if not m:
+        return None
+    mon = MONTHS.get(m.group(1).lower())
+    if not mon:
+        return None
+    day = int(m.group(2))
+    ref = datetime.fromisoformat(ref_iso).date()
+    for year in (ref.year, ref.year - 1, ref.year + 1):
+        try:
+            cand = datetime(year, mon, day).date()
+        except ValueError:
+            continue
+        if abs((cand - ref).days) <= 200:
+            return cand.isoformat()
+    return None
+
+
+def parse_day(html, requested_day):
     """
     Extract released values from one calendar day page.
 
-    Returns {(ccy, norm_title): {"actual": str, "actual_class": str}}.
+    Returns {(ccy, norm_title): {day_iso: {"actual": str, "actual_class": str}}}.
+
+    Rows are attributed to the day in FF's own date header rather than to the
+    requested page, because a day page can carry spillover rows from the
+    neighbouring day. The header cell is populated only on the first row of
+    each day and blank thereafter, so the last seen value carries forward.
 
     ForexFactory's markup, as of writing:
         tr.calendar__row
@@ -186,7 +233,13 @@ def parse_day(html):
     out = {}
 
     rows = soup.select("tr.calendar__row") or soup.select("tr.calendar_row")
+    current_day = requested_day
     for row in rows:
+        date_el = row.select_one(".calendar__date") or row.select_one(".calendar_date")
+        if date_el:
+            hdr = parse_ff_date(date_el.get_text(" ", strip=True), requested_day)
+            if hdr:
+                current_day = hdr
         ccy_el = row.select_one(".calendar__currency") or row.select_one(".calendar_currency")
         ev_el = row.select_one(".calendar__event") or row.select_one(".calendar_event")
         act_el = row.select_one(".calendar__actual") or row.select_one(".calendar_actual")
@@ -212,7 +265,9 @@ def parse_day(html):
                 cls = c
                 break
 
-        out[(ccy, norm_title(title))] = {"actual": actual, "actual_class": cls}
+        out.setdefault((ccy, norm_title(title)), {})[current_day] = {
+            "actual": actual, "actual_class": cls
+        }
 
     return out
 
@@ -280,12 +335,13 @@ def main():
         if not html:
             print(f"  FAILED, skipping {day}")
             continue
-        found = parse_day(html)
-        print(f"  parsed {len(found)} released values")
-        for k, v in found.items():
-            scraped[(day, k[0], k[1])] = v
+        found = parse_day(html, day)
+        n = sum(len(v) for v in found.values())
+        print(f"  parsed {n} released values")
+        for key, by_day in found.items():
+            scraped.setdefault(key, {}).update(by_day)
 
-    if not scraped:
+    if not any(scraped.values()):
         # Soft failure. calendar.json keeps its schedule data and the Worker
         # carries on exactly as before, just without actuals.
         print("WARNING: no actuals parsed from any day. calendar.json untouched.")
@@ -293,13 +349,17 @@ def main():
         return 0
 
     if args.probe:
-        print(f"\nPROBE, {len(scraped)} values, writing nothing:")
-        for (day, ccy, t), v in sorted(scraped.items()):
+        total = sum(len(v) for v in scraped.values())
+        print(f"\nPROBE, {total} values, writing nothing:")
+        flat = sorted((d, c, t, v) for (c, t), byd in scraped.items()
+                      for d, v in byd.items())
+        for day, ccy, t, v in flat:
             flag = f" [{v['actual_class']}]" if v["actual_class"] else ""
             print(f"  {day} {ccy} {t[:40]:40} {v['actual']}{flag}")
         return 0
 
     filled = 0
+    off_by_one = []
     for ev in events:
         # Never overwrite a value that is already there. Only fill gaps.
         if str(ev.get("actual") or "").strip():
@@ -307,8 +367,24 @@ def main():
         day = et_date_key(ev)
         if not day:
             continue
-        hit = scraped.get((day, (ev.get("ccy") or "").upper(),
-                           norm_title(ev.get("title"))))
+        by_day = scraped.get(((ev.get("ccy") or "").upper(),
+                              norm_title(ev.get("title"))))
+        if not by_day:
+            continue
+        # Exact day first. Only fall back to the adjacent day when the event's
+        # own day carries no value, so a recurring release is never pulled off
+        # the wrong date while its own date is present. The fallback exists
+        # because FF serves a logged-out client in fixed EST while local_date
+        # is EDT in summer, which shifts post-midnight events back a day.
+        hit = by_day.get(day)
+        if not hit:
+            d0 = datetime.fromisoformat(day).date()
+            for delta in (-1, 1):
+                alt = (d0 + timedelta(days=delta)).isoformat()
+                if alt in by_day:
+                    hit = by_day[alt]
+                    off_by_one.append(f"{ev.get('ccy')} {ev.get('title')}")
+                    break
         if not hit:
             continue
         ev["actual"] = hit["actual"]
@@ -327,6 +403,9 @@ def main():
     os.replace(tmp, CALENDAR_PATH)
 
     print(f"Filled {filled} actual values into {CALENDAR_PATH}")
+    if off_by_one:
+        print(f"  {len(off_by_one)} matched on the adjacent day (FF EST vs ET EDT): "
+              + ", ".join(off_by_one[:5]))
     return 0
 
 
