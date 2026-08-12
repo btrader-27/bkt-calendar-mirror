@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T18:05:42Z",
+ "generated_at": "2026-08-12T19:18:05Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,10 +16,10 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 169,
+ "count": 170,
  "count_by_impact": {
   "holiday": 3,
-  "low": 131,
+  "low": 132,
   "medium": 16,
   "high": 19
  },
@@ -1841,6 +1841,21 @@
    "feed": "thisweek"
   },
   {
+   "id": "f70f0b3de1a3",
+   "ccy": "USD",
+   "title": "Federal Budget Balance",
+   "impact": "low",
+   "instant": "2026-08-12T17:58:00Z",
+   "local_date": "2026-08-12",
+   "all_day": false,
+   "forecast": "-348.3B",
+   "previous": "-120.3B",
+   "actual": "-432.3B",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "worse"
+  },
+  {
    "id": "2a32e6889483",
    "ccy": "USD",
    "title": "Federal Budget Balance",
@@ -2402,5 +2417,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-12T18:05:42.814298Z"
+ "actuals_updated_at": "2026-08-12T19:18:05.505444Z"
 }
