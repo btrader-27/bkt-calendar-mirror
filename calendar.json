@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T11:57:21Z",
+ "generated_at": "2026-08-13T13:44:49Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,10 +16,10 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 170,
+ "count": 171,
  "count_by_impact": {
   "holiday": 3,
-  "low": 132,
+  "low": 133,
   "medium": 16,
   "high": 19
  },
@@ -1520,7 +1520,7 @@
    "all_day": false,
    "forecast": "4.35%",
    "previous": "4.35%",
-   "actual": "4.35%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2095,9 +2095,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "6c84a01484ce",
@@ -2109,9 +2110,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "-0.3%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "a6f69c91c833",
@@ -2123,9 +2125,10 @@
    "all_day": false,
    "forecast": "202K",
    "previous": "199K",
-   "actual": "",
+   "actual": "209K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "d3033221f5cc",
@@ -2151,7 +2154,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-0.5%",
-   "actual": "",
+   "actual": "-0.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2161,6 +2164,20 @@
    "title": "Mortgage Delinquencies",
    "impact": "low",
    "instant": "2026-08-13T14:00:00Z",
+   "local_date": "2026-08-13",
+   "all_day": false,
+   "forecast": "",
+   "previous": "4.44%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "9885cfd9e5be",
+   "ccy": "USD",
+   "title": "Mortgage Delinquencies",
+   "impact": "low",
+   "instant": "2026-08-13T14:15:00Z",
    "local_date": "2026-08-13",
    "all_day": false,
    "forecast": "",
@@ -2422,5 +2439,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-13T11:57:21.514129Z"
+ "actuals_updated_at": "2026-08-13T13:44:49.593422Z"
 }
