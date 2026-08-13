@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T19:18:22Z",
+ "generated_at": "2026-08-13T21:00:43Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,10 +16,10 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 172,
+ "count": 173,
  "count_by_impact": {
   "holiday": 3,
-  "low": 134,
+  "low": 135,
   "medium": 16,
   "high": 19
  },
@@ -2244,6 +2244,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "04b9584a452b",
+   "ccy": "USD",
+   "title": "FOMC Member Goolsbee Speaks",
+   "impact": "low",
+   "instant": "2026-08-13T22:00:00Z",
+   "local_date": "2026-08-13",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "10747da98425",
    "ccy": "NZD",
    "title": "BusinessNZ Manufacturing Index",
@@ -2454,5 +2468,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-13T19:18:22.514897Z"
+ "actuals_updated_at": "2026-08-13T21:00:43.289438Z"
 }
