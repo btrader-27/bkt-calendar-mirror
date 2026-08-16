@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-16T20:36:11Z",
+ "generated_at": "2026-08-16T21:33:00Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 261,
+ "count": 260,
  "count_by_impact": {
-  "holiday": 3,
   "low": 201,
   "medium": 30,
+  "holiday": 2,
   "high": 27
  },
- "first_instant": "2026-08-02T21:00:00Z",
+ "first_instant": "2026-08-02T22:45:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "205b610f267e",
-   "ccy": "AUD",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-08-02T21:00:00Z",
-   "local_date": "2026-08-02",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "766fd3a27801",
    "ccy": "NZD",
