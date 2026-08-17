@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T05:48:30Z",
+ "generated_at": "2026-08-17T07:14:30Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 257,
+ "count": 255,
  "count_by_impact": {
-  "low": 198,
-  "medium": 30,
+  "low": 197,
   "holiday": 2,
-  "high": 27
+  "high": 27,
+  "medium": 29
  },
- "first_instant": "2026-08-03T06:00:00Z",
+ "first_instant": "2026-08-03T07:15:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "209793f3607b",
-   "ccy": "EUR",
-   "title": "German Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-08-03T06:00:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "-0.4%",
-   "previous": "1.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a1d7606a2a9f",
-   "ccy": "CHF",
-   "title": "CPI m/m",
-   "impact": "medium",
-   "instant": "2026-08-03T06:30:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "-0.1%",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "441952d71403",
    "ccy": "EUR",
@@ -3637,5 +3609,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-17T05:48:30.449823Z"
+ "actuals_updated_at": "2026-08-17T07:14:30.730100Z"
 }
