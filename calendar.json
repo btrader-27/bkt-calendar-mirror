@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T13:51:35Z",
+ "generated_at": "2026-08-17T14:42:07Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 247,
+ "count": 243,
  "count_by_impact": {
-  "low": 190,
-  "high": 27,
-  "medium": 29,
+  "low": 188,
+  "medium": 28,
+  "high": 26,
   "holiday": 1
  },
- "first_instant": "2026-08-03T14:00:00Z",
+ "first_instant": "2026-08-03T18:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "dfd93a4a914e",
-   "ccy": "USD",
-   "title": "Construction Spending m/m",
-   "impact": "low",
-   "instant": "2026-08-03T14:00:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "df782265d5fe",
-   "ccy": "USD",
-   "title": "ISM Manufacturing PMI",
-   "impact": "high",
-   "instant": "2026-08-03T14:00:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "54.0",
-   "previous": "53.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3d4548e529ba",
-   "ccy": "USD",
-   "title": "ISM Manufacturing Prices",
-   "impact": "medium",
-   "instant": "2026-08-03T14:00:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "70.0",
-   "previous": "73.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cd1b2d4d72dc",
-   "ccy": "USD",
-   "title": "Omdia Total Vehicle Sales",
-   "impact": "low",
-   "instant": "2026-08-03T14:15:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "16.3M",
-   "previous": "16.5M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4e38069a5e3a",
    "ccy": "USD",
@@ -2489,9 +2433,10 @@
    "all_day": false,
    "forecast": "33",
    "previous": "34",
-   "actual": "",
+   "actual": "35",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "1aa3c9a2e43f",
@@ -3502,5 +3447,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-17T13:51:35.739216Z"
+ "actuals_updated_at": "2026-08-17T14:42:07.817218Z"
 }
