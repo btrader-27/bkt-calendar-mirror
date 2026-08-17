@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-16T23:33:09Z",
+ "generated_at": "2026-08-17T01:53:58Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 259,
+ "count": 257,
  "count_by_impact": {
-  "low": 200,
+  "low": 198,
   "medium": 30,
   "holiday": 2,
   "high": 27
  },
- "first_instant": "2026-08-03T00:30:00Z",
+ "first_instant": "2026-08-03T06:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "9e261a84115e",
-   "ccy": "JPY",
-   "title": "Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T00:30:00Z",
-   "local_date": "2026-08-02",
-   "all_day": false,
-   "forecast": "54.7",
-   "previous": "54.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a23a846aadbc",
-   "ccy": "AUD",
-   "title": "MI Inflation Gauge m/m",
-   "impact": "low",
-   "instant": "2026-08-03T01:00:00Z",
-   "local_date": "2026-08-02",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "209793f3607b",
    "ccy": "EUR",
@@ -2494,9 +2466,10 @@
    "all_day": false,
    "forecast": "2.3%",
    "previous": "3.4%",
-   "actual": "",
+   "actual": "2.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "ea879681eac3",
@@ -2508,9 +2481,10 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "0.5%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "6b59be86c1ef",
@@ -3661,5 +3635,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-16T23:33:09.284910Z"
+ "actuals_updated_at": "2026-08-17T01:53:58.282763Z"
 }
