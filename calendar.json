@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T13:03:50Z",
+ "generated_at": "2026-08-17T13:51:35Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 248,
+ "count": 247,
  "count_by_impact": {
-  "low": 191,
+  "low": 190,
   "high": 27,
   "medium": 29,
   "holiday": 1
  },
- "first_instant": "2026-08-03T13:45:00Z",
+ "first_instant": "2026-08-03T14:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "77e1a67f1252",
-   "ccy": "USD",
-   "title": "Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T13:45:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "53.8",
-   "previous": "53.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "dfd93a4a914e",
    "ccy": "USD",
@@ -3516,5 +3502,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-17T13:03:50.447379Z"
+ "actuals_updated_at": "2026-08-17T13:51:35.739216Z"
 }
