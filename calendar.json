@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T07:14:30Z",
+ "generated_at": "2026-08-17T08:00:24Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,100 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 255,
+ "count": 249,
  "count_by_impact": {
-  "low": 197,
+  "low": 191,
   "holiday": 2,
   "high": 27,
   "medium": 29
  },
- "first_instant": "2026-08-03T07:15:00Z",
+ "first_instant": "2026-08-03T08:30:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "441952d71403",
-   "ccy": "EUR",
-   "title": "Spanish Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T07:15:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "50.5",
-   "previous": "49.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b6a9b9252464",
-   "ccy": "CHF",
-   "title": "Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T07:30:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "54.5",
-   "previous": "54.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6db79188684d",
-   "ccy": "EUR",
-   "title": "Italian Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T07:45:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "52.5",
-   "previous": "52.2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "be63fb8d2544",
-   "ccy": "EUR",
-   "title": "French Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T07:50:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "50.0",
-   "previous": "50.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "65e36bfd0a8e",
-   "ccy": "EUR",
-   "title": "German Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T07:55:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "52.2",
-   "previous": "52.2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5866c95a285f",
-   "ccy": "EUR",
-   "title": "Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-03T08:00:00Z",
-   "local_date": "2026-08-03",
-   "all_day": false,
-   "forecast": "52.0",
-   "previous": "52.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "f7dff8a51c8a",
    "ccy": "GBP",
@@ -3609,5 +3525,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-17T07:14:30.730100Z"
+ "actuals_updated_at": "2026-08-17T08:00:24.203079Z"
 }
