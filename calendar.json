@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T08:51:57Z",
+ "generated_at": "2026-08-18T09:47:35Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,9 +16,9 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 235,
+ "count": 236,
  "count_by_impact": {
-  "low": 180,
+  "low": 181,
   "medium": 28,
   "high": 26,
   "holiday": 1
@@ -2396,9 +2396,10 @@
    "all_day": false,
    "forecast": "30.1",
    "previous": "26.3",
-   "actual": "",
+   "actual": "34.2",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "ece4a277ff96",
@@ -2410,7 +2411,22 @@
    "all_day": false,
    "forecast": "25.9",
    "previous": "23.4",
-   "actual": "",
+   "actual": "31.4",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
+  },
+  {
+   "id": "77ea03defb92",
+   "ccy": "GBP",
+   "title": "10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-08-18T09:02:00Z",
+   "local_date": "2026-08-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "5.04|3.1",
+   "actual": "5.16|3.6",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2424,7 +2440,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "5.04|3.1",
-   "actual": "",
+   "actual": "5.16|3.6",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2438,7 +2454,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "5.04|3.1",
-   "actual": "",
+   "actual": "5.16|3.6",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3339,5 +3355,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T08:51:57.913935Z"
+ "actuals_updated_at": "2026-08-18T09:47:35.311919Z"
 }
