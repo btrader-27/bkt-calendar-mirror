@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T13:06:03Z",
+ "generated_at": "2026-08-18T13:55:30Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 235,
+ "count": 234,
  "count_by_impact": {
-  "low": 180,
+  "low": 179,
   "medium": 28,
   "high": 26,
   "holiday": 1
  },
- "first_instant": "2026-08-04T13:30:00Z",
+ "first_instant": "2026-08-04T14:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "147ccc055fdc",
-   "ccy": "CAD",
-   "title": "Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-04T13:30:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "52.2",
-   "previous": "53.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a7a6a187ea5f",
    "ccy": "USD",
@@ -2514,7 +2500,7 @@
    "all_day": false,
    "forecast": "76.3%",
    "previous": "76.1%",
-   "actual": "",
+   "actual": "76.3%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2528,9 +2514,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "6b47a55adea0",
@@ -3345,5 +3332,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T13:06:03.729647Z"
+ "actuals_updated_at": "2026-08-18T13:55:30.682895Z"
 }
