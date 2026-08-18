@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T07:52:10Z",
+ "generated_at": "2026-08-18T08:51:57Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -23,23 +23,9 @@
   "high": 26,
   "holiday": 1
  },
- "first_instant": "2026-08-04T08:00:00Z",
+ "first_instant": "2026-08-04T12:30:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "a20759aaea18",
-   "ccy": "EUR",
-   "title": "Italian Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-08-04T08:00:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "eb85189f9854",
    "ccy": "CAD",
@@ -2443,6 +2429,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "29cb39c5598d",
+   "ccy": "GBP",
+   "title": "10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-08-18T09:40:00Z",
+   "local_date": "2026-08-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "5.04|3.1",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "b91b650c227d",
    "ccy": "CAD",
    "title": "Housing Starts",
@@ -3339,5 +3339,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T07:52:10.518922Z"
+ "actuals_updated_at": "2026-08-18T08:51:57.913935Z"
 }
