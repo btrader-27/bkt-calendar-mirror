@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T22:39:47Z",
+ "generated_at": "2026-08-18T23:34:12Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 231,
+ "count": 227,
  "count_by_impact": {
-  "high": 26,
-  "low": 176,
+  "low": 174,
   "medium": 28,
+  "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-04T22:45:00Z",
+ "first_instant": "2026-08-04T23:50:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "2e3f513978e7",
-   "ccy": "NZD",
-   "title": "Employment Change q/q",
-   "impact": "high",
-   "instant": "2026-08-04T22:45:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5890721aaed9",
-   "ccy": "NZD",
-   "title": "Labor Cost Index q/q",
-   "impact": "low",
-   "instant": "2026-08-04T22:45:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6deb4ce715e0",
-   "ccy": "NZD",
-   "title": "Unemployment Rate",
-   "impact": "high",
-   "instant": "2026-08-04T22:45:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "5.4%",
-   "previous": "5.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e0d5953486ae",
-   "ccy": "JPY",
-   "title": "Average Cash Earnings y/y",
-   "impact": "low",
-   "instant": "2026-08-04T23:30:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "3.4%",
-   "previous": "3.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "5e0d5f1b3bba",
    "ccy": "JPY",
@@ -2530,9 +2474,10 @@
    "all_day": false,
    "forecast": "1.3%",
    "previous": "1.4%",
-   "actual": "",
+   "actual": "2.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "721933a3b165",
@@ -2544,9 +2489,10 @@
    "all_day": false,
    "forecast": "0.8%",
    "previous": "0.8%",
-   "actual": "",
+   "actual": "1.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "00ebd1a4d9fa",
@@ -3291,5 +3237,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T22:39:47.713668Z"
+ "actuals_updated_at": "2026-08-18T23:34:12.293998Z"
 }
