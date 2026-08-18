@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T17:40:38Z",
+ "generated_at": "2026-08-18T18:54:43Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,11 +16,11 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 231,
+ "count": 232,
  "count_by_impact": {
   "low": 177,
   "high": 26,
-  "medium": 27,
+  "medium": 28,
   "holiday": 1
  },
  "first_instant": "2026-08-04T20:30:00Z",
@@ -2759,6 +2759,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "72e03112f65b",
+   "ccy": "EUR",
+   "title": "ECB President Lagarde Speaks",
+   "impact": "medium",
+   "instant": "2026-08-19T10:15:00Z",
+   "local_date": "2026-08-19",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "dcf61586a218",
    "ccy": "USD",
    "title": "Crude Oil Inventories",
@@ -3291,5 +3305,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T17:40:38.616265Z"
+ "actuals_updated_at": "2026-08-18T18:54:43.713579Z"
 }
