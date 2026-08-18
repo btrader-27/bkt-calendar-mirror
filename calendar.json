@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T11:37:36Z",
+ "generated_at": "2026-08-18T13:06:03Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 236,
+ "count": 235,
  "count_by_impact": {
-  "low": 181,
+  "low": 180,
   "medium": 28,
   "high": 26,
   "holiday": 1
  },
- "first_instant": "2026-08-04T12:30:00Z",
+ "first_instant": "2026-08-04T13:30:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "eb85189f9854",
-   "ccy": "CAD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-08-04T12:30:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "3.0B",
-   "previous": "4.2B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ec2109e923d5",
-   "ccy": "USD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-08-04T12:30:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "-73.0B",
-   "previous": "-77.6B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "147ccc055fdc",
    "ccy": "CAD",
@@ -2468,9 +2440,10 @@
    "all_day": false,
    "forecast": "249K",
    "previous": "239K",
-   "actual": "",
+   "actual": "229K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "d2609224cbe2",
@@ -2482,7 +2455,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "8.3K",
-   "actual": "",
+   "actual": "9.5K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2496,9 +2469,10 @@
    "all_day": false,
    "forecast": "1.37M",
    "previous": "1.37M",
-   "actual": "",
+   "actual": "1.44M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "38350294573b",
@@ -2510,9 +2484,10 @@
    "all_day": false,
    "forecast": "1.34M",
    "previous": "1.43M",
-   "actual": "",
+   "actual": "1.24M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "6ad397c08fb4",
@@ -2524,9 +2499,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "-0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "94486d359a41",
@@ -2576,6 +2552,20 @@
    "title": "GDT Price Index",
    "impact": "low",
    "instant": "2026-08-18T14:50:00Z",
+   "local_date": "2026-08-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "0.1%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "112fc8a378f0",
+   "ccy": "NZD",
+   "title": "GDT Price Index",
+   "impact": "low",
+   "instant": "2026-08-18T14:51:00Z",
    "local_date": "2026-08-18",
    "all_day": false,
    "forecast": "",
@@ -3355,5 +3345,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T11:37:36.248197Z"
+ "actuals_updated_at": "2026-08-18T13:06:03.729647Z"
 }
