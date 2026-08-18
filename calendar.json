@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T05:43:49Z",
+ "generated_at": "2026-08-18T07:02:23Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 238,
+ "count": 235,
  "count_by_impact": {
-  "low": 183,
+  "low": 180,
   "medium": 28,
   "high": 26,
   "holiday": 1
  },
- "first_instant": "2026-08-04T06:30:00Z",
+ "first_instant": "2026-08-04T08:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "47894da18a26",
-   "ccy": "AUD",
-   "title": "Commodity Prices y/y",
-   "impact": "low",
-   "instant": "2026-08-04T06:30:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "",
-   "previous": "16.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "02891baf5180",
-   "ccy": "EUR",
-   "title": "French Gov Budget Balance",
-   "impact": "low",
-   "instant": "2026-08-04T06:45:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-93.3B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "08531144e1cf",
-   "ccy": "EUR",
-   "title": "Spanish Unemployment Change",
-   "impact": "low",
-   "instant": "2026-08-04T07:00:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "-18.4K",
-   "previous": "-28.7K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a20759aaea18",
    "ccy": "EUR",
@@ -2407,9 +2365,10 @@
    "all_day": false,
    "forecast": "4.0%",
    "previous": "4.3%",
-   "actual": "",
+   "actual": "4.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f4cab67372fc",
@@ -2421,9 +2380,10 @@
    "all_day": false,
    "forecast": "16.5K",
    "previous": "6.7K",
-   "actual": "",
+   "actual": "-11.0K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b0c054f7945e",
@@ -2435,9 +2395,10 @@
    "all_day": false,
    "forecast": "4.8%",
    "previous": "4.9%",
-   "actual": "",
+   "actual": "4.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5a4ccd244c45",
@@ -3378,5 +3339,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T05:43:49.362455Z"
+ "actuals_updated_at": "2026-08-18T07:02:24.021183Z"
 }
