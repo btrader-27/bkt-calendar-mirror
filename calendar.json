@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T14:50:53Z",
+ "generated_at": "2026-08-18T15:44:31Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -23,23 +23,9 @@
   "medium": 27,
   "holiday": 1
  },
- "first_instant": "2026-08-04T15:14:00Z",
+ "first_instant": "2026-08-04T20:30:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "6c642395045f",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-08-04T15:14:00Z",
-   "local_date": "2026-08-04",
-   "all_day": false,
-   "forecast": "",
-   "previous": "1.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "03d17802ae9c",
    "ccy": "USD",
@@ -2502,7 +2488,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "2.3%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2516,7 +2502,21 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "2.3%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "b5a4c65ef233",
+   "ccy": "NZD",
+   "title": "GDT Price Index",
+   "impact": "low",
+   "instant": "2026-08-18T15:31:00Z",
+   "local_date": "2026-08-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "0.1%",
+   "actual": "2.3%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3291,5 +3291,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-18T14:50:53.919777Z"
+ "actuals_updated_at": "2026-08-18T15:44:31.540317Z"
 }
