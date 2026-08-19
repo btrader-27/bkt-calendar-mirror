@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T05:44:38Z",
+ "generated_at": "2026-08-19T07:03:30Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 225,
+ "count": 224,
  "count_by_impact": {
-  "low": 171,
+  "low": 170,
   "medium": 29,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-05T06:45:00Z",
+ "first_instant": "2026-08-05T07:15:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "e3599ec31356",
-   "ccy": "EUR",
-   "title": "French Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-08-05T06:45:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "-0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "d48d54f467ea",
    "ccy": "EUR",
@@ -2503,7 +2489,7 @@
    "all_day": false,
    "forecast": "2.9%",
    "previous": "2.6%",
-   "actual": "",
+   "actual": "2.9%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2517,9 +2503,10 @@
    "all_day": false,
    "forecast": "2.5%",
    "previous": "2.6%",
-   "actual": "",
+   "actual": "2.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "52c48d851909",
@@ -2531,9 +2518,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "-2.0%",
-   "actual": "",
+   "actual": "-1.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "ff94b10364b2",
@@ -2545,7 +2533,7 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.0%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2559,9 +2547,10 @@
    "all_day": false,
    "forecast": "3.3%",
    "previous": "3.0%",
-   "actual": "",
+   "actual": "3.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "98b0a3986010",
@@ -3208,5 +3197,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-19T05:44:38.717412Z"
+ "actuals_updated_at": "2026-08-19T07:03:31.118356Z"
 }
