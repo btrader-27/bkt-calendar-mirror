@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T08:52:46Z",
+ "generated_at": "2026-08-19T09:47:55Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -18,28 +18,14 @@
  "feeds_failed": [],
  "count": 218,
  "count_by_impact": {
-  "low": 164,
   "medium": 29,
+  "low": 164,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-05T09:00:00Z",
+ "first_instant": "2026-08-05T12:15:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "5c553fd76132",
-   "ccy": "EUR",
-   "title": "PPI m/m",
-   "impact": "low",
-   "instant": "2026-08-05T09:00:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "-0.2%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "1a76fc265a4d",
    "ccy": "USD",
@@ -2519,7 +2505,7 @@
    "all_day": false,
    "forecast": "2.9%",
    "previous": "2.9%",
-   "actual": "",
+   "actual": "2.9%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2533,7 +2519,21 @@
    "all_day": false,
    "forecast": "2.5%",
    "previous": "2.5%",
-   "actual": "",
+   "actual": "2.5%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "e5b8b3b0c3ba",
+   "ccy": "EUR",
+   "title": "German 10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-08-19T09:34:00Z",
+   "local_date": "2026-08-19",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.13|1.1",
+   "actual": "3.26|1.1",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2547,7 +2547,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.13|1.1",
-   "actual": "",
+   "actual": "3.26|1.1",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3112,5 +3112,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-19T08:52:46.663059Z"
+ "actuals_updated_at": "2026-08-19T09:47:55.816938Z"
 }
