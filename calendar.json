@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T13:55:59Z",
+ "generated_at": "2026-08-19T14:51:36Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 216,
+ "count": 214,
  "count_by_impact": {
-  "medium": 28,
-  "low": 163,
+  "low": 162,
+  "medium": 27,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-05T14:00:00Z",
+ "first_instant": "2026-08-05T20:05:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "474dc8866a1f",
-   "ccy": "USD",
-   "title": "ISM Services PMI",
-   "impact": "medium",
-   "instant": "2026-08-05T14:00:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "54.5",
-   "previous": "54.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "07868a702b0d",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-08-05T14:30:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "-1.5M",
-   "previous": "-7.2M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "3cfaf7a3143b",
    "ccy": "USD",
@@ -2547,9 +2519,10 @@
    "all_day": false,
    "forecast": "0.2M",
    "previous": "17.4M",
-   "actual": "",
+   "actual": "4.4M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "1de6197680cf",
@@ -3084,5 +3057,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-19T13:56:00.205166Z"
+ "actuals_updated_at": "2026-08-19T14:51:36.285044Z"
 }
