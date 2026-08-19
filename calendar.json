@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T07:03:30Z",
+ "generated_at": "2026-08-19T07:52:23Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 224,
+ "count": 221,
  "count_by_impact": {
-  "low": 170,
+  "low": 167,
   "medium": 29,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-05T07:15:00Z",
+ "first_instant": "2026-08-05T07:55:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "d48d54f467ea",
-   "ccy": "EUR",
-   "title": "Spanish Services PMI",
-   "impact": "low",
-   "instant": "2026-08-05T07:15:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "54.9",
-   "previous": "54.2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f8bc6968e4ca",
-   "ccy": "EUR",
-   "title": "Italian Services PMI",
-   "impact": "low",
-   "instant": "2026-08-05T07:45:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "51.0",
-   "previous": "50.2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "810ce3b3e7df",
-   "ccy": "EUR",
-   "title": "French Final Services PMI",
-   "impact": "low",
-   "instant": "2026-08-05T07:50:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "49.8",
-   "previous": "49.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "b29c759600c3",
    "ccy": "EUR",
@@ -1934,10 +1892,9 @@
    "all_day": false,
    "forecast": "1.3%",
    "previous": "1.3%",
-   "actual": "1.9%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "64e65f352d0b",
@@ -1949,10 +1906,9 @@
    "all_day": false,
    "forecast": "-0.9%",
    "previous": "1.1%",
-   "actual": "-0.2%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "4b66668caa02",
@@ -3197,5 +3153,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-19T07:03:31.118356Z"
+ "actuals_updated_at": "2026-08-19T07:52:23.990785Z"
 }
