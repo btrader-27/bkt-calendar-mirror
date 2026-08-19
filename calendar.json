@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T19:36:37Z",
+ "generated_at": "2026-08-19T20:43:47Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 214,
+ "count": 212,
  "count_by_impact": {
-  "low": 162,
-  "medium": 27,
+  "low": 161,
+  "medium": 26,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-05T20:05:00Z",
+ "first_instant": "2026-08-06T00:35:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "3cfaf7a3143b",
-   "ccy": "USD",
-   "title": "FOMC Member Cook Speaks",
-   "impact": "low",
-   "instant": "2026-08-05T20:05:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3d4781b9e852",
-   "ccy": "USD",
-   "title": "President Trump Speaks",
-   "impact": "medium",
-   "instant": "2026-08-05T20:30:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "fcb20a04aa75",
    "ccy": "USD",
@@ -3057,5 +3029,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-19T19:36:37.679830Z"
+ "actuals_updated_at": "2026-08-19T20:43:48.219049Z"
 }
