@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T07:52:23Z",
+ "generated_at": "2026-08-19T08:52:46Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 221,
+ "count": 218,
  "count_by_impact": {
-  "low": 167,
+  "low": 164,
   "medium": 29,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-05T07:55:00Z",
+ "first_instant": "2026-08-05T09:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "b29c759600c3",
-   "ccy": "EUR",
-   "title": "German Final Services PMI",
-   "impact": "low",
-   "instant": "2026-08-05T07:55:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "49.6",
-   "previous": "49.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4eb0ec579cfd",
-   "ccy": "EUR",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-08-05T08:00:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "51.6",
-   "previous": "51.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cc7644be2915",
-   "ccy": "GBP",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-08-05T08:30:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "51.8",
-   "previous": "51.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "5c553fd76132",
    "ccy": "EUR",
@@ -2532,9 +2490,10 @@
    "all_day": false,
    "forecast": "26.8B",
    "previous": "25.1B",
-   "actual": "",
+   "actual": "35.1B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b4fb74b11b4b",
@@ -2546,7 +2505,7 @@
    "all_day": false,
    "forecast": "1.9%",
    "previous": "2.7%",
-   "actual": "",
+   "actual": "2.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3153,5 +3112,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-19T07:52:23.990785Z"
+ "actuals_updated_at": "2026-08-19T08:52:46.663059Z"
 }
