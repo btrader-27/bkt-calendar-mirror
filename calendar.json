@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T20:44:18Z",
+ "generated_at": "2026-08-20T21:41:54Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 194,
+ "count": 193,
  "count_by_impact": {
-  "low": 144,
+  "low": 143,
   "high": 24,
   "medium": 25,
   "holiday": 1
  },
- "first_instant": "2026-08-06T21:30:00Z",
+ "first_instant": "2026-08-06T23:30:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "09e2c4ec4db0",
-   "ccy": "USD",
-   "title": "FOMC Member Musalem Speaks",
-   "impact": "low",
-   "instant": "2026-08-06T21:30:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "3989abfff653",
    "ccy": "JPY",
@@ -2780,5 +2766,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T20:44:19.076497Z"
+ "actuals_updated_at": "2026-08-20T21:41:54.408761Z"
 }
