@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T14:53:26Z",
+ "generated_at": "2026-08-20T15:47:24Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,9 +16,9 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 193,
+ "count": 194,
  "count_by_impact": {
-  "low": 143,
+  "low": 144,
   "high": 24,
   "medium": 25,
   "holiday": 1
@@ -2458,6 +2458,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "bdf96fa5a8bf",
+   "ccy": "USD",
+   "title": "FOMC Member Musalem Speaks",
+   "impact": "low",
+   "instant": "2026-08-20T15:10:00Z",
+   "local_date": "2026-08-20",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "1bfa54d301c7",
    "ccy": "NZD",
    "title": "Trade Balance",
@@ -2766,5 +2780,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T14:53:27.038988Z"
+ "actuals_updated_at": "2026-08-20T15:47:24.577747Z"
 }
