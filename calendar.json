@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T13:57:39Z",
+ "generated_at": "2026-08-20T14:53:26Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 195,
+ "count": 193,
  "count_by_impact": {
-  "low": 145,
+  "low": 143,
   "high": 24,
   "medium": 25,
   "holiday": 1
  },
- "first_instant": "2026-08-06T14:00:00Z",
+ "first_instant": "2026-08-06T21:30:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "159817166d40",
-   "ccy": "USD",
-   "title": "Final Wholesale Inventories m/m",
-   "impact": "low",
-   "instant": "2026-08-06T14:00:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "45b4940d93b0",
-   "ccy": "USD",
-   "title": "Natural Gas Storage",
-   "impact": "low",
-   "instant": "2026-08-06T14:30:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "30B",
-   "previous": "28B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "09e2c4ec4db0",
    "ccy": "USD",
@@ -1696,9 +1668,10 @@
    "all_day": false,
    "forecast": "4.0%",
    "previous": "4.3%",
-   "actual": "",
+   "actual": "4.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f4cab67372fc",
@@ -1710,9 +1683,10 @@
    "all_day": false,
    "forecast": "16.5K",
    "previous": "6.7K",
-   "actual": "",
+   "actual": "-11.0K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b0c054f7945e",
@@ -1724,9 +1698,10 @@
    "all_day": false,
    "forecast": "4.8%",
    "previous": "4.9%",
-   "actual": "",
+   "actual": "4.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5a4ccd244c45",
@@ -2463,9 +2438,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "-0.2%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b2ad627ebb3d",
@@ -2477,7 +2453,7 @@
    "all_day": false,
    "forecast": "15B",
    "previous": "36B",
-   "actual": "",
+   "actual": "16B",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2790,5 +2766,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T13:57:39.847335Z"
+ "actuals_updated_at": "2026-08-20T14:53:27.038988Z"
 }
