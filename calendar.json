@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T11:40:04Z",
+ "generated_at": "2026-08-20T13:09:16Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 198,
+ "count": 195,
  "count_by_impact": {
-  "low": 147,
-  "medium": 26,
+  "low": 145,
   "high": 24,
+  "medium": 25,
   "holiday": 1
  },
- "first_instant": "2026-08-06T12:30:00Z",
+ "first_instant": "2026-08-06T14:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "001e6be5c7bd",
-   "ccy": "USD",
-   "title": "Prelim Nonfarm Productivity q/q",
-   "impact": "low",
-   "instant": "2026-08-06T12:30:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.8%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "138e638b8a17",
-   "ccy": "USD",
-   "title": "Prelim Unit Labor Costs q/q",
-   "impact": "low",
-   "instant": "2026-08-06T12:30:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "2.2%",
-   "previous": "2.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4a88cb8d0eb6",
-   "ccy": "USD",
-   "title": "Unemployment Claims",
-   "impact": "medium",
-   "instant": "2026-08-06T12:30:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "203K",
-   "previous": "197K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "159817166d40",
    "ccy": "USD",
@@ -2434,9 +2392,10 @@
    "all_day": false,
    "forecast": "-0.4%",
    "previous": "-1.4%",
-   "actual": "",
+   "actual": "0.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "a9a253cbe954",
@@ -2448,9 +2407,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "-0.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "0dbd0ffbd466",
@@ -2462,9 +2422,10 @@
    "all_day": false,
    "forecast": "-1.8%",
    "previous": "-6.9%",
-   "actual": "",
+   "actual": "-2.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5274bb0169c8",
@@ -2476,9 +2437,10 @@
    "all_day": false,
    "forecast": "24.1",
    "previous": "41.4",
-   "actual": "",
+   "actual": "47.4",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "fa23aa83bc51",
@@ -2490,7 +2452,7 @@
    "all_day": false,
    "forecast": "210K",
    "previous": "209K",
-   "actual": "",
+   "actual": "206K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2831,5 +2793,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T11:40:05.141165Z"
+ "actuals_updated_at": "2026-08-20T13:09:17.235237Z"
 }
