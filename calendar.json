@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T03:08:40Z",
+ "generated_at": "2026-08-20T03:57:04Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 210,
+ "count": 209,
  "count_by_impact": {
-  "low": 159,
+  "low": 158,
   "medium": 26,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-06T03:35:00Z",
+ "first_instant": "2026-08-06T06:00:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "f08aded32089",
-   "ccy": "JPY",
-   "title": "30-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-08-06T03:35:00Z",
-   "local_date": "2026-08-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.99|4.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "749383619fa7",
    "ccy": "EUR",
@@ -2994,5 +2980,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T03:08:40.845579Z"
+ "actuals_updated_at": "2026-08-20T03:57:04.763843Z"
 }
