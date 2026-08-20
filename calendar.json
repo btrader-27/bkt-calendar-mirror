@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T08:54:44Z",
+ "generated_at": "2026-08-20T09:48:45Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,86 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 203,
+ "count": 198,
  "count_by_impact": {
-  "low": 152,
+  "low": 147,
   "medium": 26,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-06T08:57:00Z",
+ "first_instant": "2026-08-06T12:30:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "4a407df2f721",
-   "ccy": "EUR",
-   "title": "French 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-08-06T08:57:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.68|3.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9effd532091f",
-   "ccy": "EUR",
-   "title": "Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-08-06T09:00:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "7a51e44b5077",
-   "ccy": "EUR",
-   "title": "Spanish 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-08-06T09:03:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.40|1.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "25c65acd2cf9",
-   "ccy": "EUR",
-   "title": "French 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-08-06T09:18:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.68|3.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "aa2c2e1fc1d8",
-   "ccy": "USD",
-   "title": "Challenger Job Cuts y/y",
-   "impact": "low",
-   "instant": "2026-08-06T09:30:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-4.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "001e6be5c7bd",
    "ccy": "USD",
@@ -1808,9 +1738,10 @@
    "all_day": false,
    "forecast": "4.0%",
    "previous": "4.3%",
-   "actual": "",
+   "actual": "4.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f4cab67372fc",
@@ -1822,9 +1753,10 @@
    "all_day": false,
    "forecast": "16.5K",
    "previous": "6.7K",
-   "actual": "",
+   "actual": "-11.0K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b0c054f7945e",
@@ -1836,9 +1768,10 @@
    "all_day": false,
    "forecast": "4.8%",
    "previous": "4.9%",
-   "actual": "",
+   "actual": "4.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5a4ccd244c45",
@@ -2897,5 +2830,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T08:54:44.412390Z"
+ "actuals_updated_at": "2026-08-20T09:48:46.349159Z"
 }
