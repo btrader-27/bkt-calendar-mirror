@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T10:45:41Z",
+ "generated_at": "2026-08-20T11:40:04Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -1738,9 +1738,10 @@
    "all_day": false,
    "forecast": "4.0%",
    "previous": "4.3%",
-   "actual": "",
+   "actual": "4.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f4cab67372fc",
@@ -1752,9 +1753,10 @@
    "all_day": false,
    "forecast": "16.5K",
    "previous": "6.7K",
-   "actual": "",
+   "actual": "-11.0K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b0c054f7945e",
@@ -1766,9 +1768,10 @@
    "all_day": false,
    "forecast": "4.8%",
    "previous": "4.9%",
-   "actual": "",
+   "actual": "4.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5a4ccd244c45",
@@ -2828,5 +2831,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T10:45:41.336965Z"
+ "actuals_updated_at": "2026-08-20T11:40:05.141165Z"
 }
