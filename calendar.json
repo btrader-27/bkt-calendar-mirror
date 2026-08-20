@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T07:55:09Z",
+ "generated_at": "2026-08-20T08:54:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 207,
+ "count": 203,
  "count_by_impact": {
-  "low": 156,
+  "low": 152,
   "medium": 26,
   "high": 24,
   "holiday": 1
  },
- "first_instant": "2026-08-06T08:00:00Z",
+ "first_instant": "2026-08-06T08:57:00Z",
  "last_instant": "2026-08-21T14:00:00Z",
  "events": [
-  {
-   "id": "5030c4b7438c",
-   "ccy": "EUR",
-   "title": "ECB Economic Bulletin",
-   "impact": "low",
-   "instant": "2026-08-06T08:00:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a408c6cf6dbb",
-   "ccy": "EUR",
-   "title": "Italian Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-08-06T08:00:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "-0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c88010c633cb",
-   "ccy": "GBP",
-   "title": "Construction PMI",
-   "impact": "low",
-   "instant": "2026-08-06T08:30:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "40.0",
-   "previous": "38.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5a3abe799f73",
-   "ccy": "EUR",
-   "title": "Spanish 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-08-06T08:41:00Z",
-   "local_date": "2026-08-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.40|1.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4a407df2f721",
    "ccy": "EUR",
@@ -2953,5 +2897,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-20T07:55:09.980555Z"
+ "actuals_updated_at": "2026-08-20T08:54:44.412390Z"
 }
