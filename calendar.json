@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T05:46:18Z",
+ "generated_at": "2026-08-21T07:05:30Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,114 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 192,
+ "count": 185,
  "count_by_impact": {
-  "low": 141,
   "high": 24,
   "medium": 26,
+  "low": 134,
   "holiday": 1
  },
- "first_instant": "2026-08-07T06:00:00Z",
+ "first_instant": "2026-08-07T12:30:00Z",
  "last_instant": "2026-08-21T23:00:00Z",
  "events": [
-  {
-   "id": "86764199cdfb",
-   "ccy": "EUR",
-   "title": "German Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-08-07T06:00:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5752e93fe6e9",
-   "ccy": "EUR",
-   "title": "German Trade Balance",
-   "impact": "low",
-   "instant": "2026-08-07T06:00:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "17.2B",
-   "previous": "19.1B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "103314ec6376",
-   "ccy": "GBP",
-   "title": "Lloyds HPI m/m",
-   "impact": "low",
-   "instant": "2026-08-07T06:00:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d1f1b1ee2c41",
-   "ccy": "GBP",
-   "title": "Lloyds HPI m/m",
-   "impact": "low",
-   "instant": "2026-08-07T06:03:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3f975cfffab3",
-   "ccy": "EUR",
-   "title": "French Trade Balance",
-   "impact": "low",
-   "instant": "2026-08-07T06:45:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "-6.5B",
-   "previous": "-6.9B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f32a93b6393d",
-   "ccy": "CHF",
-   "title": "Foreign Currency Reserves",
-   "impact": "low",
-   "instant": "2026-08-07T07:00:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "759B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "492e17043767",
-   "ccy": "CHF",
-   "title": "SECO Consumer Climate",
-   "impact": "low",
-   "instant": "2026-08-07T07:00:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "-34",
-   "previous": "-36",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "eae1208d156d",
    "ccy": "CAD",
@@ -2522,9 +2424,10 @@
    "all_day": false,
    "forecast": "0.0B",
    "previous": "16.0B",
-   "actual": "",
+   "actual": "1.8B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "b698fc1fa219",
@@ -2536,7 +2439,7 @@
    "all_day": false,
    "forecast": "-0.5%",
    "previous": "1.0%",
-   "actual": "",
+   "actual": "-0.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2737,5 +2640,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-21T05:46:18.648429Z"
+ "actuals_updated_at": "2026-08-21T07:05:30.528563Z"
 }
