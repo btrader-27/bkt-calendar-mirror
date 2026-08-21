@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T18:53:43Z",
+ "generated_at": "2026-08-21T19:35:50Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 178,
+ "count": 177,
  "count_by_impact": {
-  "low": 133,
+  "low": 132,
   "holiday": 1,
   "high": 19,
   "medium": 25
  },
- "first_instant": "2026-08-07T19:00:00Z",
+ "first_instant": "2026-08-08T16:45:00Z",
  "last_instant": "2026-08-21T23:00:00Z",
  "events": [
-  {
-   "id": "79e71de32e9f",
-   "ccy": "USD",
-   "title": "Consumer Credit m/m",
-   "impact": "low",
-   "instant": "2026-08-07T19:00:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "11.4B",
-   "previous": "-0.2B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "328e14e1b429",
    "ccy": "USD",
@@ -1780,7 +1766,7 @@
    "all_day": false,
    "forecast": "2.9%",
    "previous": "2.6%",
-   "actual": "2.9%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1794,10 +1780,9 @@
    "all_day": false,
    "forecast": "2.5%",
    "previous": "2.6%",
-   "actual": "2.6%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "52c48d851909",
@@ -1809,10 +1794,9 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "-2.0%",
-   "actual": "-1.7%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "ff94b10364b2",
@@ -1824,7 +1808,7 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.0%",
-   "actual": "0.2%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1838,10 +1822,9 @@
    "all_day": false,
    "forecast": "3.3%",
    "previous": "3.0%",
-   "actual": "3.2%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "98b0a3986010",
@@ -2555,5 +2538,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-21T18:53:43.415118Z"
+ "actuals_updated_at": "2026-08-21T19:35:50.205000Z"
 }
