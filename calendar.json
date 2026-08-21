@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T11:39:10Z",
+ "generated_at": "2026-08-21T13:09:03Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,86 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 185,
+ "count": 180,
  "count_by_impact": {
-  "high": 24,
   "medium": 26,
   "low": 134,
-  "holiday": 1
+  "holiday": 1,
+  "high": 19
  },
- "first_instant": "2026-08-07T12:30:00Z",
+ "first_instant": "2026-08-07T14:00:00Z",
  "last_instant": "2026-08-21T23:00:00Z",
  "events": [
-  {
-   "id": "eae1208d156d",
-   "ccy": "CAD",
-   "title": "Employment Change",
-   "impact": "high",
-   "instant": "2026-08-07T12:30:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "17.8K",
-   "previous": "18.2K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "07a6be8a77e8",
-   "ccy": "CAD",
-   "title": "Unemployment Rate",
-   "impact": "high",
-   "instant": "2026-08-07T12:30:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "6.5%",
-   "previous": "6.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "dcb89ed7591a",
-   "ccy": "USD",
-   "title": "Average Hourly Earnings m/m",
-   "impact": "high",
-   "instant": "2026-08-07T12:30:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "76929472b173",
-   "ccy": "USD",
-   "title": "Non-Farm Employment Change",
-   "impact": "high",
-   "instant": "2026-08-07T12:30:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "85K",
-   "previous": "57K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "01222e99e95a",
-   "ccy": "USD",
-   "title": "Unemployment Rate",
-   "impact": "high",
-   "instant": "2026-08-07T12:30:00Z",
-   "local_date": "2026-08-07",
-   "all_day": false,
-   "forecast": "4.2%",
-   "previous": "4.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4b28f50c92a1",
    "ccy": "CAD",
@@ -1878,7 +1808,7 @@
    "all_day": false,
    "forecast": "2.9%",
    "previous": "2.6%",
-   "actual": "2.9%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1892,10 +1822,9 @@
    "all_day": false,
    "forecast": "2.5%",
    "previous": "2.6%",
-   "actual": "2.6%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "52c48d851909",
@@ -1907,10 +1836,9 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "-2.0%",
-   "actual": "-1.7%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "ff94b10364b2",
@@ -1922,7 +1850,7 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.0%",
-   "actual": "0.2%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1936,10 +1864,9 @@
    "all_day": false,
    "forecast": "3.3%",
    "previous": "3.0%",
-   "actual": "3.2%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "98b0a3986010",
@@ -2574,9 +2501,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "1.2%",
-   "actual": "",
+   "actual": "0.5%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "238f3b221b9e",
@@ -2588,9 +2516,10 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "1.0%",
-   "actual": "",
+   "actual": "0.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "47db24c4327c",
@@ -2649,5 +2578,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-21T11:39:10.712864Z"
+ "actuals_updated_at": "2026-08-21T13:09:04.014261Z"
 }
