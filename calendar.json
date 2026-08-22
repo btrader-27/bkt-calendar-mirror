@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T16:38:26Z",
+ "generated_at": "2026-08-22T17:34:20Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 177,
+ "count": 176,
  "count_by_impact": {
-  "low": 132,
+  "low": 131,
   "holiday": 1,
   "high": 19,
   "medium": 25
  },
- "first_instant": "2026-08-08T16:45:00Z",
+ "first_instant": "2026-08-09T23:50:00Z",
  "last_instant": "2026-08-21T23:00:00Z",
  "events": [
-  {
-   "id": "328e14e1b429",
-   "ccy": "USD",
-   "title": "FOMC Member Bowman Speaks",
-   "impact": "low",
-   "instant": "2026-08-08T16:45:00Z",
-   "local_date": "2026-08-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "87e77c33e9d3",
    "ccy": "JPY",
@@ -2046,10 +2032,9 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "-0.3%",
-   "actual": "1.1%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "4eb546b0e29a",
@@ -2533,5 +2518,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-22T16:38:26.450274Z"
+ "actuals_updated_at": "2026-08-22T17:34:20.569175Z"
 }
