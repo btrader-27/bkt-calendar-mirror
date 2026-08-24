@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T22:42:21Z",
+ "generated_at": "2026-08-24T23:33:24Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 234,
+ "count": 232,
  "count_by_impact": {
-  "holiday": 1,
-  "low": 173,
+  "low": 172,
   "high": 27,
   "medium": 33
  },
- "first_instant": "2026-08-10T23:00:00Z",
+ "first_instant": "2026-08-11T01:30:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "d80061404f0a",
-   "ccy": "JPY",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-08-10T23:00:00Z",
-   "local_date": "2026-08-10",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8849debbf86a",
-   "ccy": "GBP",
-   "title": "BRC Retail Sales Monitor y/y",
-   "impact": "low",
-   "instant": "2026-08-10T23:01:00Z",
-   "local_date": "2026-08-10",
-   "all_day": false,
-   "forecast": "1.6%",
-   "previous": "1.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "60ff9b4a203b",
    "ccy": "AUD",
@@ -3325,5 +3296,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-24T22:42:22.017606Z"
+ "actuals_updated_at": "2026-08-24T23:33:24.728585Z"
 }
