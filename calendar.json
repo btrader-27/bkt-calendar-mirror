@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T14:58:20Z",
+ "generated_at": "2026-08-24T15:53:35Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,12 +16,12 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 231,
+ "count": 235,
  "count_by_impact": {
-  "low": 171,
+  "low": 174,
   "holiday": 1,
   "high": 27,
-  "medium": 32
+  "medium": 33
  },
  "first_instant": "2026-08-10T19:00:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
@@ -2457,6 +2457,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "7f956d390014",
+   "ccy": "USD",
+   "title": "Treasury Sec Bessent Speaks",
+   "impact": "medium",
+   "instant": "2026-08-24T17:00:00Z",
+   "local_date": "2026-08-24",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "485731aa5111",
    "ccy": "USD",
    "title": "Treasury Sec Bessent Speaks",
@@ -2520,7 +2534,7 @@
    "instant": "2026-08-25T08:00:00Z",
    "local_date": "2026-08-25",
    "all_day": false,
-   "forecast": "87.3",
+   "forecast": "87.2",
    "previous": "86.6",
    "actual": "",
    "source": "forexfactory",
@@ -2536,6 +2550,20 @@
    "all_day": false,
    "forecast": "",
    "previous": "9.5K",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "d67f9479a944",
+   "ccy": "USD",
+   "title": "FOMC Member Barkin Speaks",
+   "impact": "low",
+   "instant": "2026-08-25T12:30:00Z",
+   "local_date": "2026-08-25",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -2576,7 +2604,7 @@
    "instant": "2026-08-25T13:00:00Z",
    "local_date": "2026-08-25",
    "all_day": false,
-   "forecast": "1.9%",
+   "forecast": "1.8%",
    "previous": "1.6%",
    "actual": "",
    "source": "forexfactory",
@@ -2618,8 +2646,22 @@
    "instant": "2026-08-25T14:00:00Z",
    "local_date": "2026-08-25",
    "all_day": false,
-   "forecast": "7",
+   "forecast": "6",
    "previous": "5",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "ebf86fb20127",
+   "ccy": "USD",
+   "title": "FOMC Member Barkin Speaks",
+   "impact": "low",
+   "instant": "2026-08-25T20:00:00Z",
+   "local_date": "2026-08-25",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -2858,6 +2900,20 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.4M",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "bd05eadc74a8",
+   "ccy": "USD",
+   "title": "FOMC Member Barkin Speaks",
+   "impact": "low",
+   "instant": "2026-08-26T15:45:00Z",
+   "local_date": "2026-08-26",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3283,5 +3339,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-24T14:58:20.500423Z"
+ "actuals_updated_at": "2026-08-24T15:53:35.430558Z"
 }
