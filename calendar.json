@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T23:34:07Z",
+ "generated_at": "2026-08-24T01:56:01Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 238,
+ "count": 235,
  "count_by_impact": {
-  "low": 178,
+  "low": 175,
   "holiday": 1,
   "high": 27,
   "medium": 32
  },
- "first_instant": "2026-08-09T23:50:00Z",
+ "first_instant": "2026-08-10T05:00:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "87e77c33e9d3",
-   "ccy": "JPY",
-   "title": "BOJ Summary of Opinions",
-   "impact": "low",
-   "instant": "2026-08-09T23:50:00Z",
-   "local_date": "2026-08-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "346f913c3592",
-   "ccy": "JPY",
-   "title": "Bank Lending y/y",
-   "impact": "low",
-   "instant": "2026-08-09T23:50:00Z",
-   "local_date": "2026-08-09",
-   "all_day": false,
-   "forecast": "5.7%",
-   "previous": "5.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "14f0315762a9",
-   "ccy": "JPY",
-   "title": "Current Account",
-   "impact": "low",
-   "instant": "2026-08-09T23:50:00Z",
-   "local_date": "2026-08-09",
-   "all_day": false,
-   "forecast": "2.50T",
-   "previous": "3.06T",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "cfe6be080def",
    "ccy": "JPY",
@@ -3381,5 +3339,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-23T23:34:07.964664Z"
+ "actuals_updated_at": "2026-08-24T01:56:01.478178Z"
 }
