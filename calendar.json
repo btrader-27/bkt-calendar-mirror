@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T07:18:38Z",
+ "generated_at": "2026-08-24T09:02:50Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 234,
+ "count": 233,
  "count_by_impact": {
-  "low": 174,
+  "low": 173,
   "holiday": 1,
   "high": 27,
   "medium": 32
  },
- "first_instant": "2026-08-10T08:30:00Z",
+ "first_instant": "2026-08-10T13:45:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "fcfa36a24cfc",
-   "ccy": "EUR",
-   "title": "Sentix Investor Confidence",
-   "impact": "low",
-   "instant": "2026-08-10T08:30:00Z",
-   "local_date": "2026-08-10",
-   "all_day": false,
-   "forecast": "-0.7",
-   "previous": "-3.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "1286c116f74b",
    "ccy": "USD",
@@ -3325,5 +3311,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-24T07:18:38.529959Z"
+ "actuals_updated_at": "2026-08-24T09:02:50.529482Z"
 }
