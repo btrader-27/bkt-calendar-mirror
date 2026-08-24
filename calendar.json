@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T04:59:27Z",
+ "generated_at": "2026-08-24T05:51:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 235,
+ "count": 234,
  "count_by_impact": {
-  "low": 175,
+  "low": 174,
   "holiday": 1,
   "high": 27,
   "medium": 32
  },
- "first_instant": "2026-08-10T05:00:00Z",
+ "first_instant": "2026-08-10T08:30:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "cfe6be080def",
-   "ccy": "JPY",
-   "title": "Economy Watchers Sentiment",
-   "impact": "low",
-   "instant": "2026-08-10T05:00:00Z",
-   "local_date": "2026-08-10",
-   "all_day": false,
-   "forecast": "44.6",
-   "previous": "44.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "fcfa36a24cfc",
    "ccy": "EUR",
@@ -3339,5 +3325,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-24T04:59:28.165304Z"
+ "actuals_updated_at": "2026-08-24T05:51:28.384774Z"
 }
