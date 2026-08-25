@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T03:57:47Z",
+ "generated_at": "2026-08-25T04:51:46Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,57 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 231,
+ "count": 228,
  "count_by_impact": {
-  "high": 27,
+  "high": 24,
   "low": 171,
   "medium": 33
  },
- "first_instant": "2026-08-11T04:30:00Z",
+ "first_instant": "2026-08-11T05:30:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "9689e5b49c05",
-   "ccy": "AUD",
-   "title": "Cash Rate",
-   "impact": "high",
-   "instant": "2026-08-11T04:30:00Z",
-   "local_date": "2026-08-11",
-   "all_day": false,
-   "forecast": "4.35%",
-   "previous": "4.35%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3bd803aeaf1e",
-   "ccy": "AUD",
-   "title": "RBA Monetary Policy Statement",
-   "impact": "high",
-   "instant": "2026-08-11T04:30:00Z",
-   "local_date": "2026-08-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9fd1f76f47ab",
-   "ccy": "AUD",
-   "title": "RBA Rate Statement",
-   "impact": "high",
-   "instant": "2026-08-11T04:30:00Z",
-   "local_date": "2026-08-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "8f9bc90c339c",
    "ccy": "AUD",
@@ -3282,5 +3240,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-25T03:57:47.917957Z"
+ "actuals_updated_at": "2026-08-25T04:51:47.416607Z"
 }
