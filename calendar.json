@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T04:51:46Z",
+ "generated_at": "2026-08-25T05:45:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,29 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 228,
+ "count": 227,
  "count_by_impact": {
-  "high": 24,
   "low": 171,
+  "high": 23,
   "medium": 33
  },
- "first_instant": "2026-08-11T05:30:00Z",
+ "first_instant": "2026-08-11T08:00:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "8f9bc90c339c",
-   "ccy": "AUD",
-   "title": "RBA Press Conference",
-   "impact": "high",
-   "instant": "2026-08-11T05:30:00Z",
-   "local_date": "2026-08-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "0a341f2a13c3",
    "ccy": "EUR",
@@ -2409,9 +2395,10 @@
    "all_day": false,
    "forecast": "1.4%",
    "previous": "1.5%",
-   "actual": "",
+   "actual": "1.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "61600867ab2a",
@@ -3240,5 +3227,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-25T04:51:47.416607Z"
+ "actuals_updated_at": "2026-08-25T05:45:44.598686Z"
 }
