@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T09:49:43Z",
+ "generated_at": "2026-08-25T10:48:08Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,29 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 226,
+ "count": 225,
  "count_by_impact": {
-  "low": 170,
+  "low": 169,
   "high": 23,
   "medium": 33
  },
- "first_instant": "2026-08-11T10:00:00Z",
+ "first_instant": "2026-08-11T12:14:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "83cb9b12645d",
-   "ccy": "USD",
-   "title": "NFIB Small Business Index",
-   "impact": "low",
-   "instant": "2026-08-11T10:00:00Z",
-   "local_date": "2026-08-11",
-   "all_day": false,
-   "forecast": "97.5",
-   "previous": "97.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "6d2b72f11c8a",
    "ccy": "USD",
@@ -3215,5 +3201,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-25T09:49:43.998937Z"
+ "actuals_updated_at": "2026-08-25T10:48:08.483381Z"
 }
