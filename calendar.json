@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T09:55:29Z",
+ "generated_at": "2026-08-26T10:50:07Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -2519,9 +2519,10 @@
    "all_day": false,
    "forecast": "-35",
    "previous": "-26",
-   "actual": "",
+   "actual": "-48",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "7b98d996829f",
@@ -3070,5 +3071,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-26T09:55:29.869295Z"
+ "actuals_updated_at": "2026-08-26T10:50:07.480208Z"
 }
