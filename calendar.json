@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T16:33:48Z",
+ "generated_at": "2026-08-26T19:17:07Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 209,
+ "count": 206,
  "count_by_impact": {
-  "low": 157,
+  "low": 154,
   "medium": 33,
   "high": 19
  },
- "first_instant": "2026-08-12T17:01:00Z",
+ "first_instant": "2026-08-12T23:01:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "a6de4a04a719",
-   "ccy": "USD",
-   "title": "10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-08-12T17:01:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.58|2.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f70f0b3de1a3",
-   "ccy": "USD",
-   "title": "Federal Budget Balance",
-   "impact": "low",
-   "instant": "2026-08-12T17:58:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "-348.3B",
-   "previous": "-120.3B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2a32e6889483",
-   "ccy": "USD",
-   "title": "Federal Budget Balance",
-   "impact": "low",
-   "instant": "2026-08-12T18:00:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "-348.3B",
-   "previous": "-120.3B",
-   "actual": "-432.3B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
   {
    "id": "e0984c4867fa",
    "ccy": "GBP",
@@ -2993,5 +2950,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-26T16:33:49.103631Z"
+ "actuals_updated_at": "2026-08-26T19:17:07.675666Z"
 }
