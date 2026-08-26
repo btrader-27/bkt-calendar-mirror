@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T19:17:07Z",
+ "generated_at": "2026-08-26T22:11:18Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -2950,5 +2950,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-26T19:17:07.675666Z"
+ "actuals_updated_at": "2026-08-26T22:11:19.220974Z"
 }
