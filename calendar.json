@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T14:03:26Z",
+ "generated_at": "2026-08-26T16:33:48Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,29 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 210,
+ "count": 209,
  "count_by_impact": {
-  "low": 158,
+  "low": 157,
   "medium": 33,
   "high": 19
  },
- "first_instant": "2026-08-12T14:30:00Z",
+ "first_instant": "2026-08-12T17:01:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "cc292c3184ea",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-08-12T14:30:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "-1.7M",
-   "previous": "2.5M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a6de4a04a719",
    "ccy": "USD",
@@ -2567,9 +2553,10 @@
    "all_day": false,
    "forecast": "1.6M",
    "previous": "4.4M",
-   "actual": "",
+   "actual": "0.1M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "bd05eadc74a8",
@@ -3006,5 +2993,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-26T14:03:26.477264Z"
+ "actuals_updated_at": "2026-08-26T16:33:49.103631Z"
 }
