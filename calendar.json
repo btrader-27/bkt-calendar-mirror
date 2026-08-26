@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T11:42:43Z",
+ "generated_at": "2026-08-26T13:14:26Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,85 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 215,
+ "count": 210,
  "count_by_impact": {
-  "low": 159,
-  "high": 23,
-  "medium": 33
+  "low": 158,
+  "medium": 33,
+  "high": 19
  },
- "first_instant": "2026-08-12T12:30:00Z",
+ "first_instant": "2026-08-12T14:30:00Z",
  "last_instant": "2026-08-28T14:00:00Z",
  "events": [
-  {
-   "id": "3db48146ef76",
-   "ccy": "CAD",
-   "title": "Building Permits m/m",
-   "impact": "low",
-   "instant": "2026-08-12T12:30:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "0.8%",
-   "previous": "-1.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0eb53db471b9",
-   "ccy": "USD",
-   "title": "CPI m/m",
-   "impact": "high",
-   "instant": "2026-08-12T12:30:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "-0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "779ee91b89f9",
-   "ccy": "USD",
-   "title": "CPI y/y",
-   "impact": "high",
-   "instant": "2026-08-12T12:30:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "3.4%",
-   "previous": "3.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "08f2c4de90bd",
-   "ccy": "USD",
-   "title": "Core CPI m/m",
-   "impact": "high",
-   "instant": "2026-08-12T12:30:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "69338b4758b1",
-   "ccy": "USD",
-   "title": "Core CPI y/y",
-   "impact": "high",
-   "instant": "2026-08-12T12:30:00Z",
-   "local_date": "2026-08-12",
-   "all_day": false,
-   "forecast": "2.5%",
-   "previous": "2.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "cc292c3184ea",
    "ccy": "USD",
@@ -2534,9 +2464,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.6%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c063b0cf0d43",
@@ -2548,7 +2479,7 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2562,9 +2493,10 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "1.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "42d795d40876",
@@ -2576,9 +2508,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "655de8d4100d",
@@ -2590,9 +2523,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "404609b0d758",
@@ -2604,9 +2538,10 @@
    "all_day": false,
    "forecast": "6.2%",
    "previous": "6.2%",
-   "actual": "",
+   "actual": "6.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "92c3df6b73d9",
@@ -2618,7 +2553,7 @@
    "all_day": false,
    "forecast": "1.5%",
    "previous": "1.5%",
-   "actual": "",
+   "actual": "1.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3071,5 +3006,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-08-26T11:42:44.019538Z"
+ "actuals_updated_at": "2026-08-26T13:14:26.824923Z"
 }
