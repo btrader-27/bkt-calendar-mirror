@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T21:01:53Z",
+ "generated_at": "2026-08-30T23:27:59Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 269,
+ "count": 266,
  "count_by_impact": {
-  "low": 203,
+  "low": 200,
   "high": 31,
   "medium": 34,
   "holiday": 1
  },
- "first_instant": "2026-08-16T22:30:00Z",
+ "first_instant": "2026-08-16T23:50:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "674a97c899dd",
-   "ccy": "NZD",
-   "title": "BusinessNZ Services Index",
-   "impact": "low",
-   "instant": "2026-08-16T22:30:00Z",
-   "local_date": "2026-08-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "50.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d5a45db52d75",
-   "ccy": "NZD",
-   "title": "FPI m/m",
-   "impact": "low",
-   "instant": "2026-08-16T22:45:00Z",
-   "local_date": "2026-08-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0428e9d4754e",
-   "ccy": "GBP",
-   "title": "Rightmove HPI m/m",
-   "impact": "low",
-   "instant": "2026-08-16T23:01:00Z",
-   "local_date": "2026-08-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-1.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ad02deef4918",
    "ccy": "JPY",
