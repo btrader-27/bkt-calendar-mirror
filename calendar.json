@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T10:03:32Z",
+ "generated_at": "2026-09-01T14:51:20Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,156 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 247,
+ "count": 239,
  "count_by_impact": {
-  "low": 186,
+  "low": 178,
   "medium": 33,
   "high": 27,
   "holiday": 1
  },
- "first_instant": "2026-08-18T12:15:00Z",
+ "first_instant": "2026-08-18T15:31:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "b91b650c227d",
-   "ccy": "CAD",
-   "title": "Housing Starts",
-   "impact": "low",
-   "instant": "2026-08-18T12:15:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "249K",
-   "previous": "239K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d2609224cbe2",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-08-18T12:15:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "",
-   "previous": "8.3K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "156f68dc8154",
-   "ccy": "USD",
-   "title": "Building Permits",
-   "impact": "low",
-   "instant": "2026-08-18T12:30:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "1.37M",
-   "previous": "1.37M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "38350294573b",
-   "ccy": "USD",
-   "title": "Housing Starts",
-   "impact": "low",
-   "instant": "2026-08-18T12:30:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "1.34M",
-   "previous": "1.43M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6ad397c08fb4",
-   "ccy": "USD",
-   "title": "Import Prices m/m",
-   "impact": "low",
-   "instant": "2026-08-18T12:30:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "94486d359a41",
-   "ccy": "USD",
-   "title": "Capacity Utilization Rate",
-   "impact": "low",
-   "instant": "2026-08-18T13:15:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "76.3%",
-   "previous": "76.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8cac0918ce1c",
-   "ccy": "USD",
-   "title": "Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-08-18T13:15:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6b47a55adea0",
-   "ccy": "USD",
-   "title": "Pending Home Sales m/m",
-   "impact": "low",
-   "instant": "2026-08-18T14:00:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "-5.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2c72fef29a17",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-08-18T14:50:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.1%",
-   "actual": "2.3%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "112fc8a378f0",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-08-18T14:51:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.1%",
-   "actual": "2.3%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "b5a4c65ef233",
    "ccy": "NZD",
@@ -2557,7 +2417,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "53.5",
-   "actual": "",
+   "actual": "53.0",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2571,9 +2431,10 @@
    "all_day": false,
    "forecast": "53.3",
    "previous": "53.2",
-   "actual": "",
+   "actual": "53.9",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "182e73be335b",
@@ -2585,9 +2446,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "-0.5%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "60b99fc38871",
@@ -2599,9 +2461,10 @@
    "all_day": false,
    "forecast": "55.2",
    "previous": "55.6",
-   "actual": "",
+   "actual": "54.6",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "3b142aae0189",
@@ -2613,9 +2476,10 @@
    "all_day": false,
    "forecast": "70.5",
    "previous": "71.1",
-   "actual": "",
+   "actual": "71.1",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "3bfd7738a59d",
@@ -2627,9 +2491,24 @@
    "all_day": false,
    "forecast": "7.33M",
    "previous": "7.36M",
-   "actual": "",
+   "actual": "7.27M",
    "source": "forexfactory",
    "feed": "thisweek"
+  },
+  {
+   "id": "551072e9229f",
+   "ccy": "USD",
+   "title": "RCM/TIPP Economic Optimism",
+   "impact": "low",
+   "instant": "2026-09-01T14:04:00Z",
+   "local_date": "2026-09-01",
+   "all_day": false,
+   "forecast": "46.2",
+   "previous": "45.1",
+   "actual": "45.6",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "87afbb8c46f8",
@@ -2641,9 +2520,10 @@
    "all_day": false,
    "forecast": "46.2",
    "previous": "45.1",
-   "actual": "",
+   "actual": "45.6",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "9ccd0d5c2283",
@@ -2665,6 +2545,20 @@
    "title": "GDT Price Index",
    "impact": "low",
    "instant": "2026-09-01T14:50:00Z",
+   "local_date": "2026-09-01",
+   "all_day": false,
+   "forecast": "",
+   "previous": "2.3%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "8965423d27ab",
+   "ccy": "NZD",
+   "title": "GDT Price Index",
+   "impact": "low",
+   "instant": "2026-09-01T14:51:00Z",
    "local_date": "2026-09-01",
    "all_day": false,
    "forecast": "",
@@ -3528,5 +3422,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-01T10:03:32.513308Z"
+ "actuals_updated_at": "2026-09-01T14:51:20.583373Z"
 }
