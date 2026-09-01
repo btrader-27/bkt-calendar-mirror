@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T14:51:20Z",
+ "generated_at": "2026-09-01T18:27:46Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 239,
+ "count": 240,
  "count_by_impact": {
-  "low": 178,
+  "low": 179,
   "medium": 33,
   "high": 27,
   "holiday": 1
  },
- "first_instant": "2026-08-18T15:31:00Z",
+ "first_instant": "2026-08-18T20:30:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "b5a4c65ef233",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-08-18T15:31:00Z",
-   "local_date": "2026-08-18",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c6af0d5b2708",
    "ccy": "USD",
@@ -2394,6 +2380,20 @@
    "actual_class": "worse"
   },
   {
+   "id": "54433037bdbd",
+   "ccy": "EUR",
+   "title": "German Buba President Nagel Speaks",
+   "impact": "low",
+   "instant": "2026-09-01T12:30:00Z",
+   "local_date": "2026-09-01",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "8f6cc79dd370",
    "ccy": "USD",
    "title": "FOMC Member Barr Speaks",
@@ -2549,7 +2549,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "2.3%",
-   "actual": "",
+   "actual": "0.9%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2563,7 +2563,21 @@
    "all_day": false,
    "forecast": "",
    "previous": "2.3%",
-   "actual": "",
+   "actual": "0.9%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "b19da28f7dc0",
+   "ccy": "NZD",
+   "title": "GDT Price Index",
+   "impact": "low",
+   "instant": "2026-09-01T15:25:00Z",
+   "local_date": "2026-09-01",
+   "all_day": false,
+   "forecast": "",
+   "previous": "2.3%",
+   "actual": "0.9%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2729,7 +2743,7 @@
    "instant": "2026-09-02T12:15:00Z",
    "local_date": "2026-09-02",
    "all_day": false,
-   "forecast": "48K",
+   "forecast": "47K",
    "previous": "44K",
    "actual": "",
    "source": "forexfactory",
@@ -2799,7 +2813,7 @@
    "instant": "2026-09-02T14:30:00Z",
    "local_date": "2026-09-02",
    "all_day": false,
-   "forecast": "",
+   "forecast": "-0.4M",
    "previous": "0.1M",
    "actual": "",
    "source": "forexfactory",
@@ -3219,7 +3233,7 @@
    "instant": "2026-09-03T14:30:00Z",
    "local_date": "2026-09-03",
    "all_day": false,
-   "forecast": "",
+   "forecast": "30B",
    "previous": "15B",
    "actual": "",
    "source": "forexfactory",
@@ -3422,5 +3436,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-01T14:51:20.583373Z"
+ "actuals_updated_at": "2026-09-01T18:27:46.594493Z"
 }
