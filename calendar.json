@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T14:27:17Z",
+ "generated_at": "2026-09-02T18:39:46Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 221,
+ "count": 218,
  "count_by_impact": {
-  "low": 164,
-  "high": 26,
-  "medium": 30,
+  "low": 163,
+  "high": 25,
+  "medium": 29,
   "holiday": 1
  },
- "first_instant": "2026-08-19T14:30:00Z",
+ "first_instant": "2026-08-19T23:50:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "dcf61586a218",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-08-19T14:30:00Z",
-   "local_date": "2026-08-19",
-   "all_day": false,
-   "forecast": "0.2M",
-   "previous": "17.4M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1de6197680cf",
-   "ccy": "USD",
-   "title": "FOMC Meeting Minutes",
-   "impact": "high",
-   "instant": "2026-08-19T18:00:00Z",
-   "local_date": "2026-08-19",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "118f9fa58133",
-   "ccy": "USD",
-   "title": "President Trump Speaks",
-   "impact": "medium",
-   "instant": "2026-08-19T18:30:00Z",
-   "local_date": "2026-08-19",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "44c49fe2cf35",
    "ccy": "JPY",
@@ -2551,9 +2509,10 @@
    "all_day": false,
    "forecast": "-0.4M",
    "previous": "0.1M",
-   "actual": "",
+   "actual": "-4.5M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "c5b4924b13a8",
@@ -2591,7 +2550,7 @@
    "instant": "2026-09-02T22:45:00Z",
    "local_date": "2026-09-02",
    "all_day": false,
-   "forecast": "-2.2%",
+   "forecast": "-2.1%",
    "previous": "-2.0%",
    "actual": "",
    "source": "forexfactory",
@@ -2633,7 +2592,7 @@
    "instant": "2026-09-03T01:30:00Z",
    "local_date": "2026-09-02",
    "all_day": false,
-   "forecast": "1.50B",
+   "forecast": "1.52B",
    "previous": "1.93B",
    "actual": "",
    "source": "forexfactory",
@@ -2689,7 +2648,7 @@
    "instant": "2026-09-03T07:00:00Z",
    "local_date": "2026-09-03",
    "all_day": false,
-   "forecast": "1.5%",
+   "forecast": "1.7%",
    "previous": "0.7%",
    "actual": "",
    "source": "forexfactory",
@@ -3172,5 +3131,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-02T14:27:18.227007Z"
+ "actuals_updated_at": "2026-09-02T18:39:47.112549Z"
 }
