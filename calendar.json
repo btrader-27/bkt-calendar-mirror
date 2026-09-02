@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T09:34:49Z",
+ "generated_at": "2026-09-02T14:27:17Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 223,
+ "count": 221,
  "count_by_impact": {
-  "low": 165,
-  "medium": 31,
+  "low": 164,
   "high": 26,
+  "medium": 30,
   "holiday": 1
  },
- "first_instant": "2026-08-19T09:42:00Z",
+ "first_instant": "2026-08-19T14:30:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "b727816ed2b2",
-   "ccy": "EUR",
-   "title": "German 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-08-19T09:42:00Z",
-   "local_date": "2026-08-19",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.13|1.1",
-   "actual": "3.26|1.1",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "72e03112f65b",
-   "ccy": "EUR",
-   "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
-   "instant": "2026-08-19T10:15:00Z",
-   "local_date": "2026-08-19",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "dcf61586a218",
    "ccy": "USD",
@@ -1708,9 +1680,10 @@
    "all_day": false,
    "forecast": "7.5%",
    "previous": "18.6%",
-   "actual": "",
+   "actual": "8.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b561dc74e118",
@@ -1722,9 +1695,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.8%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "631e795438a1",
@@ -2505,9 +2479,10 @@
    "all_day": false,
    "forecast": "47K",
    "previous": "44K",
-   "actual": "",
+   "actual": "38K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "6a671f1de2d6",
@@ -2533,7 +2508,7 @@
    "all_day": false,
    "forecast": "2.25%",
    "previous": "2.25%",
-   "actual": "",
+   "actual": "2.25%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2547,9 +2522,10 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "-0.3%",
-   "actual": "",
+   "actual": "0.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "7856b41a1b47",
@@ -3196,5 +3172,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-02T09:34:49.459680Z"
+ "actuals_updated_at": "2026-09-02T14:27:18.227007Z"
 }
