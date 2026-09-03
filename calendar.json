@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T21:47:23Z",
+ "generated_at": "2026-09-03T00:12:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -23,23 +23,9 @@
   "medium": 29,
   "holiday": 1
  },
- "first_instant": "2026-08-19T23:50:00Z",
+ "first_instant": "2026-08-20T01:00:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "44c49fe2cf35",
-   "ccy": "JPY",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-08-19T23:50:00Z",
-   "local_date": "2026-08-19",
-   "all_day": false,
-   "forecast": "-0.44T",
-   "previous": "-0.88T",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "05a501b21005",
    "ccy": "AUD",
@@ -2552,9 +2538,10 @@
    "all_day": false,
    "forecast": "-2.1%",
    "previous": "-2.0%",
-   "actual": "",
+   "actual": "-9.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "8c85a62fbace",
@@ -2963,6 +2950,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "b3c844ef4f65",
+   "ccy": "USD",
+   "title": "FOMC Member Goolsbee Speaks",
+   "impact": "low",
+   "instant": "2026-09-03T19:55:00Z",
+   "local_date": "2026-09-03",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "edd240e80cde",
    "ccy": "JPY",
    "title": "Household Spending y/y",
@@ -3131,5 +3132,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-02T21:47:24.275029Z"
+ "actuals_updated_at": "2026-09-03T00:12:44.509465Z"
 }
