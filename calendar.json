@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T14:32:24Z",
+ "generated_at": "2026-09-03T18:36:18Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -23,23 +23,9 @@
   "high": 23,
   "holiday": 1
  },
- "first_instant": "2026-08-20T15:10:00Z",
+ "first_instant": "2026-08-20T22:45:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "bdf96fa5a8bf",
-   "ccy": "USD",
-   "title": "FOMC Member Musalem Speaks",
-   "impact": "low",
-   "instant": "2026-08-20T15:10:00Z",
-   "local_date": "2026-08-20",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "1bfa54d301c7",
    "ccy": "NZD",
@@ -2774,6 +2760,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "d89d9bf71b4f",
+   "ccy": "GBP",
+   "title": "MPC Member Pill Speaks",
+   "impact": "low",
+   "instant": "2026-09-03T15:00:00Z",
+   "local_date": "2026-09-03",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "cfdb4abb3105",
    "ccy": "USD",
    "title": "FOMC Member Hammack Speaks",
@@ -2984,5 +2984,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-03T14:32:24.282728Z"
+ "actuals_updated_at": "2026-09-03T18:36:19.070778Z"
 }
