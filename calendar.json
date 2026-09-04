@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T09:36:01Z",
+ "generated_at": "2026-09-04T14:19:34Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,90 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 190,
+ "count": 187,
  "count_by_impact": {
-  "low": 146,
   "medium": 20,
+  "low": 143,
   "high": 23,
   "holiday": 1
  },
- "first_instant": "2026-08-21T12:30:00Z",
- "last_instant": "2026-09-04T14:00:00Z",
+ "first_instant": "2026-08-21T23:00:00Z",
+ "last_instant": "2026-09-04T22:00:00Z",
  "events": [
-  {
-   "id": "e5eb3d463299",
-   "ccy": "CAD",
-   "title": "Core Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-08-21T12:30:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "1.2%",
-   "actual": "0.5%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "238f3b221b9e",
-   "ccy": "CAD",
-   "title": "Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-08-21T12:30:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "0.4%",
-   "previous": "1.0%",
-   "actual": "0.6%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "47db24c4327c",
-   "ccy": "USD",
-   "title": "Flash Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-21T13:45:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "53.9",
-   "previous": "53.8",
-   "actual": "53.2",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "0b0a4820b4c8",
-   "ccy": "USD",
-   "title": "Flash Services PMI",
-   "impact": "low",
-   "instant": "2026-08-21T13:45:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "54.0",
-   "previous": "53.6",
-   "actual": "56.8",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "e7574bd86127",
-   "ccy": "EUR",
-   "title": "Consumer Confidence",
-   "impact": "low",
-   "instant": "2026-08-21T14:00:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "-16",
-   "previous": "-16",
-   "actual": "-16",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "cafffaeba216",
    "ccy": "USD",
@@ -1926,7 +1852,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-106.8B",
-   "actual": "-145.9B",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2648,9 +2574,10 @@
    "all_day": false,
    "forecast": "15.1K",
    "previous": "75.1K",
-   "actual": "",
+   "actual": "-41.7K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "9ded9b127601",
@@ -2662,7 +2589,7 @@
    "all_day": false,
    "forecast": "6.4%",
    "previous": "6.4%",
-   "actual": "",
+   "actual": "6.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2676,7 +2603,7 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2690,9 +2617,10 @@
    "all_day": false,
    "forecast": "55K",
    "previous": "-23K",
-   "actual": "",
+   "actual": "162K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "c772e108fd04",
@@ -2704,6 +2632,20 @@
    "all_day": false,
    "forecast": "4.1%",
    "previous": "4.1%",
+   "actual": "4.1%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "05d97bfccb2f",
+   "ccy": "USD",
+   "title": "FOMC Member Goolsbee Speaks",
+   "impact": "low",
+   "instant": "2026-09-04T13:40:00Z",
+   "local_date": "2026-09-04",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -2718,10 +2660,25 @@
    "all_day": false,
    "forecast": "56.2",
    "previous": "55.1",
+   "actual": "64.3",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
+  },
+  {
+   "id": "35723bfc03b7",
+   "ccy": "USD",
+   "title": "FOMC Member Goolsbee Speaks",
+   "impact": "low",
+   "instant": "2026-09-04T22:00:00Z",
+   "local_date": "2026-09-04",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-04T09:36:02.179721Z"
+ "actuals_updated_at": "2026-09-04T14:19:34.576840Z"
 }
