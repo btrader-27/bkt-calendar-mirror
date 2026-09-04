@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T04:27:49Z",
+ "generated_at": "2026-09-04T09:36:01Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,163 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 200,
+ "count": 190,
  "count_by_impact": {
-  "low": 149,
-  "medium": 27,
+  "low": 146,
+  "medium": 20,
   "high": 23,
   "holiday": 1
  },
- "first_instant": "2026-08-21T06:00:00Z",
+ "first_instant": "2026-08-21T12:30:00Z",
  "last_instant": "2026-09-04T14:00:00Z",
  "events": [
-  {
-   "id": "ab4d5b1f97ce",
-   "ccy": "GBP",
-   "title": "Public Sector Net Borrowing",
-   "impact": "low",
-   "instant": "2026-08-21T06:00:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "0.0B",
-   "previous": "16.0B",
-   "actual": "1.8B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "b698fc1fa219",
-   "ccy": "GBP",
-   "title": "Retail Sales m/m",
-   "impact": "medium",
-   "instant": "2026-08-21T06:00:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "-0.5%",
-   "previous": "1.0%",
-   "actual": "-0.5%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d39cc97f8465",
-   "ccy": "EUR",
-   "title": "French Flash Manufacturing PMI",
-   "impact": "medium",
-   "instant": "2026-08-21T07:15:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "50.1",
-   "previous": "50.0",
-   "actual": "51.5",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "6cf27eeedc18",
-   "ccy": "EUR",
-   "title": "French Flash Services PMI",
-   "impact": "medium",
-   "instant": "2026-08-21T07:15:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "49.4",
-   "previous": "49.8",
-   "actual": "48.4",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "486a80bc7317",
-   "ccy": "EUR",
-   "title": "German Flash Manufacturing PMI",
-   "impact": "medium",
-   "instant": "2026-08-21T07:30:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "52.1",
-   "previous": "52.2",
-   "actual": "54.1",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "f84c79362279",
-   "ccy": "EUR",
-   "title": "German Flash Services PMI",
-   "impact": "medium",
-   "instant": "2026-08-21T07:30:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "50.1",
-   "previous": "49.6",
-   "actual": "48.5",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "b6a59f0141ba",
-   "ccy": "EUR",
-   "title": "Flash Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-08-21T08:00:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "51.8",
-   "previous": "52.0",
-   "actual": "52.8",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "2a75140ea95a",
-   "ccy": "EUR",
-   "title": "Flash Services PMI",
-   "impact": "low",
-   "instant": "2026-08-21T08:00:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "51.5",
-   "previous": "51.6",
-   "actual": "51.7",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0ceabf2867d0",
-   "ccy": "GBP",
-   "title": "Flash Manufacturing PMI",
-   "impact": "medium",
-   "instant": "2026-08-21T08:30:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "51.6",
-   "previous": "52.8",
-   "actual": "51.5",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "67a02e910e7e",
-   "ccy": "GBP",
-   "title": "Flash Services PMI",
-   "impact": "medium",
-   "instant": "2026-08-21T08:30:00Z",
-   "local_date": "2026-08-21",
-   "all_day": false,
-   "forecast": "51.8",
-   "previous": "51.8",
-   "actual": "52.8",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
   {
    "id": "e5eb3d463299",
    "ccy": "CAD",
@@ -2721,9 +2574,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "3.1%",
-   "actual": "",
+   "actual": "2.5%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "95bffc41c277",
@@ -2735,9 +2589,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "-0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "0cfa0682817a",
@@ -2749,9 +2604,10 @@
    "all_day": false,
    "forecast": "45.8",
    "previous": "44.7",
-   "actual": "",
+   "actual": "44.3",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "495243fd23ae",
@@ -2777,9 +2633,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "-0.3%",
-   "actual": "",
+   "actual": "-0.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c707cee2d4c3",
@@ -2866,5 +2723,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-04T04:27:49.788113Z"
+ "actuals_updated_at": "2026-09-04T09:36:02.179721Z"
 }
