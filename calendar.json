@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T21:19:20Z",
+ "generated_at": "2026-09-06T23:51:11Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 259,
+ "count": 257,
  "count_by_impact": {
-  "low": 199,
+  "low": 197,
   "medium": 24,
   "high": 33,
   "holiday": 3
  },
- "first_instant": "2026-08-23T22:45:00Z",
+ "first_instant": "2026-08-24T12:30:00Z",
  "last_instant": "2026-09-12T07:30:00Z",
  "events": [
-  {
-   "id": "f29999cd1c4c",
-   "ccy": "NZD",
-   "title": "Core Retail Sales q/q",
-   "impact": "low",
-   "instant": "2026-08-23T22:45:00Z",
-   "local_date": "2026-08-23",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "1.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1e9e154c31f2",
-   "ccy": "NZD",
-   "title": "Retail Sales q/q",
-   "impact": "low",
-   "instant": "2026-08-23T22:45:00Z",
-   "local_date": "2026-08-23",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "cd553100ba76",
    "ccy": "CAD",
