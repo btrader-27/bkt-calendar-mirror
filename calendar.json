@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T23:51:11Z",
+ "generated_at": "2026-09-07T04:35:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,10 +16,10 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 257,
+ "count": 260,
  "count_by_impact": {
   "low": 197,
-  "medium": 24,
+  "medium": 27,
   "high": 33,
   "holiday": 3
  },
@@ -2630,7 +2630,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.8%",
-   "actual": "",
+   "actual": "2.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2985,6 +2985,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "ef52a683d899",
+   "ccy": "GBP",
+   "title": "Monetary Policy Report Hearings",
+   "impact": "medium",
+   "instant": "2026-09-08T13:15:00Z",
+   "local_date": "2026-09-08",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "2f09974287cd",
    "ccy": "USD",
    "title": "Consumer Credit m/m",
@@ -3078,6 +3092,20 @@
    "all_day": false,
    "forecast": "",
    "previous": "11.8K",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "1c9468b01d16",
+   "ccy": "EUR",
+   "title": "ECB President Lagarde Speaks",
+   "impact": "medium",
+   "instant": "2026-09-09T17:00:00Z",
+   "local_date": "2026-09-09",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3573,6 +3601,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "5ea8b5d31f55",
+   "ccy": "EUR",
+   "title": "ECB President Lagarde Speaks",
+   "impact": "medium",
+   "instant": "2026-09-11T14:00:00Z",
+   "local_date": "2026-09-11",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "e15eb283a2af",
    "ccy": "USD",
    "title": "Prelim UoM Consumer Sentiment",
@@ -3642,5 +3684,6 @@
    "source": "forexfactory",
    "feed": "thisweek"
   }
- ]
+ ],
+ "actuals_updated_at": "2026-09-07T04:35:28.893452Z"
 }
