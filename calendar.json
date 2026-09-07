@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T10:14:01Z",
+ "generated_at": "2026-09-07T15:50:49Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 260,
+ "count": 259,
  "count_by_impact": {
-  "low": 197,
   "medium": 27,
+  "low": 196,
   "high": 33,
   "holiday": 3
  },
- "first_instant": "2026-08-24T12:30:00Z",
+ "first_instant": "2026-08-24T17:00:00Z",
  "last_instant": "2026-09-12T07:30:00Z",
  "events": [
-  {
-   "id": "cd553100ba76",
-   "ccy": "CAD",
-   "title": "Corporate Profits q/q",
-   "impact": "low",
-   "instant": "2026-08-24T12:30:00Z",
-   "local_date": "2026-08-24",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-2.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "7f956d390014",
    "ccy": "USD",
@@ -3689,5 +3675,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-07T10:14:01.608866Z"
+ "actuals_updated_at": "2026-09-07T15:50:49.578137Z"
 }
