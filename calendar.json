@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T01:10:28Z",
+ "generated_at": "2026-09-08T05:56:20Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 257,
+ "count": 255,
  "count_by_impact": {
-  "low": 196,
+  "low": 194,
   "medium": 25,
   "high": 33,
   "holiday": 3
  },
- "first_instant": "2026-08-25T01:30:00Z",
+ "first_instant": "2026-08-25T06:00:00Z",
  "last_instant": "2026-09-12T07:30:00Z",
  "events": [
-  {
-   "id": "f41fb287a362",
-   "ccy": "AUD",
-   "title": "Monetary Policy Meeting Minutes",
-   "impact": "low",
-   "instant": "2026-08-25T01:30:00Z",
-   "local_date": "2026-08-24",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "79dcc2e83d5a",
-   "ccy": "JPY",
-   "title": "BOJ Core CPI y/y",
-   "impact": "low",
-   "instant": "2026-08-25T05:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "1.4%",
-   "previous": "1.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "61600867ab2a",
    "ccy": "EUR",
@@ -2862,7 +2834,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-6",
-   "actual": "",
+   "actual": "-8",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2890,7 +2862,7 @@
    "all_day": false,
    "forecast": "46.3",
    "previous": "45.7",
-   "actual": "",
+   "actual": "46.4",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3651,5 +3623,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-08T01:10:28.984995Z"
+ "actuals_updated_at": "2026-09-08T05:56:20.524246Z"
 }
