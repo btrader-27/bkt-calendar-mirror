@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T11:13:42Z",
+ "generated_at": "2026-09-08T15:05:56Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,128 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 253,
+ "count": 245,
  "count_by_impact": {
-  "low": 193,
-  "medium": 24,
+  "low": 186,
   "high": 33,
+  "medium": 23,
   "holiday": 3
  },
- "first_instant": "2026-08-25T12:15:00Z",
+ "first_instant": "2026-08-25T20:00:00Z",
  "last_instant": "2026-09-12T07:30:00Z",
  "events": [
-  {
-   "id": "2ca45be3f5ec",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-08-25T12:15:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "",
-   "previous": "9.5K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d67f9479a944",
-   "ccy": "USD",
-   "title": "FOMC Member Barkin Speaks",
-   "impact": "low",
-   "instant": "2026-08-25T12:30:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0a0beec44eff",
-   "ccy": "EUR",
-   "title": "Belgian NBB Business Climate",
-   "impact": "low",
-   "instant": "2026-08-25T13:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "-11.0",
-   "previous": "-11.9",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "60399cd7a25a",
-   "ccy": "USD",
-   "title": "HPI m/m",
-   "impact": "low",
-   "instant": "2026-08-25T13:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9177d447a4c1",
-   "ccy": "USD",
-   "title": "S&P/CS Composite-20 HPI y/y",
-   "impact": "low",
-   "instant": "2026-08-25T13:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "1.8%",
-   "previous": "1.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "94fa47770f24",
-   "ccy": "USD",
-   "title": "CB Consumer Confidence",
-   "impact": "medium",
-   "instant": "2026-08-25T14:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "90.3",
-   "previous": "90.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4cbf7223bcca",
-   "ccy": "USD",
-   "title": "New Home Sales",
-   "impact": "low",
-   "instant": "2026-08-25T14:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "620K",
-   "previous": "628K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2214078517f2",
-   "ccy": "USD",
-   "title": "Richmond Manufacturing Index",
-   "impact": "low",
-   "instant": "2026-08-25T14:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "6",
-   "previous": "5",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ebf86fb20127",
    "ccy": "USD",
@@ -3597,5 +3485,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-08T11:13:42.792916Z"
+ "actuals_updated_at": "2026-09-08T15:05:56.454627Z"
 }
