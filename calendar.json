@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T05:56:20Z",
+ "generated_at": "2026-09-08T11:13:42Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 255,
+ "count": 253,
  "count_by_impact": {
-  "low": 194,
-  "medium": 25,
+  "low": 193,
+  "medium": 24,
   "high": 33,
   "holiday": 3
  },
- "first_instant": "2026-08-25T06:00:00Z",
+ "first_instant": "2026-08-25T12:15:00Z",
  "last_instant": "2026-09-12T07:30:00Z",
  "events": [
-  {
-   "id": "61600867ab2a",
-   "ccy": "EUR",
-   "title": "German Final GDP q/q",
-   "impact": "low",
-   "instant": "2026-08-25T06:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "90afb9f1e66a",
-   "ccy": "EUR",
-   "title": "German ifo Business Climate",
-   "impact": "low",
-   "instant": "2026-08-25T08:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "87.2",
-   "previous": "86.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "2ca45be3f5ec",
    "ccy": "USD",
@@ -2876,9 +2848,10 @@
    "all_day": false,
    "forecast": "16.0B",
    "previous": "15.4B",
-   "actual": "",
+   "actual": "21.3B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "d252b06c9ce6",
@@ -2890,9 +2863,10 @@
    "all_day": false,
    "forecast": "-6.0B",
    "previous": "-5.8B",
-   "actual": "",
+   "actual": "-6.7B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "47f053243484",
@@ -2918,7 +2892,7 @@
    "all_day": false,
    "forecast": "99.4",
    "previous": "99.8",
-   "actual": "",
+   "actual": "98.7",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3038,7 +3012,7 @@
    "id": "1c9468b01d16",
    "ccy": "EUR",
    "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
+   "impact": "low",
    "instant": "2026-09-09T17:00:00Z",
    "local_date": "2026-09-09",
    "all_day": false,
@@ -3623,5 +3597,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-08T05:56:20.524246Z"
+ "actuals_updated_at": "2026-09-08T11:13:42.792916Z"
 }
