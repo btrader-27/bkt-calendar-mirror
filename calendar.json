@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T18:37:17Z",
+ "generated_at": "2026-09-08T21:49:40Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 245,
+ "count": 243,
  "count_by_impact": {
-  "low": 186,
+  "low": 184,
   "high": 33,
   "medium": 23,
   "holiday": 3
  },
- "first_instant": "2026-08-25T20:00:00Z",
+ "first_instant": "2026-08-25T23:50:00Z",
  "last_instant": "2026-09-12T07:30:00Z",
  "events": [
-  {
-   "id": "ebf86fb20127",
-   "ccy": "USD",
-   "title": "FOMC Member Barkin Speaks",
-   "impact": "low",
-   "instant": "2026-08-25T20:00:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5d09654a1099",
-   "ccy": "USD",
-   "title": "API Weekly Statistical Bulletin",
-   "impact": "low",
-   "instant": "2026-08-25T20:30:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "e0ec6b365993",
    "ccy": "JPY",
@@ -2808,9 +2780,10 @@
    "all_day": false,
    "forecast": "11.9B",
    "previous": "14.2B",
-   "actual": "",
+   "actual": "18.1B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "6e2338bf3904",
@@ -3485,5 +3458,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-08T18:37:18.040136Z"
+ "actuals_updated_at": "2026-09-08T21:49:40.617528Z"
 }
