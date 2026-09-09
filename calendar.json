@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T09:42:01Z",
+ "generated_at": "2026-09-09T14:33:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,142 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 237,
+ "count": 231,
  "count_by_impact": {
-  "low": 180,
-  "high": 30,
+  "low": 176,
   "medium": 24,
+  "high": 28,
   "holiday": 3
  },
- "first_instant": "2026-08-26T10:00:00Z",
+ "first_instant": "2026-08-26T15:45:00Z",
  "last_instant": "2026-09-12T08:00:00Z",
  "events": [
-  {
-   "id": "9bacca6e224a",
-   "ccy": "GBP",
-   "title": "CBI Realized Sales",
-   "impact": "low",
-   "instant": "2026-08-26T10:00:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "-35",
-   "previous": "-26",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "7b98d996829f",
-   "ccy": "USD",
-   "title": "Core Durable Goods Orders m/m",
-   "impact": "low",
-   "instant": "2026-08-26T12:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c063b0cf0d43",
-   "ccy": "USD",
-   "title": "Core PCE Price Index m/m",
-   "impact": "high",
-   "instant": "2026-08-26T12:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8910e235a6f7",
-   "ccy": "USD",
-   "title": "Durable Goods Orders m/m",
-   "impact": "low",
-   "instant": "2026-08-26T12:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "0.4%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "42d795d40876",
-   "ccy": "USD",
-   "title": "Personal Income m/m",
-   "impact": "low",
-   "instant": "2026-08-26T12:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "655de8d4100d",
-   "ccy": "USD",
-   "title": "Personal Spending m/m",
-   "impact": "low",
-   "instant": "2026-08-26T12:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "404609b0d758",
-   "ccy": "USD",
-   "title": "Prelim GDP Price Index q/q",
-   "impact": "medium",
-   "instant": "2026-08-26T12:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "6.2%",
-   "previous": "6.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "92c3df6b73d9",
-   "ccy": "USD",
-   "title": "Prelim GDP q/q",
-   "impact": "high",
-   "instant": "2026-08-26T12:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "1.5%",
-   "previous": "1.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b76e55c268ac",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-08-26T14:30:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "1.6M",
-   "previous": "4.4M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "bd05eadc74a8",
    "ccy": "USD",
@@ -2732,6 +2606,20 @@
    "actual_class": "worse"
   },
   {
+   "id": "a9ff60a4b47d",
+   "ccy": "EUR",
+   "title": "German 10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-09-09T09:33:00Z",
+   "local_date": "2026-09-09",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.26|1.1",
+   "actual": "3.39|1.5",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "fad4e698e848",
    "ccy": "EUR",
    "title": "German 10-y Bond Auction",
@@ -2741,7 +2629,21 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.26|1.1",
-   "actual": "",
+   "actual": "3.39|1.5",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "ddcfff0a7a59",
+   "ccy": "USD",
+   "title": "ADP Weekly Employment Change",
+   "impact": "low",
+   "instant": "2026-09-09T12:14:00Z",
+   "local_date": "2026-09-09",
+   "all_day": false,
+   "forecast": "",
+   "previous": "11.8K",
+   "actual": "12.0K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2754,8 +2656,8 @@
    "local_date": "2026-09-09",
    "all_day": false,
    "forecast": "",
-   "previous": "",
-   "actual": "",
+   "previous": "10.0K",
+   "actual": "12.0K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2769,7 +2671,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "11.8K",
-   "actual": "",
+   "actual": "12.0K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2853,6 +2755,20 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.9%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "21cd4250328a",
+   "ccy": "USD",
+   "title": "President Trump Speaks",
+   "impact": "medium",
+   "instant": "2026-09-10T01:15:00Z",
+   "local_date": "2026-09-09",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3376,5 +3292,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-09T09:42:02.255309Z"
+ "actuals_updated_at": "2026-09-09T14:33:44.827462Z"
 }
