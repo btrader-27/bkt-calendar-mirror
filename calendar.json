@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T21:49:40Z",
+ "generated_at": "2026-09-09T00:11:39Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -18,28 +18,14 @@
  "feeds_failed": [],
  "count": 243,
  "count_by_impact": {
-  "low": 184,
+  "low": 183,
   "high": 33,
-  "medium": 23,
+  "medium": 24,
   "holiday": 3
  },
- "first_instant": "2026-08-25T23:50:00Z",
- "last_instant": "2026-09-12T07:30:00Z",
+ "first_instant": "2026-08-26T00:30:00Z",
+ "last_instant": "2026-09-12T08:00:00Z",
  "events": [
-  {
-   "id": "e0ec6b365993",
-   "ccy": "JPY",
-   "title": "SPPI y/y",
-   "impact": "low",
-   "instant": "2026-08-25T23:50:00Z",
-   "local_date": "2026-08-25",
-   "all_day": false,
-   "forecast": "3.2%",
-   "previous": "3.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "15814425476e",
    "ccy": "AUD",
@@ -2795,9 +2781,10 @@
    "all_day": false,
    "forecast": "2.2%",
    "previous": "2.2%",
-   "actual": "",
+   "actual": "2.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5e488c184ecb",
@@ -3456,7 +3443,21 @@
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
+  },
+  {
+   "id": "f69f76ad196c",
+   "ccy": "EUR",
+   "title": "ECB President Lagarde Speaks",
+   "impact": "medium",
+   "instant": "2026-09-12T08:00:00Z",
+   "local_date": "2026-09-12",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-08T21:49:40.617528Z"
+ "actuals_updated_at": "2026-09-09T00:11:40.158245Z"
 }
