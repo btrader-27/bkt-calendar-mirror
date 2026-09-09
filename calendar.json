@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T04:37:31Z",
+ "generated_at": "2026-09-09T09:42:01Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 238,
+ "count": 237,
  "count_by_impact": {
-  "low": 181,
+  "low": 180,
   "high": 30,
   "medium": 24,
   "holiday": 3
  },
- "first_instant": "2026-08-26T08:00:00Z",
+ "first_instant": "2026-08-26T10:00:00Z",
  "last_instant": "2026-09-12T08:00:00Z",
  "events": [
-  {
-   "id": "bb3bfad0bdd5",
-   "ccy": "CHF",
-   "title": "UBS Economic Expectations",
-   "impact": "low",
-   "instant": "2026-08-26T08:00:00Z",
-   "local_date": "2026-08-26",
-   "all_day": false,
-   "forecast": "",
-   "previous": "10.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "9bacca6e224a",
    "ccy": "GBP",
@@ -2726,7 +2712,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "50.4%",
-   "actual": "",
+   "actual": "64.7%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2740,9 +2726,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "-0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "fad4e698e848",
@@ -3389,5 +3376,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-09T04:37:31.681012Z"
+ "actuals_updated_at": "2026-09-09T09:42:02.255309Z"
 }
