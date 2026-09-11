@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T18:29:36Z",
+ "generated_at": "2026-09-11T21:41:45Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,9 +16,9 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 197,
+ "count": 198,
  "count_by_impact": {
-  "low": 149,
+  "low": 150,
   "medium": 20,
   "holiday": 3,
   "high": 25
@@ -2090,7 +2090,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "50.4%",
-   "actual": "",
+   "actual": "64.7%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2104,9 +2104,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "-0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "a9ff60a4b47d",
@@ -2769,6 +2770,21 @@
    "feed": "thisweek"
   },
   {
+   "id": "b282661e0164",
+   "ccy": "USD",
+   "title": "Federal Budget Balance",
+   "impact": "low",
+   "instant": "2026-09-11T17:58:00Z",
+   "local_date": "2026-09-11",
+   "all_day": false,
+   "forecast": "-221.1B",
+   "previous": "-432.3B",
+   "actual": "-166.8B",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
+  },
+  {
    "id": "c0debed95df7",
    "ccy": "USD",
    "title": "Federal Budget Balance",
@@ -2812,5 +2828,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-11T18:29:36.646002Z"
+ "actuals_updated_at": "2026-09-11T21:41:45.520282Z"
 }
