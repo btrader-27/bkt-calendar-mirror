@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T09:38:00Z",
+ "generated_at": "2026-09-11T14:23:52Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,117 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 205,
+ "count": 198,
  "count_by_impact": {
-  "high": 28,
-  "low": 152,
-  "medium": 22,
-  "holiday": 3
+  "low": 150,
+  "medium": 20,
+  "holiday": 3,
+  "high": 25
  },
- "first_instant": "2026-08-28T12:30:00Z",
+ "first_instant": "2026-08-28T14:30:00Z",
  "last_instant": "2026-09-12T08:00:00Z",
  "events": [
-  {
-   "id": "8e8aac4bde55",
-   "ccy": "CAD",
-   "title": "GDP m/m",
-   "impact": "high",
-   "instant": "2026-08-28T12:30:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.3%",
-   "actual": "0.3%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "61558a489387",
-   "ccy": "USD",
-   "title": "FOMC Member Hammack Speaks",
-   "impact": "low",
-   "instant": "2026-08-28T13:00:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3588c6eefffc",
-   "ccy": "USD",
-   "title": "Chicago PMI",
-   "impact": "low",
-   "instant": "2026-08-28T13:45:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "57.9",
-   "previous": "57.6",
-   "actual": "47.1",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "f4a951de51c3",
-   "ccy": "USD",
-   "title": "Fed Chairman Warsh Speaks",
-   "impact": "high",
-   "instant": "2026-08-28T14:00:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "70b5a3358930",
-   "ccy": "USD",
-   "title": "Prelim Benchmark Payrolls Revision",
-   "impact": "high",
-   "instant": "2026-08-28T14:00:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-911K",
-   "actual": "-79K",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a6b52e142fee",
-   "ccy": "USD",
-   "title": "Revised UoM Consumer Sentiment",
-   "impact": "medium",
-   "instant": "2026-08-28T14:00:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "51.0",
-   "previous": "51.0",
-   "actual": "51.7",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "cbe9c5070ff6",
-   "ccy": "USD",
-   "title": "Revised UoM Inflation Expectations",
-   "impact": "medium",
-   "instant": "2026-08-28T14:00:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.3%",
-   "actual": "4.0%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "bfb110ebfbe1",
    "ccy": "GBP",
@@ -2779,7 +2678,7 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2793,7 +2692,7 @@
    "all_day": false,
    "forecast": "3.4%",
    "previous": "3.4%",
-   "actual": "",
+   "actual": "3.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2807,9 +2706,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "4c405c9fd294",
@@ -2821,7 +2721,7 @@
    "all_day": false,
    "forecast": "2.4%",
    "previous": "2.5%",
-   "actual": "",
+   "actual": "2.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2849,9 +2749,10 @@
    "all_day": false,
    "forecast": "51.0",
    "previous": "51.0",
-   "actual": "",
+   "actual": "47.8",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "50c002c919fb",
@@ -2863,7 +2764,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.3%",
-   "actual": "",
+   "actual": "4.6%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2924,5 +2825,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-11T09:38:01.023517Z"
+ "actuals_updated_at": "2026-09-11T14:23:52.593818Z"
 }
