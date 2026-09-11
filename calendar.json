@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T14:23:52Z",
+ "generated_at": "2026-09-11T18:29:36Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 198,
+ "count": 197,
  "count_by_impact": {
-  "low": 150,
+  "low": 149,
   "medium": 20,
   "holiday": 3,
   "high": 25
  },
- "first_instant": "2026-08-28T14:30:00Z",
+ "first_instant": "2026-08-30T23:50:00Z",
  "last_instant": "2026-09-12T08:00:00Z",
  "events": [
-  {
-   "id": "bfb110ebfbe1",
-   "ccy": "GBP",
-   "title": "MPC Member Mann Speaks",
-   "impact": "low",
-   "instant": "2026-08-28T14:30:00Z",
-   "local_date": "2026-08-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "db3e4f6ac6a2",
    "ccy": "JPY",
@@ -2792,9 +2778,10 @@
    "all_day": false,
    "forecast": "-221.1B",
    "previous": "-432.3B",
-   "actual": "",
+   "actual": "-166.8B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "20b9bb193a48",
@@ -2825,5 +2812,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-11T14:23:52.593818Z"
+ "actuals_updated_at": "2026-09-11T18:29:36.646002Z"
 }
