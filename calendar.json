@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T00:15:58Z",
+ "generated_at": "2026-09-12T04:37:17Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -2090,7 +2090,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "50.4%",
-   "actual": "64.7%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2104,10 +2104,9 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.1%",
-   "actual": "-0.4%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "a9ff60a4b47d",
@@ -2119,7 +2118,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.26|1.1",
-   "actual": "3.39|1.5",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2147,7 +2146,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "11.8K",
-   "actual": "12.0K",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2161,7 +2160,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "10.0K",
-   "actual": "12.0K",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2217,7 +2216,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.68|2.5",
-   "actual": "4.83|2.7",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2245,10 +2244,9 @@
    "all_day": false,
    "forecast": "-30%",
    "previous": "-30%",
-   "actual": "-28%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "96bfc5480e98",
@@ -2260,7 +2258,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.9%",
-   "actual": "4.9%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2828,5 +2826,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-12T00:15:58.997632Z"
+ "actuals_updated_at": "2026-09-12T04:37:17.897249Z"
 }
