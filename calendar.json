@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T20:46:37Z",
+ "generated_at": "2026-09-13T23:07:21Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,15 +16,15 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 285,
+ "count": 291,
  "count_by_impact": {
-  "low": 213,
-  "medium": 28,
+  "low": 217,
+  "medium": 30,
   "holiday": 3,
   "high": 41
  },
  "first_instant": "2026-08-30T23:50:00Z",
- "last_instant": "2026-09-18T14:00:00Z",
+ "last_instant": "2026-09-19T10:15:00Z",
  "events": [
   {
    "id": "db3e4f6ac6a2",
@@ -2828,7 +2828,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "50.6",
-   "actual": "",
+   "actual": "51.2",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2842,7 +2842,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "0.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2982,6 +2982,20 @@
    "all_day": false,
    "forecast": "",
    "previous": "-0.4%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "3a17ec25278e",
+   "ccy": "EUR",
+   "title": "ECB President Lagarde Speaks",
+   "impact": "medium",
+   "instant": "2026-09-14T15:15:00Z",
+   "local_date": "2026-09-14",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3540,7 +3554,7 @@
    "instant": "2026-09-16T18:00:00Z",
    "local_date": "2026-09-16",
    "all_day": false,
-   "forecast": "3.75%",
+   "forecast": "4.00%",
    "previous": "3.75%",
    "actual": "",
    "source": "forexfactory",
@@ -3981,6 +3995,48 @@
    "feed": "thisweek"
   },
   {
+   "id": "c73db8d1e70e",
+   "ccy": "EUR",
+   "title": "ECOFIN Meetings",
+   "impact": "low",
+   "instant": "2026-09-18T10:15:00Z",
+   "local_date": "2026-09-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "967e59c45503",
+   "ccy": "EUR",
+   "title": "Eurogroup Meetings",
+   "impact": "low",
+   "instant": "2026-09-18T10:15:00Z",
+   "local_date": "2026-09-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "d1e6108059df",
+   "ccy": "EUR",
+   "title": "ECB President Lagarde Speaks",
+   "impact": "medium",
+   "instant": "2026-09-18T10:30:00Z",
+   "local_date": "2026-09-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "866265ba8852",
    "ccy": "USD",
    "title": "Capacity Utilization Rate",
@@ -4035,6 +4091,35 @@
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
+  },
+  {
+   "id": "1ea37d8b3c16",
+   "ccy": "USD",
+   "title": "FOMC Member Schmid Speaks",
+   "impact": "low",
+   "instant": "2026-09-18T15:45:00Z",
+   "local_date": "2026-09-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "c48f01301e69",
+   "ccy": "EUR",
+   "title": "ECOFIN Meetings",
+   "impact": "low",
+   "instant": "2026-09-19T10:15:00Z",
+   "local_date": "2026-09-19",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
   }
- ]
+ ],
+ "actuals_updated_at": "2026-09-13T23:07:22.183635Z"
 }
