@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T14:22:33Z",
+ "generated_at": "2026-09-13T18:10:31Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -3540,7 +3540,7 @@
    "instant": "2026-09-16T18:00:00Z",
    "local_date": "2026-09-16",
    "all_day": false,
-   "forecast": "",
+   "forecast": "3.75%",
    "previous": "3.75%",
    "actual": "",
    "source": "forexfactory",
