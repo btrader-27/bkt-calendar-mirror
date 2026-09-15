@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T18:10:14Z",
+ "generated_at": "2026-09-15T21:17:34Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 244,
+ "count": 243,
  "count_by_impact": {
-  "low": 176,
+  "low": 175,
   "high": 40,
   "medium": 26,
   "holiday": 2
  },
- "first_instant": "2026-09-01T20:30:00Z",
+ "first_instant": "2026-09-01T22:45:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "395bbc43b010",
-   "ccy": "USD",
-   "title": "API Weekly Statistical Bulletin",
-   "impact": "low",
-   "instant": "2026-09-01T20:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "6ae6b4043359",
    "ccy": "NZD",
@@ -2560,7 +2546,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "80.4",
-   "actual": "",
+   "actual": "89.5",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3475,5 +3461,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-15T18:10:14.791144Z"
+ "actuals_updated_at": "2026-09-15T21:17:34.605855Z"
 }
