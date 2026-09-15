@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T22:28:33Z",
+ "generated_at": "2026-09-15T01:26:07Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 283,
+ "count": 280,
  "count_by_impact": {
-  "low": 211,
+  "low": 208,
   "medium": 29,
   "high": 41,
   "holiday": 2
  },
- "first_instant": "2026-08-31T23:01:00Z",
+ "first_instant": "2026-09-01T01:30:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "f8a2d9f4b993",
-   "ccy": "GBP",
-   "title": "BRC Shop Price Index y/y",
-   "impact": "low",
-   "instant": "2026-08-31T23:01:00Z",
-   "local_date": "2026-08-31",
-   "all_day": false,
-   "forecast": "0.9%",
-   "previous": "0.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d5356e9e4940",
-   "ccy": "JPY",
-   "title": "Capital Spending q/y",
-   "impact": "low",
-   "instant": "2026-08-31T23:50:00Z",
-   "local_date": "2026-08-31",
-   "all_day": false,
-   "forecast": "-0.2%",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "18e75ab0214e",
-   "ccy": "JPY",
-   "title": "Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-01T00:30:00Z",
-   "local_date": "2026-08-31",
-   "all_day": false,
-   "forecast": "55.1",
-   "previous": "55.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a8a939e44e2b",
    "ccy": "AUD",
@@ -4014,5 +3972,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-14T22:28:34.216293Z"
+ "actuals_updated_at": "2026-09-15T01:26:08.405665Z"
 }
