@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T07:41:23Z",
+ "generated_at": "2026-09-15T13:30:27Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,240 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 269,
+ "count": 253,
  "count_by_impact": {
-  "low": 197,
-  "medium": 29,
+  "low": 183,
   "high": 41,
+  "medium": 27,
   "holiday": 2
  },
- "first_instant": "2026-09-01T07:45:00Z",
+ "first_instant": "2026-09-01T13:45:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "20ade95b6970",
-   "ccy": "EUR",
-   "title": "Italian Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-01T07:45:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "51.4",
-   "previous": "51.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e5907d8104e0",
-   "ccy": "EUR",
-   "title": "French Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-01T07:50:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "51.5",
-   "previous": "51.5",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d25c57294a83",
-   "ccy": "EUR",
-   "title": "German Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-01T07:55:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "54.1",
-   "previous": "54.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4e03f932f824",
-   "ccy": "EUR",
-   "title": "Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-01T08:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "52.8",
-   "previous": "52.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a81f484f36ac",
-   "ccy": "EUR",
-   "title": "Italian Monthly Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-09-01T08:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "5.6%",
-   "previous": "5.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3c4235060d84",
-   "ccy": "GBP",
-   "title": "Final Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-01T08:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "51.5",
-   "previous": "51.5",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a9b34662e96e",
-   "ccy": "GBP",
-   "title": "M4 Money Supply m/m",
-   "impact": "low",
-   "instant": "2026-09-01T08:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "0.9%",
-   "previous": "0.8%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e8e75878ab71",
-   "ccy": "GBP",
-   "title": "Mortgage Approvals",
-   "impact": "low",
-   "instant": "2026-09-01T08:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "59K",
-   "previous": "58K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4fa914864bc5",
-   "ccy": "GBP",
-   "title": "Net Lending to Individuals m/m",
-   "impact": "low",
-   "instant": "2026-09-01T08:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "7.2B",
-   "previous": "9.5B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5c4cae2144d5",
-   "ccy": "EUR",
-   "title": "CPI Flash Estimate y/y",
-   "impact": "medium",
-   "instant": "2026-09-01T09:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "3.3%",
-   "previous": "2.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d7c4f9196713",
-   "ccy": "EUR",
-   "title": "Core CPI Flash Estimate y/y",
-   "impact": "medium",
-   "instant": "2026-09-01T09:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "2.5%",
-   "previous": "2.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5cd04ba857da",
-   "ccy": "EUR",
-   "title": "Italian Prelim CPI m/m",
-   "impact": "low",
-   "instant": "2026-09-01T09:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "0.5%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "795ba2de0e57",
-   "ccy": "EUR",
-   "title": "Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-09-01T09:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "6.3%",
-   "previous": "6.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "54433037bdbd",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-09-01T12:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8f6cc79dd370",
-   "ccy": "USD",
-   "title": "FOMC Member Barr Speaks",
-   "impact": "low",
-   "instant": "2026-09-01T13:05:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2a3e2be84f82",
-   "ccy": "CAD",
-   "title": "Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-01T13:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "53.5",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "d962d828deec",
    "ccy": "USD",
@@ -2779,9 +2555,10 @@
    "all_day": false,
    "forecast": "4.77B",
    "previous": "4.23B",
-   "actual": "",
+   "actual": "8.24B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f92e4bfe15ec",
@@ -2793,9 +2570,10 @@
    "all_day": false,
    "forecast": "39.8",
    "previous": "34.2",
-   "actual": "",
+   "actual": "34.7",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f22f370d0a38",
@@ -2807,9 +2585,10 @@
    "all_day": false,
    "forecast": "3.7B",
    "previous": "1.8B",
-   "actual": "",
+   "actual": "5.0B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "eec30342d0df",
@@ -2821,9 +2600,10 @@
    "all_day": false,
    "forecast": "39.2",
    "previous": "31.4",
-   "actual": "",
+   "actual": "25.8",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "67fd7dba9bef",
@@ -2835,7 +2615,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "12.0K",
-   "actual": "",
+   "actual": "16.3K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2849,9 +2629,10 @@
    "all_day": false,
    "forecast": "-0.5%",
    "previous": "2.8%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "815076060dbb",
@@ -2863,9 +2644,10 @@
    "all_day": false,
    "forecast": "14.8",
    "previous": "20.6",
-   "actual": "",
+   "actual": "7.6",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "d479470bb0a4",
@@ -3099,7 +2881,7 @@
    "instant": "2026-09-16T12:30:00Z",
    "local_date": "2026-09-16",
    "all_day": false,
-   "forecast": "-4.5%",
+   "forecast": "-4.7%",
    "previous": "18.5%",
    "actual": "",
    "source": "forexfactory",
@@ -3820,5 +3602,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-15T07:41:24.163073Z"
+ "actuals_updated_at": "2026-09-15T13:30:28.117685Z"
 }
