@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T21:17:34Z",
+ "generated_at": "2026-09-16T00:16:25Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 243,
+ "count": 242,
  "count_by_impact": {
-  "low": 175,
+  "low": 174,
   "high": 40,
   "medium": 26,
   "holiday": 2
  },
- "first_instant": "2026-09-01T22:45:00Z",
+ "first_instant": "2026-09-02T00:30:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "6ae6b4043359",
-   "ccy": "NZD",
-   "title": "Building Consents m/m",
-   "impact": "low",
-   "instant": "2026-09-01T22:45:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-3.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2faa594d2054",
-   "ccy": "JPY",
-   "title": "Monetary Base y/y",
-   "impact": "low",
-   "instant": "2026-09-01T23:50:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "-13.5%",
-   "previous": "-13.8%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4de4ed18b1b4",
    "ccy": "EUR",
@@ -2551,6 +2523,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "98f073999412",
+   "ccy": "NZD",
+   "title": "Westpac Consumer Sentiment",
+   "impact": "low",
+   "instant": "2026-09-15T21:04:00Z",
+   "local_date": "2026-09-15",
+   "all_day": false,
+   "forecast": "",
+   "previous": "80.4",
+   "actual": "89.5",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "9e15e7e60410",
    "ccy": "NZD",
    "title": "Current Account",
@@ -2560,9 +2546,10 @@
    "all_day": false,
    "forecast": "-2.57B",
    "previous": "-1.01B",
-   "actual": "",
+   "actual": "-1.67B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8d8ffb317b0c",
@@ -2574,9 +2561,10 @@
    "all_day": false,
    "forecast": "-1.2%",
    "previous": "9.7%",
-   "actual": "",
+   "actual": "-3.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "9a2bcd62b9ee",
@@ -2588,9 +2576,10 @@
    "all_day": false,
    "forecast": "-1.00T",
    "previous": "-0.69T",
-   "actual": "",
+   "actual": "-0.84T",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "a2d37377a783",
@@ -2754,7 +2743,7 @@
    "instant": "2026-09-16T12:30:00Z",
    "local_date": "2026-09-16",
    "all_day": false,
-   "forecast": "0.5%",
+   "forecast": "0.6%",
    "previous": "-0.3%",
    "actual": "",
    "source": "forexfactory",
@@ -2824,7 +2813,7 @@
    "instant": "2026-09-16T14:30:00Z",
    "local_date": "2026-09-16",
    "all_day": false,
-   "forecast": "",
+   "forecast": "-1.6M",
    "previous": "-0.4M",
    "actual": "",
    "source": "forexfactory",
@@ -3104,7 +3093,7 @@
    "instant": "2026-09-17T12:30:00Z",
    "local_date": "2026-09-17",
    "all_day": false,
-   "forecast": "1.31M",
+   "forecast": "1.32M",
    "previous": "1.24M",
    "actual": "",
    "source": "forexfactory",
@@ -3132,7 +3121,7 @@
    "instant": "2026-09-17T12:30:00Z",
    "local_date": "2026-09-17",
    "all_day": false,
-   "forecast": "208K",
+   "forecast": "207K",
    "previous": "206K",
    "actual": "",
    "source": "forexfactory",
@@ -3174,7 +3163,7 @@
    "instant": "2026-09-17T14:30:00Z",
    "local_date": "2026-09-17",
    "all_day": false,
-   "forecast": "",
+   "forecast": "49B",
    "previous": "40B",
    "actual": "",
    "source": "forexfactory",
@@ -3461,5 +3450,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-15T21:17:34.605855Z"
+ "actuals_updated_at": "2026-09-16T00:16:26.050664Z"
 }
