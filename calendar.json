@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T18:52:51Z",
+ "generated_at": "2026-09-16T22:08:11Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 228,
+ "count": 227,
  "count_by_impact": {
-  "medium": 25,
   "low": 169,
+  "medium": 24,
   "high": 32,
   "holiday": 2
  },
- "first_instant": "2026-09-02T20:10:00Z",
+ "first_instant": "2026-09-02T22:45:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "b20281ace574",
-   "ccy": "NZD",
-   "title": "RBNZ Gov Breman Speaks",
-   "impact": "medium",
-   "instant": "2026-09-02T20:10:00Z",
-   "local_date": "2026-09-02",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "aa0081b59833",
    "ccy": "NZD",
@@ -2056,7 +2042,7 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "-0.2%",
-   "actual": "0.4%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2070,10 +2056,9 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.2%",
-   "actual": "0.9%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "bca338c8f2de",
@@ -2085,7 +2070,7 @@
    "all_day": false,
    "forecast": "3.9%",
    "previous": "4.1%",
-   "actual": "3.9%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2099,10 +2084,9 @@
    "all_day": false,
    "forecast": "8.3K",
    "previous": "-11.0K",
-   "actual": "27.8K",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "e1dcd4bec453",
@@ -2114,10 +2098,9 @@
    "all_day": false,
    "forecast": "5.0%",
    "previous": "4.9%",
-   "actual": "4.9%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "847ae16d4dd4",
@@ -2129,7 +2112,7 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "0.7%",
-   "actual": "0.7%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2725,9 +2708,10 @@
    "all_day": false,
    "forecast": "146.3B",
    "previous": "172.7B",
-   "actual": "",
+   "actual": "-27.9B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "9dbe2a1d5dda",
@@ -3262,5 +3246,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-16T18:52:52.114908Z"
+ "actuals_updated_at": "2026-09-16T22:08:12.176621Z"
 }
