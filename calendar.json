@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T00:16:25Z",
+ "generated_at": "2026-09-16T04:51:55Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,100 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 242,
+ "count": 236,
  "count_by_impact": {
-  "low": 174,
-  "high": 40,
+  "low": 173,
   "medium": 26,
+  "high": 35,
   "holiday": 2
  },
- "first_instant": "2026-09-02T00:30:00Z",
+ "first_instant": "2026-09-02T06:45:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "4de4ed18b1b4",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-09-02T00:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e67d2b347435",
-   "ccy": "AUD",
-   "title": "GDP q/q",
-   "impact": "high",
-   "instant": "2026-09-02T01:30:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "610f17609879",
-   "ccy": "NZD",
-   "title": "Official Cash Rate",
-   "impact": "high",
-   "instant": "2026-09-02T02:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "2.75%",
-   "previous": "2.50%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "91bd044b4192",
-   "ccy": "NZD",
-   "title": "RBNZ Monetary Policy Statement",
-   "impact": "high",
-   "instant": "2026-09-02T02:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8d567c5f5588",
-   "ccy": "NZD",
-   "title": "RBNZ Rate Statement",
-   "impact": "high",
-   "instant": "2026-09-02T02:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b444b691b867",
-   "ccy": "NZD",
-   "title": "RBNZ Press Conference",
-   "impact": "high",
-   "instant": "2026-09-02T03:00:00Z",
-   "local_date": "2026-09-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a832f17370a7",
    "ccy": "EUR",
@@ -2084,7 +2000,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "50.6",
-   "actual": "51.2",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2098,7 +2014,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-0.1%",
-   "actual": "0.5%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2126,10 +2042,9 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.1%",
-   "actual": "-0.2%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "c9463b9aee59",
@@ -2591,7 +2506,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.0%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3450,5 +3365,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-16T00:16:26.050664Z"
+ "actuals_updated_at": "2026-09-16T04:51:55.900603Z"
 }
