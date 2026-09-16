@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T04:51:55Z",
+ "generated_at": "2026-09-16T09:54:29Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 236,
+ "count": 234,
  "count_by_impact": {
-  "low": 173,
   "medium": 26,
   "high": 35,
+  "low": 171,
   "holiday": 2
  },
- "first_instant": "2026-09-02T06:45:00Z",
+ "first_instant": "2026-09-02T12:15:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "a832f17370a7",
-   "ccy": "EUR",
-   "title": "French Gov Budget Balance",
-   "impact": "low",
-   "instant": "2026-09-02T06:45:00Z",
-   "local_date": "2026-09-02",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-106.8B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0c963d7c98f5",
-   "ccy": "EUR",
-   "title": "Spanish Unemployment Change",
-   "impact": "low",
-   "instant": "2026-09-02T07:00:00Z",
-   "local_date": "2026-09-02",
-   "all_day": false,
-   "forecast": "15.4K",
-   "previous": "19.5K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "f2b98fd87745",
    "ccy": "USD",
@@ -2042,9 +2014,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "-0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c9463b9aee59",
@@ -2520,7 +2493,7 @@
    "all_day": false,
    "forecast": "3.1%",
    "previous": "2.9%",
-   "actual": "",
+   "actual": "3.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2534,7 +2507,7 @@
    "all_day": false,
    "forecast": "2.6%",
    "previous": "2.6%",
-   "actual": "",
+   "actual": "2.6%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2548,9 +2521,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "-1.7%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "49af9dba4de3",
@@ -2562,9 +2536,10 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8c897e5ee2b0",
@@ -2576,9 +2551,10 @@
    "all_day": false,
    "forecast": "3.5%",
    "previous": "3.2%",
-   "actual": "",
+   "actual": "3.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5c024889f19f",
@@ -2590,9 +2566,10 @@
    "all_day": false,
    "forecast": "2.1%",
    "previous": "2.0%",
-   "actual": "",
+   "actual": "1.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c6bc8028e861",
@@ -2604,9 +2581,10 @@
    "all_day": false,
    "forecast": "-0.2%",
    "previous": "0.0%",
-   "actual": "",
+   "actual": "-0.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "554f621cc21c",
@@ -3365,5 +3343,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-16T04:51:55.900603Z"
+ "actuals_updated_at": "2026-09-16T09:54:29.381710Z"
 }
