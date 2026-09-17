@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T11:37:15Z",
+ "generated_at": "2026-09-17T16:57:07Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,170 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 208,
+ "count": 197,
  "count_by_impact": {
-  "low": 151,
-  "medium": 23,
+  "low": 142,
   "high": 32,
+  "medium": 21,
   "holiday": 2
  },
- "first_instant": "2026-09-03T12:30:00Z",
+ "first_instant": "2026-09-03T19:00:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "53a44679d926",
-   "ccy": "CAD",
-   "title": "Labor Productivity q/q",
-   "impact": "low",
-   "instant": "2026-09-03T12:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "0.7%",
-   "previous": "-0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2078e26be2e3",
-   "ccy": "CAD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-09-03T12:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "3.2B",
-   "previous": "3.9B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "aefc2dd946e5",
-   "ccy": "USD",
-   "title": "FOMC Member Waller Speaks",
-   "impact": "low",
-   "instant": "2026-09-03T12:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8ce61953ea85",
-   "ccy": "USD",
-   "title": "Revised Nonfarm Productivity q/q",
-   "impact": "low",
-   "instant": "2026-09-03T12:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "1.4%",
-   "previous": "1.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "15434b67170c",
-   "ccy": "USD",
-   "title": "Revised Unit Labor Costs q/q",
-   "impact": "low",
-   "instant": "2026-09-03T12:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "1.3%",
-   "previous": "1.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cae085762c84",
-   "ccy": "USD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-09-03T12:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "-89.4B",
-   "previous": "-73.3B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9a12e6667dbb",
-   "ccy": "USD",
-   "title": "Unemployment Claims",
-   "impact": "medium",
-   "instant": "2026-09-03T12:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "205K",
-   "previous": "203K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "949815281389",
-   "ccy": "USD",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-09-03T13:45:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "56.8",
-   "previous": "56.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a8a31365cb60",
-   "ccy": "USD",
-   "title": "ISM Services PMI",
-   "impact": "medium",
-   "instant": "2026-09-03T14:00:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "54.2",
-   "previous": "54.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "61a530832c5a",
-   "ccy": "USD",
-   "title": "Natural Gas Storage",
-   "impact": "low",
-   "instant": "2026-09-03T14:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "30B",
-   "previous": "15B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d89d9bf71b4f",
-   "ccy": "GBP",
-   "title": "MPC Member Pill Speaks",
-   "impact": "low",
-   "instant": "2026-09-03T15:00:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "cfdb4abb3105",
    "ccy": "USD",
@@ -2574,9 +2420,10 @@
    "all_day": false,
    "forecast": "28.64B",
    "previous": "40.83B",
-   "actual": "",
+   "actual": "20.65B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "3aa54fe1e4a4",
@@ -2588,9 +2435,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "0.6%",
-   "actual": "",
+   "actual": "1.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "639c14ecf55f",
@@ -2602,9 +2450,10 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "-2.2%",
-   "actual": "",
+   "actual": "3.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "79175d14e5dd",
@@ -2616,7 +2465,7 @@
    "all_day": false,
    "forecast": "1.40M",
    "previous": "1.44M",
-   "actual": "",
+   "actual": "1.39M",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2630,9 +2479,10 @@
    "all_day": false,
    "forecast": "1.32M",
    "previous": "1.24M",
-   "actual": "",
+   "actual": "1.28M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "7679f0d1996b",
@@ -2644,9 +2494,10 @@
    "all_day": false,
    "forecast": "31.3",
    "previous": "47.4",
-   "actual": "",
+   "actual": "37.8",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "206113a9c744",
@@ -2658,9 +2509,10 @@
    "all_day": false,
    "forecast": "207K",
    "previous": "206K",
-   "actual": "",
+   "actual": "196K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "4fb7370eb87a",
@@ -2672,9 +2524,10 @@
    "all_day": false,
    "forecast": "-0.2%",
    "previous": "-2.3%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "3064119dc7cb",
@@ -2686,7 +2539,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2700,9 +2553,10 @@
    "all_day": false,
    "forecast": "49B",
    "previous": "40B",
-   "actual": "",
+   "actual": "44B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "cae08920f8fc",
@@ -2985,5 +2839,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-17T11:37:16.058736Z"
+ "actuals_updated_at": "2026-09-17T16:57:07.571071Z"
 }
