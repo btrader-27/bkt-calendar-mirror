@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T06:07:16Z",
+ "generated_at": "2026-09-17T11:37:15Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,212 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 221,
+ "count": 208,
  "count_by_impact": {
-  "medium": 24,
-  "low": 163,
+  "low": 151,
+  "medium": 23,
   "high": 32,
   "holiday": 2
  },
- "first_instant": "2026-09-03T06:30:00Z",
+ "first_instant": "2026-09-03T12:30:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "93d48a162ba6",
-   "ccy": "CHF",
-   "title": "CPI m/m",
-   "impact": "medium",
-   "instant": "2026-09-03T06:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "0.0%",
-   "previous": "-0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ebaf57f9cc68",
-   "ccy": "CHF",
-   "title": "GDP q/q",
-   "impact": "low",
-   "instant": "2026-09-03T07:00:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "1.7%",
-   "previous": "0.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3604b13f0a42",
-   "ccy": "EUR",
-   "title": "Spanish Services PMI",
-   "impact": "low",
-   "instant": "2026-09-03T07:15:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "59.0",
-   "previous": "58.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3fe7c9677620",
-   "ccy": "EUR",
-   "title": "Italian Services PMI",
-   "impact": "low",
-   "instant": "2026-09-03T07:45:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "53.6",
-   "previous": "52.5",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "05b662b4df59",
-   "ccy": "EUR",
-   "title": "French Final Services PMI",
-   "impact": "low",
-   "instant": "2026-09-03T07:50:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "48.4",
-   "previous": "48.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1789b7379727",
-   "ccy": "EUR",
-   "title": "German Final Services PMI",
-   "impact": "low",
-   "instant": "2026-09-03T07:55:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "48.5",
-   "previous": "48.5",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "45cdfc180e1e",
-   "ccy": "EUR",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-09-03T08:00:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "51.7",
-   "previous": "51.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2f8c6dd423d1",
-   "ccy": "GBP",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-09-03T08:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "52.8",
-   "previous": "52.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "966e4d990bc9",
-   "ccy": "EUR",
-   "title": "Spanish 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-03T08:43:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.54|2.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3621961aad97",
-   "ccy": "EUR",
-   "title": "French 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-03T08:57:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.86|3.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f7e5282ec452",
-   "ccy": "EUR",
-   "title": "PPI m/m",
-   "impact": "low",
-   "instant": "2026-09-03T09:00:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "1.2%",
-   "previous": "-0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ab377db9a4c4",
-   "ccy": "EUR",
-   "title": "Spanish 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-03T09:03:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.54|2.4",
-   "actual": "3.74|2.3",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "465de84a4ab1",
-   "ccy": "EUR",
-   "title": "French 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-03T09:18:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.86|3.7",
-   "actual": "4.23|2.3",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8074424e6805",
-   "ccy": "USD",
-   "title": "Challenger Job Cuts y/y",
-   "impact": "low",
-   "instant": "2026-09-03T09:30:00Z",
-   "local_date": "2026-09-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-46.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "53a44679d926",
    "ccy": "CAD",
@@ -1958,7 +1762,7 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "-0.2%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1972,9 +1776,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "bca338c8f2de",
@@ -1986,7 +1791,7 @@
    "all_day": false,
    "forecast": "3.9%",
    "previous": "4.1%",
-   "actual": "",
+   "actual": "3.9%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2000,9 +1805,10 @@
    "all_day": false,
    "forecast": "8.3K",
    "previous": "-11.0K",
-   "actual": "",
+   "actual": "27.8K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "e1dcd4bec453",
@@ -2014,9 +1820,10 @@
    "all_day": false,
    "forecast": "5.0%",
    "previous": "4.9%",
-   "actual": "",
+   "actual": "4.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "847ae16d4dd4",
@@ -2028,7 +1835,7 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "0.7%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2659,6 +2466,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "18caf975fe12",
+   "ccy": "EUR",
+   "title": "Spanish 10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-09-17T08:37:00Z",
+   "local_date": "2026-09-17",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.74|2.3",
+   "actual": "3.96|1.7",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "aa41853f7115",
    "ccy": "EUR",
    "title": "Final CPI y/y",
@@ -2668,9 +2489,10 @@
    "all_day": false,
    "forecast": "3.3%",
    "previous": "3.3%",
-   "actual": "",
+   "actual": "3.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f4cffeba0a02",
@@ -2682,7 +2504,7 @@
    "all_day": false,
    "forecast": "2.4%",
    "previous": "2.4%",
-   "actual": "",
+   "actual": "2.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2696,7 +2518,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.74|2.3",
-   "actual": "",
+   "actual": "3.96|1.7",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2710,7 +2532,7 @@
    "all_day": false,
    "forecast": "3-0-6",
    "previous": "3-0-6",
-   "actual": "",
+   "actual": "3-0-6",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2738,7 +2560,7 @@
    "all_day": false,
    "forecast": "3.75%",
    "previous": "3.75%",
-   "actual": "",
+   "actual": "3.75%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3163,5 +2985,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-17T06:07:16.850988Z"
+ "actuals_updated_at": "2026-09-17T11:37:16.058736Z"
 }
