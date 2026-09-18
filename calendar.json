@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T04:39:05Z",
+ "generated_at": "2026-09-18T09:43:05Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,90 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 196,
+ "count": 192,
  "count_by_impact": {
-  "low": 139,
   "high": 34,
+  "low": 135,
   "medium": 21,
   "holiday": 2
  },
- "first_instant": "2026-09-04T06:00:00Z",
+ "first_instant": "2026-09-04T12:30:00Z",
  "last_instant": "2026-09-19T10:15:00Z",
  "events": [
-  {
-   "id": "e36f9d799161",
-   "ccy": "EUR",
-   "title": "German Factory Orders m/m",
-   "impact": "low",
-   "instant": "2026-09-04T06:00:00Z",
-   "local_date": "2026-09-04",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "3.1%",
-   "actual": "2.5%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "95bffc41c277",
-   "ccy": "EUR",
-   "title": "Italian Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-09-04T08:00:00Z",
-   "local_date": "2026-09-04",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "-0.1%",
-   "actual": "-0.4%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "0cfa0682817a",
-   "ccy": "GBP",
-   "title": "Construction PMI",
-   "impact": "low",
-   "instant": "2026-09-04T08:30:00Z",
-   "local_date": "2026-09-04",
-   "all_day": false,
-   "forecast": "45.8",
-   "previous": "44.7",
-   "actual": "44.3",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "495243fd23ae",
-   "ccy": "GBP",
-   "title": "BOE Gov Bailey Speaks",
-   "impact": "high",
-   "instant": "2026-09-04T08:50:00Z",
-   "local_date": "2026-09-04",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d1d23b822e9f",
-   "ccy": "EUR",
-   "title": "Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-09-04T09:00:00Z",
-   "local_date": "2026-09-04",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "-0.3%",
-   "actual": "-0.6%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
   {
    "id": "c707cee2d4c3",
    "ccy": "CAD",
@@ -2655,9 +2581,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "1.1%",
-   "actual": "",
+   "actual": "1.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "118806625b91",
@@ -2669,6 +2596,21 @@
    "all_day": false,
    "forecast": "-0.2%",
    "previous": "-0.5%",
+   "actual": "0.5%",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
+  },
+  {
+   "id": "5578aaca54a5",
+   "ccy": "JPY",
+   "title": "BOJ Press Conference",
+   "impact": "high",
+   "instant": "2026-09-18T06:30:00Z",
+   "local_date": "2026-09-18",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -2683,9 +2625,10 @@
    "all_day": false,
    "forecast": "30.7B",
    "previous": "35.1B",
-   "actual": "",
+   "actual": "27.6B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c73db8d1e70e",
@@ -2814,5 +2757,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-18T04:39:05.373437Z"
+ "actuals_updated_at": "2026-09-18T09:43:06.142542Z"
 }
