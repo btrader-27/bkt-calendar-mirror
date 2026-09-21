@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T00:14:01Z",
+ "generated_at": "2026-09-21T04:54:30Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 257,
+ "count": 256,
  "count_by_impact": {
-  "low": 181,
+  "low": 180,
   "holiday": 6,
   "medium": 34,
   "high": 36
  },
- "first_instant": "2026-09-07T01:30:00Z",
+ "first_instant": "2026-09-07T05:00:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "7300dced3ad5",
-   "ccy": "AUD",
-   "title": "ANZ Job Advertisements m/m",
-   "impact": "low",
-   "instant": "2026-09-07T01:30:00Z",
-   "local_date": "2026-09-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.8%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "39f887ac4f33",
    "ccy": "JPY",
@@ -2666,7 +2652,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "5.3%",
-   "actual": "",
+   "actual": "3.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3651,5 +3637,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-21T00:14:02.154642Z"
+ "actuals_updated_at": "2026-09-21T04:54:30.995870Z"
 }
