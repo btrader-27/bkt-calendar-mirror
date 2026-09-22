@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T00:04:36Z",
+ "generated_at": "2026-09-22T04:50:36Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 241,
+ "count": 238,
  "count_by_impact": {
-  "low": 167,
+  "low": 164,
   "medium": 34,
   "high": 36,
   "holiday": 4
  },
- "first_instant": "2026-09-08T00:30:00Z",
+ "first_instant": "2026-09-08T05:00:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "f4ff06a738b1",
-   "ccy": "AUD",
-   "title": "Westpac Consumer Sentiment",
-   "impact": "low",
-   "instant": "2026-09-08T00:30:00Z",
-   "local_date": "2026-09-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "6.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "7ad571118e74",
-   "ccy": "AUD",
-   "title": "NAB Business Confidence",
-   "impact": "low",
-   "instant": "2026-09-08T01:30:00Z",
-   "local_date": "2026-09-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f6783c27d74d",
-   "ccy": "AUD",
-   "title": "RBA Assist Gov Hunter Speaks",
-   "impact": "low",
-   "instant": "2026-09-08T03:20:00Z",
-   "local_date": "2026-09-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ba84533f10f6",
    "ccy": "JPY",
@@ -3427,5 +3385,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-22T00:04:36.882416Z"
+ "actuals_updated_at": "2026-09-22T04:50:37.045533Z"
 }
