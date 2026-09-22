@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T18:51:44Z",
+ "generated_at": "2026-09-22T22:05:50Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 233,
+ "count": 232,
  "count_by_impact": {
-  "low": 159,
+  "low": 158,
   "medium": 34,
   "high": 36,
   "holiday": 4
  },
- "first_instant": "2026-09-08T19:00:00Z",
+ "first_instant": "2026-09-08T23:50:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "2f09974287cd",
-   "ccy": "USD",
-   "title": "Consumer Credit m/m",
-   "impact": "low",
-   "instant": "2026-09-08T19:00:00Z",
-   "local_date": "2026-09-08",
-   "all_day": false,
-   "forecast": "11.9B",
-   "previous": "14.2B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "6e2338bf3904",
    "ccy": "JPY",
@@ -3319,5 +3305,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-22T18:51:44.457397Z"
+ "actuals_updated_at": "2026-09-22T22:05:50.335543Z"
 }
