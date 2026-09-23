@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T00:29:14Z",
+ "generated_at": "2026-09-23T05:57:42Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,9 +16,9 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 231,
+ "count": 233,
  "count_by_impact": {
-  "low": 157,
+  "low": 159,
   "medium": 34,
   "high": 36,
   "holiday": 4
@@ -2246,7 +2246,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-2.0%",
-   "actual": "0.7%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2260,7 +2260,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "5.3%",
-   "actual": "3.5%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2766,8 +2766,22 @@
    "instant": "2026-09-23T14:30:00Z",
    "local_date": "2026-09-23",
    "all_day": false,
-   "forecast": "-0.6M",
+   "forecast": "-0.7M",
    "previous": "-0.6M",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "e673bf2b6901",
+   "ccy": "USD",
+   "title": "FOMC Member Goolsbee Speaks",
+   "impact": "low",
+   "instant": "2026-09-23T16:00:00Z",
+   "local_date": "2026-09-23",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3102,7 +3116,7 @@
    "instant": "2026-09-24T14:30:00Z",
    "local_date": "2026-09-24",
    "all_day": false,
-   "forecast": "52B",
+   "forecast": "50B",
    "previous": "44B",
    "actual": "",
    "source": "forexfactory",
@@ -3235,6 +3249,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "123d6606a2cc",
+   "ccy": "USD",
+   "title": "FOMC Member Schmid Speaks",
+   "impact": "low",
+   "instant": "2026-09-25T13:20:00Z",
+   "local_date": "2026-09-25",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "48a5ebb6775b",
    "ccy": "USD",
    "title": "Revised UoM Consumer Sentiment",
@@ -3291,5 +3319,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-23T00:29:15.194384Z"
+ "actuals_updated_at": "2026-09-23T05:57:42.900150Z"
 }
