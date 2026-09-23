@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T22:05:50Z",
+ "generated_at": "2026-09-23T00:29:14Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 232,
+ "count": 231,
  "count_by_impact": {
-  "low": 158,
+  "low": 157,
   "medium": 34,
   "high": 36,
   "holiday": 4
  },
- "first_instant": "2026-09-08T23:50:00Z",
+ "first_instant": "2026-09-09T06:00:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "6e2338bf3904",
-   "ccy": "JPY",
-   "title": "M2 Money Stock y/y",
-   "impact": "low",
-   "instant": "2026-09-08T23:50:00Z",
-   "local_date": "2026-09-08",
-   "all_day": false,
-   "forecast": "2.2%",
-   "previous": "2.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "5e488c184ecb",
    "ccy": "JPY",
@@ -2572,7 +2558,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "52.0",
-   "actual": "",
+   "actual": "49.3",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2586,7 +2572,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "52.9",
-   "actual": "",
+   "actual": "51.4",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3305,5 +3291,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-22T22:05:50.335543Z"
+ "actuals_updated_at": "2026-09-23T00:29:15.194384Z"
 }
