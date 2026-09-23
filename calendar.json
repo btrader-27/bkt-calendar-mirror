@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T11:30:27Z",
+ "generated_at": "2026-09-23T16:53:56Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 230,
+ "count": 227,
  "count_by_impact": {
-  "low": 156,
+  "low": 153,
   "medium": 34,
   "high": 36,
   "holiday": 4
  },
- "first_instant": "2026-09-09T12:14:00Z",
+ "first_instant": "2026-09-09T17:00:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "ddcfff0a7a59",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-09-09T12:14:00Z",
-   "local_date": "2026-09-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "11.8K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "81dd51612ee5",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-09-09T12:15:00Z",
-   "local_date": "2026-09-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "10.0K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e6b2a4710eb4",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-09-09T12:16:00Z",
-   "local_date": "2026-09-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "11.8K",
-   "actual": "12.0K",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "1c9468b01d16",
    "ccy": "EUR",
@@ -2689,9 +2647,10 @@
    "all_day": false,
    "forecast": "53.6",
    "previous": "53.2",
-   "actual": "",
+   "actual": "57.0",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "e0eac075c58d",
@@ -2703,9 +2662,10 @@
    "all_day": false,
    "forecast": "55.8",
    "previous": "56.8",
-   "actual": "",
+   "actual": "58.7",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "6d0028c0e3d8",
@@ -2731,9 +2691,10 @@
    "all_day": false,
    "forecast": "-0.7M",
    "previous": "-0.6M",
-   "actual": "",
+   "actual": "3.0M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "e673bf2b6901",
@@ -2785,7 +2746,7 @@
    "instant": "2026-09-24T01:30:00Z",
    "local_date": "2026-09-23",
    "all_day": false,
-   "forecast": "22.5K",
+   "forecast": "21.5K",
    "previous": "-15.8K",
    "actual": "",
    "source": "forexfactory",
@@ -3282,5 +3243,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-23T11:30:28.126390Z"
+ "actuals_updated_at": "2026-09-23T16:53:57.185254Z"
 }
