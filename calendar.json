@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T05:57:42Z",
+ "generated_at": "2026-09-23T11:30:27Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 233,
+ "count": 230,
  "count_by_impact": {
-  "low": 159,
+  "low": 156,
   "medium": 34,
   "high": 36,
   "holiday": 4
  },
- "first_instant": "2026-09-09T06:00:00Z",
+ "first_instant": "2026-09-09T12:14:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "5e488c184ecb",
-   "ccy": "JPY",
-   "title": "Prelim Machine Tool Orders y/y",
-   "impact": "low",
-   "instant": "2026-09-09T06:00:00Z",
-   "local_date": "2026-09-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "50.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d740089339f2",
-   "ccy": "EUR",
-   "title": "French Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-09-09T06:45:00Z",
-   "local_date": "2026-09-09",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a9ff60a4b47d",
-   "ccy": "EUR",
-   "title": "German 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-09T09:33:00Z",
-   "local_date": "2026-09-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.26|1.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fad4e698e848",
-   "ccy": "EUR",
-   "title": "German 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-09T09:42:00Z",
-   "local_date": "2026-09-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.26|1.1",
-   "actual": "3.39|1.5",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ddcfff0a7a59",
    "ccy": "USD",
@@ -2600,9 +2544,10 @@
    "all_day": false,
    "forecast": "50.9",
    "previous": "51.5",
-   "actual": "",
+   "actual": "50.3",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "86221754f336",
@@ -2614,9 +2559,10 @@
    "all_day": false,
    "forecast": "48.3",
    "previous": "48.4",
-   "actual": "",
+   "actual": "51.4",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "d92e5b2dfba9",
@@ -2628,7 +2574,7 @@
    "all_day": false,
    "forecast": "54.1",
    "previous": "54.1",
-   "actual": "",
+   "actual": "53.8",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2642,9 +2588,10 @@
    "all_day": false,
    "forecast": "49.9",
    "previous": "48.5",
-   "actual": "",
+   "actual": "52.9",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "2bc66dccccb3",
@@ -2656,7 +2603,7 @@
    "all_day": false,
    "forecast": "52.6",
    "previous": "52.8",
-   "actual": "",
+   "actual": "52.7",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2670,9 +2617,10 @@
    "all_day": false,
    "forecast": "51.4",
    "previous": "51.7",
-   "actual": "",
+   "actual": "53.0",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f5e5d44547d3",
@@ -2684,9 +2632,10 @@
    "all_day": false,
    "forecast": "51.5",
    "previous": "51.5",
-   "actual": "",
+   "actual": "52.0",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "73e8581328e5",
@@ -2698,7 +2647,7 @@
    "all_day": false,
    "forecast": "52.0",
    "previous": "52.8",
-   "actual": "",
+   "actual": "51.7",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2712,7 +2661,21 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.90|2.4",
-   "actual": "",
+   "actual": "3.80|1.6",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "b8c6b4e17229",
+   "ccy": "EUR",
+   "title": "German 30-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-09-23T09:35:00Z",
+   "local_date": "2026-09-23",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.90|2.4",
+   "actual": "3.80|1.6",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3319,5 +3282,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-23T05:57:42.900150Z"
+ "actuals_updated_at": "2026-09-23T11:30:28.126390Z"
 }
