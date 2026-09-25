@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T22:21:33Z",
+ "generated_at": "2026-09-25T01:27:42Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 210,
+ "count": 208,
  "count_by_impact": {
-  "low": 142,
+  "low": 139,
   "high": 31,
-  "medium": 33,
+  "medium": 34,
   "holiday": 4
  },
- "first_instant": "2026-09-10T22:30:00Z",
+ "first_instant": "2026-09-11T06:00:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "cd8199666b60",
-   "ccy": "NZD",
-   "title": "BusinessNZ Manufacturing Index",
-   "impact": "low",
-   "instant": "2026-09-10T22:30:00Z",
-   "local_date": "2026-09-10",
-   "all_day": false,
-   "forecast": "",
-   "previous": "54.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8006f1549294",
-   "ccy": "JPY",
-   "title": "BSI Manufacturing Index",
-   "impact": "low",
-   "instant": "2026-09-10T23:50:00Z",
-   "local_date": "2026-09-10",
-   "all_day": false,
-   "forecast": "2.5",
-   "previous": "-1.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a4160e2acc4a",
-   "ccy": "JPY",
-   "title": "PPI y/y",
-   "impact": "low",
-   "instant": "2026-09-10T23:50:00Z",
-   "local_date": "2026-09-10",
-   "all_day": false,
-   "forecast": "7.4%",
-   "previous": "7.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "335e13e8d195",
    "ccy": "GBP",
@@ -1994,10 +1952,9 @@
    "all_day": false,
    "forecast": "15.2B",
    "previous": "1.8B",
-   "actual": "18.3B",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "b58330ed0893",
@@ -2023,10 +1980,9 @@
    "all_day": false,
    "forecast": "-33",
    "previous": "-25",
-   "actual": "-9",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "62ac65cde886",
@@ -2052,7 +2008,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "16.3K",
-   "actual": "20.0K",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2080,10 +2036,9 @@
    "all_day": false,
    "forecast": "-16",
    "previous": "-16",
-   "actual": "-17",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "189ffe739eb1",
@@ -2095,10 +2050,9 @@
    "all_day": false,
    "forecast": "2",
    "previous": "4",
-   "actual": "-2",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "1a48dd51a154",
@@ -2180,7 +2134,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "52.0",
-   "actual": "49.3",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2194,7 +2148,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "52.9",
-   "actual": "51.4",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2815,6 +2769,21 @@
    "all_day": false,
    "forecast": "-16",
    "previous": "-14",
+   "actual": "-13",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
+  },
+  {
+   "id": "921a6c765d5c",
+   "ccy": "USD",
+   "title": "President Trump Speaks",
+   "impact": "medium",
+   "instant": "2026-09-24T23:55:00Z",
+   "local_date": "2026-09-24",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3016,5 +2985,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-24T22:21:33.902114Z"
+ "actuals_updated_at": "2026-09-25T01:27:42.335847Z"
 }
