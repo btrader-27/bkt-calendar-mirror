@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T07:44:29Z",
+ "generated_at": "2026-09-25T13:43:26Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,116 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 201,
+ "count": 194,
  "count_by_impact": {
-  "low": 133,
-  "medium": 34,
-  "high": 30,
+  "medium": 33,
+  "low": 131,
+  "high": 26,
   "holiday": 4
  },
- "first_instant": "2026-09-11T08:00:00Z",
+ "first_instant": "2026-09-11T14:00:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "a6ef2f8a3f8a",
-   "ccy": "EUR",
-   "title": "Italian Quarterly Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-09-11T08:00:00Z",
-   "local_date": "2026-09-11",
-   "all_day": false,
-   "forecast": "5.4%",
-   "previous": "5.3%",
-   "actual": "5.6%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "75cb167bbd78",
-   "ccy": "GBP",
-   "title": "Consumer Inflation Expectations",
-   "impact": "low",
-   "instant": "2026-09-11T08:30:00Z",
-   "local_date": "2026-09-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.0%",
-   "actual": "3.2%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c52ee698844e",
-   "ccy": "CHF",
-   "title": "SNB Chairman Schlegel Speaks",
-   "impact": "medium",
-   "instant": "2026-09-11T09:15:00Z",
-   "local_date": "2026-09-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9a57a11ab3e2",
-   "ccy": "USD",
-   "title": "CPI m/m",
-   "impact": "high",
-   "instant": "2026-09-11T12:30:00Z",
-   "local_date": "2026-09-11",
-   "all_day": false,
-   "forecast": "0.4%",
-   "previous": "0.1%",
-   "actual": "0.4%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e06571446c63",
-   "ccy": "USD",
-   "title": "CPI y/y",
-   "impact": "high",
-   "instant": "2026-09-11T12:30:00Z",
-   "local_date": "2026-09-11",
-   "all_day": false,
-   "forecast": "3.4%",
-   "previous": "3.4%",
-   "actual": "3.4%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "026cd923239b",
-   "ccy": "USD",
-   "title": "Core CPI m/m",
-   "impact": "high",
-   "instant": "2026-09-11T12:30:00Z",
-   "local_date": "2026-09-11",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.2%",
-   "actual": "0.3%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "4c405c9fd294",
-   "ccy": "USD",
-   "title": "Core CPI y/y",
-   "impact": "high",
-   "instant": "2026-09-11T12:30:00Z",
-   "local_date": "2026-09-11",
-   "all_day": false,
-   "forecast": "2.4%",
-   "previous": "2.5%",
-   "actual": "2.4%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "5ea8b5d31f55",
    "ccy": "EUR",
@@ -2739,7 +2639,7 @@
    "all_day": false,
    "forecast": "3.5%",
    "previous": "3.4%",
-   "actual": "",
+   "actual": "3.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2753,9 +2653,10 @@
    "all_day": false,
    "forecast": "3.2%",
    "previous": "3.1%",
-   "actual": "",
+   "actual": "3.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "b6f985b98957",
@@ -2795,9 +2696,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.4%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f3966f3c4cff",
@@ -2809,9 +2711,10 @@
    "all_day": false,
    "forecast": "-0.3%",
    "previous": "1.1%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "123d6606a2cc",
@@ -2884,5 +2787,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-25T07:44:29.394149Z"
+ "actuals_updated_at": "2026-09-25T13:43:26.534885Z"
 }
