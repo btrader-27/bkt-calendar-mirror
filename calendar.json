@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T01:31:04Z",
+ "generated_at": "2026-09-26T07:37:29Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 188,
+ "count": 187,
  "count_by_impact": {
-  "medium": 30,
+  "medium": 29,
   "low": 128,
   "high": 26,
   "holiday": 4
  },
- "first_instant": "2026-09-12T07:30:00Z",
+ "first_instant": "2026-09-12T08:00:00Z",
  "last_instant": "2026-09-26T14:00:00Z",
  "events": [
-  {
-   "id": "20b9bb193a48",
-   "ccy": "EUR",
-   "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
-   "instant": "2026-09-12T07:30:00Z",
-   "local_date": "2026-09-12",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "f69f76ad196c",
    "ccy": "EUR",
@@ -2690,5 +2676,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-26T01:31:04.980194Z"
+ "actuals_updated_at": "2026-09-26T07:37:29.948772Z"
 }
