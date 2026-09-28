@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T00:42:19Z",
+ "generated_at": "2026-09-28T06:49:57Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 319,
+ "count": 316,
  "count_by_impact": {
-  "low": 230,
   "high": 36,
   "medium": 47,
+  "low": 227,
   "holiday": 6
  },
- "first_instant": "2026-09-14T02:30:00Z",
+ "first_instant": "2026-09-14T12:30:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "4122cab4adc9",
-   "ccy": "AUD",
-   "title": "RBA Assist Gov Hunter Speaks",
-   "impact": "low",
-   "instant": "2026-09-14T02:30:00Z",
-   "local_date": "2026-09-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fdce6d3ac347",
-   "ccy": "JPY",
-   "title": "Revised Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-09-14T04:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c9463b9aee59",
-   "ccy": "CHF",
-   "title": "PPI m/m",
-   "impact": "low",
-   "instant": "2026-09-14T06:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "0.0%",
-   "previous": "-0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c56e0f9d3175",
    "ccy": "CAD",
@@ -4516,5 +4474,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-28T00:42:19.654195Z"
+ "actuals_updated_at": "2026-09-28T06:49:58.151376Z"
 }
