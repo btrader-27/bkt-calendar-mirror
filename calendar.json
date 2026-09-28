@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T22:07:26Z",
+ "generated_at": "2026-09-28T00:42:19Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 321,
+ "count": 319,
  "count_by_impact": {
-  "low": 232,
+  "low": 230,
   "high": 36,
   "medium": 47,
   "holiday": 6
  },
- "first_instant": "2026-09-13T22:30:00Z",
+ "first_instant": "2026-09-14T02:30:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "798e68bf4058",
-   "ccy": "NZD",
-   "title": "BusinessNZ Services Index",
-   "impact": "low",
-   "instant": "2026-09-13T22:30:00Z",
-   "local_date": "2026-09-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "50.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f90a201bf694",
-   "ccy": "NZD",
-   "title": "Visitor Arrivals m/m",
-   "impact": "low",
-   "instant": "2026-09-13T22:45:00Z",
-   "local_date": "2026-09-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4122cab4adc9",
    "ccy": "AUD",
@@ -2676,9 +2648,10 @@
    "all_day": false,
    "forecast": "3.6%",
    "previous": "3.6%",
-   "actual": "",
+   "actual": "3.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "7cf0f4a8fccc",
@@ -4542,5 +4515,6 @@
    "source": "forexfactory",
    "feed": "thisweek"
   }
- ]
+ ],
+ "actuals_updated_at": "2026-09-28T00:42:19.654195Z"
 }
