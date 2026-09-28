@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T06:49:57Z",
+ "generated_at": "2026-09-28T15:23:45Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,128 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 316,
+ "count": 309,
  "count_by_impact": {
-  "high": 36,
-  "medium": 47,
-  "low": 227,
+  "low": 225,
+  "medium": 45,
+  "high": 33,
   "holiday": 6
  },
- "first_instant": "2026-09-14T12:30:00Z",
+ "first_instant": "2026-09-15T04:30:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "c56e0f9d3175",
-   "ccy": "CAD",
-   "title": "CPI m/m",
-   "impact": "high",
-   "instant": "2026-09-14T12:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "-0.1%",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6ddc7e93d20e",
-   "ccy": "CAD",
-   "title": "Common CPI y/y",
-   "impact": "medium",
-   "instant": "2026-09-14T12:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "2.7%",
-   "previous": "2.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cfb15793a628",
-   "ccy": "CAD",
-   "title": "Core CPI m/m",
-   "impact": "low",
-   "instant": "2026-09-14T12:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0ff1ffc4fc96",
-   "ccy": "CAD",
-   "title": "Manufacturing Sales m/m",
-   "impact": "low",
-   "instant": "2026-09-14T12:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "-0.2%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a9874b028452",
-   "ccy": "CAD",
-   "title": "Median CPI y/y",
-   "impact": "high",
-   "instant": "2026-09-14T12:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "2.0%",
-   "previous": "2.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2aa59df20bd8",
-   "ccy": "CAD",
-   "title": "Trimmed CPI y/y",
-   "impact": "high",
-   "instant": "2026-09-14T12:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "1.9%",
-   "previous": "1.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "81a6054bbfdf",
-   "ccy": "GBP",
-   "title": "CB Leading Index m/m",
-   "impact": "low",
-   "instant": "2026-09-14T13:30:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3a17ec25278e",
-   "ccy": "EUR",
-   "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
-   "instant": "2026-09-14T15:15:00Z",
-   "local_date": "2026-09-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ec2445a158f0",
    "ccy": "JPY",
@@ -3564,6 +3452,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "f6959e999810",
+   "ccy": "CHF",
+   "title": "Gov Board Member Tschudin Speaks",
+   "impact": "low",
+   "instant": "2026-09-30T14:30:00Z",
+   "local_date": "2026-09-30",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "890c20490de1",
    "ccy": "USD",
    "title": "Crude Oil Inventories",
@@ -4397,7 +4299,7 @@
    "instant": "2026-10-02T12:30:00Z",
    "local_date": "2026-10-02",
    "all_day": false,
-   "forecast": "98K",
+   "forecast": "89K",
    "previous": "162K",
    "actual": "",
    "source": "forexfactory",
@@ -4439,7 +4341,7 @@
    "instant": "2026-10-02T14:00:00Z",
    "local_date": "2026-10-02",
    "all_day": false,
-   "forecast": "-0.1%",
+   "forecast": "0.1%",
    "previous": "0.9%",
    "actual": "",
    "source": "forexfactory",
@@ -4474,5 +4376,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-28T06:49:58.151376Z"
+ "actuals_updated_at": "2026-09-28T15:23:46.106259Z"
 }
