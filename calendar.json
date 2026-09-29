@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T01:54:26Z",
+ "generated_at": "2026-09-29T08:25:29Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,114 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 309,
+ "count": 302,
  "count_by_impact": {
-  "low": 225,
-  "medium": 45,
-  "high": 33,
+  "low": 220,
+  "medium": 44,
+  "high": 32,
   "holiday": 6
  },
- "first_instant": "2026-09-15T04:30:00Z",
+ "first_instant": "2026-09-15T09:00:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "ec2445a158f0",
-   "ccy": "JPY",
-   "title": "Tertiary Industry Activity m/m",
-   "impact": "low",
-   "instant": "2026-09-15T04:30:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "-0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "65049ef63a5a",
-   "ccy": "EUR",
-   "title": "German WPI m/m",
-   "impact": "low",
-   "instant": "2026-09-15T06:00:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bca338c8f2de",
-   "ccy": "GBP",
-   "title": "Average Earnings Index 3m/y",
-   "impact": "medium",
-   "instant": "2026-09-15T06:00:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "3.9%",
-   "previous": "4.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "79d65c8c3381",
-   "ccy": "GBP",
-   "title": "Claimant Count Change",
-   "impact": "high",
-   "instant": "2026-09-15T06:00:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "8.3K",
-   "previous": "-11.0K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e1dcd4bec453",
-   "ccy": "GBP",
-   "title": "Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-09-15T06:00:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "5.0%",
-   "previous": "4.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "847ae16d4dd4",
-   "ccy": "EUR",
-   "title": "French Final CPI m/m",
-   "impact": "low",
-   "instant": "2026-09-15T06:45:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "0.7%",
-   "previous": "0.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "159595d7e063",
-   "ccy": "EUR",
-   "title": "Italian Trade Balance",
-   "impact": "low",
-   "instant": "2026-09-15T08:00:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "4.77B",
-   "previous": "4.23B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "f92e4bfe15ec",
    "ccy": "EUR",
@@ -2608,7 +2510,7 @@
    "all_day": false,
    "forecast": "4.60%",
    "previous": "4.35%",
-   "actual": "",
+   "actual": "4.60%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2650,9 +2552,10 @@
    "all_day": false,
    "forecast": "106.0",
    "previous": "106.7",
-   "actual": "",
+   "actual": "109.1",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "70a8dc919071",
@@ -2664,9 +2567,10 @@
    "all_day": false,
    "forecast": "4.6%",
    "previous": "4.3%",
-   "actual": "",
+   "actual": "4.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "98b38d731d3e",
@@ -4377,5 +4281,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-29T01:54:26.947632Z"
+ "actuals_updated_at": "2026-09-29T08:25:30.284899Z"
 }
