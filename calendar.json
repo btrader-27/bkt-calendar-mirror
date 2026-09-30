@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T13:39:27Z",
+ "generated_at": "2026-09-30T19:16:18Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,142 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 277,
+ "count": 268,
  "count_by_impact": {
-  "low": 197,
-  "high": 31,
+  "low": 192,
+  "high": 27,
   "medium": 43,
   "holiday": 6
  },
- "first_instant": "2026-09-16T14:00:00Z",
+ "first_instant": "2026-09-16T20:00:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "927cc139e3c2",
-   "ccy": "USD",
-   "title": "Business Inventories m/m",
-   "impact": "low",
-   "instant": "2026-09-16T14:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c1c43215175d",
-   "ccy": "USD",
-   "title": "NAHB Housing Market Index",
-   "impact": "low",
-   "instant": "2026-09-16T14:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "34",
-   "previous": "35",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c00aaf4b008f",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-09-16T14:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "-1.6M",
-   "previous": "-0.4M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "568500e13096",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-09-16T16:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f078b197840e",
-   "ccy": "CAD",
-   "title": "BOC Summary of Deliberations",
-   "impact": "low",
-   "instant": "2026-09-16T17:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fe7ad3a2988f",
-   "ccy": "USD",
-   "title": "FOMC Economic Projections",
-   "impact": "high",
-   "instant": "2026-09-16T18:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "feeab9d5605d",
-   "ccy": "USD",
-   "title": "FOMC Statement",
-   "impact": "high",
-   "instant": "2026-09-16T18:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e302b1e717d9",
-   "ccy": "USD",
-   "title": "Federal Funds Rate",
-   "impact": "high",
-   "instant": "2026-09-16T18:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "4.00%",
-   "previous": "3.75%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "74a71adc9077",
-   "ccy": "USD",
-   "title": "FOMC Press Conference",
-   "impact": "high",
-   "instant": "2026-09-16T18:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4ac6c83f11bc",
    "ccy": "USD",
@@ -3019,9 +2893,10 @@
    "all_day": false,
    "forecast": "51.2",
    "previous": "47.1",
-   "actual": "",
+   "actual": "58.8",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f6959e999810",
@@ -3047,9 +2922,10 @@
    "all_day": false,
    "forecast": "-0.7M",
    "previous": "3.0M",
-   "actual": "",
+   "actual": "0.9M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "46364aacda40",
@@ -3962,5 +3838,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-30T13:39:27.528070Z"
+ "actuals_updated_at": "2026-09-30T19:16:19.311553Z"
 }
