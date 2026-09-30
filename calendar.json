@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T19:16:18Z",
+ "generated_at": "2026-09-30T23:01:25Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 268,
+ "count": 266,
  "count_by_impact": {
-  "low": 192,
-  "high": 27,
+  "low": 191,
+  "high": 26,
   "medium": 43,
   "holiday": 6
  },
- "first_instant": "2026-09-16T20:00:00Z",
+ "first_instant": "2026-09-17T07:00:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "4ac6c83f11bc",
-   "ccy": "USD",
-   "title": "TIC Long-Term Purchases",
-   "impact": "low",
-   "instant": "2026-09-16T20:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "146.3B",
-   "previous": "172.7B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9dbe2a1d5dda",
-   "ccy": "NZD",
-   "title": "GDP q/q",
-   "impact": "high",
-   "instant": "2026-09-16T22:45:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.8%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "dd1ba8c6f156",
    "ccy": "CHF",
@@ -3007,7 +2979,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-4.3%",
-   "actual": "",
+   "actual": "5.6%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3838,5 +3810,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-30T19:16:19.311553Z"
+ "actuals_updated_at": "2026-09-30T23:01:26.099657Z"
 }
