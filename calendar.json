@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T06:40:14Z",
+ "generated_at": "2026-09-30T13:39:27Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,142 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 284,
+ "count": 277,
  "count_by_impact": {
-  "low": 203,
-  "medium": 44,
+  "low": 197,
   "high": 31,
+  "medium": 43,
   "holiday": 6
  },
- "first_instant": "2026-09-16T08:30:00Z",
+ "first_instant": "2026-09-16T14:00:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "5c024889f19f",
-   "ccy": "GBP",
-   "title": "HPI y/y",
-   "impact": "low",
-   "instant": "2026-09-16T08:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "2.1%",
-   "previous": "2.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c6bc8028e861",
-   "ccy": "EUR",
-   "title": "Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-09-16T09:00:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "-0.2%",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "554f621cc21c",
-   "ccy": "EUR",
-   "title": "German 30-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-16T09:34:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.65|1.3",
-   "actual": "3.90|2.4",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "43d3e83c134c",
-   "ccy": "EUR",
-   "title": "German 30-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-16T09:35:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.65|1.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5435669c5f5b",
-   "ccy": "CAD",
-   "title": "Housing Starts",
-   "impact": "low",
-   "instant": "2026-09-16T12:15:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "243K",
-   "previous": "229K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ee24e539e761",
-   "ccy": "CAD",
-   "title": "Building Permits m/m",
-   "impact": "low",
-   "instant": "2026-09-16T12:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "-4.7%",
-   "previous": "18.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4fc9e86114a1",
-   "ccy": "USD",
-   "title": "Core Retail Sales m/m",
-   "impact": "medium",
-   "instant": "2026-09-16T12:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "-0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a63fc30c29e0",
-   "ccy": "USD",
-   "title": "Import Prices m/m",
-   "impact": "low",
-   "instant": "2026-09-16T12:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "0.4%",
-   "previous": "-0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d7b7080b0b88",
-   "ccy": "USD",
-   "title": "Retail Sales m/m",
-   "impact": "medium",
-   "instant": "2026-09-16T12:30:00Z",
-   "local_date": "2026-09-16",
-   "all_day": false,
-   "forecast": "0.8%",
-   "previous": "-0.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "927cc139e3c2",
    "ccy": "USD",
@@ -2828,6 +2702,21 @@
    "feed": "thisweek"
   },
   {
+   "id": "22e58803cf6f",
+   "ccy": "EUR",
+   "title": "German Retail Sales m/m",
+   "impact": "low",
+   "instant": "2026-09-30T06:04:00Z",
+   "local_date": "2026-09-30",
+   "all_day": false,
+   "forecast": "1.6%",
+   "previous": "-3.4%",
+   "actual": "1.3%",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "worse"
+  },
+  {
    "id": "d101cbcbc67c",
    "ccy": "EUR",
    "title": "German Prelim CPI m/m",
@@ -2837,9 +2726,10 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "366c5c6958a2",
@@ -2851,9 +2741,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "0.5%",
-   "actual": "",
+   "actual": "-0.5%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "0997e6290445",
@@ -2865,9 +2756,10 @@
    "all_day": false,
    "forecast": "-0.5%",
    "previous": "0.7%",
-   "actual": "",
+   "actual": "-0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "70252255306d",
@@ -2879,9 +2771,10 @@
    "all_day": false,
    "forecast": "1K",
    "previous": "4K",
-   "actual": "",
+   "actual": "12K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "d3e8791c35f2",
@@ -2893,7 +2786,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "12.1",
-   "actual": "",
+   "actual": "2.6",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2907,9 +2800,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.5%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b5b71b132041",
@@ -2940,6 +2834,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "80aa5e80f876",
+   "ccy": "EUR",
+   "title": "German 10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-09-30T09:32:00Z",
+   "local_date": "2026-09-30",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.39|1.5",
+   "actual": "3.58|1.2",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "3dd5f971f3c7",
    "ccy": "EUR",
    "title": "German 10-y Bond Auction",
@@ -2949,7 +2857,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.39|1.5",
-   "actual": "",
+   "actual": "3.58|1.2",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2977,9 +2885,10 @@
    "all_day": false,
    "forecast": "73K",
    "previous": "38K",
-   "actual": "",
+   "actual": "90K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "71e69ec6d968",
@@ -2991,9 +2900,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "b5fbe98cf812",
@@ -3005,9 +2915,10 @@
    "all_day": false,
    "forecast": "6.4%",
    "previous": "6.4%",
-   "actual": "",
+   "actual": "6.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "dc16ac4210cf",
@@ -3019,9 +2930,10 @@
    "all_day": false,
    "forecast": "1.5%",
    "previous": "1.5%",
-   "actual": "",
+   "actual": "2.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "eedb217d1b42",
@@ -3033,9 +2945,10 @@
    "all_day": false,
    "forecast": "-116.3B",
    "previous": "-118.8B",
-   "actual": "",
+   "actual": "-132.6B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "2e864249ce16",
@@ -3047,9 +2960,10 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "0.4%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "60ab69ce1574",
@@ -3061,9 +2975,10 @@
    "all_day": false,
    "forecast": "0.8%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "34b4d3fb7c6a",
@@ -3075,9 +2990,10 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "1.3%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "8e0faa528ca7",
@@ -3223,7 +3139,7 @@
    "id": "d549d3eba691",
    "ccy": "USD",
    "title": "FOMC Member Kashkari Speaks",
-   "impact": "low",
+   "impact": "medium",
    "instant": "2026-09-30T22:00:00Z",
    "local_date": "2026-09-30",
    "all_day": false,
@@ -4046,5 +3962,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-30T06:40:14.933734Z"
+ "actuals_updated_at": "2026-09-30T13:39:27.528070Z"
 }
