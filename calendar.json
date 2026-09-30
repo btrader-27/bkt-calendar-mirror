@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T20:44:22Z",
+ "generated_at": "2026-09-30T00:24:33Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,86 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 294,
+ "count": 289,
  "count_by_impact": {
-  "low": 213,
+  "low": 208,
   "high": 32,
   "medium": 43,
   "holiday": 6
  },
- "first_instant": "2026-09-15T21:00:00Z",
+ "first_instant": "2026-09-16T00:30:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "96c20a38df4a",
-   "ccy": "NZD",
-   "title": "Westpac Consumer Sentiment",
-   "impact": "low",
-   "instant": "2026-09-15T21:00:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "80.4",
-   "actual": "89.5",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "98f073999412",
-   "ccy": "NZD",
-   "title": "Westpac Consumer Sentiment",
-   "impact": "low",
-   "instant": "2026-09-15T21:04:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "80.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9e15e7e60410",
-   "ccy": "NZD",
-   "title": "Current Account",
-   "impact": "low",
-   "instant": "2026-09-15T22:45:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "-2.57B",
-   "previous": "-1.01B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8d8ffb317b0c",
-   "ccy": "JPY",
-   "title": "Core Machinery Orders m/m",
-   "impact": "low",
-   "instant": "2026-09-15T23:50:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "-1.2%",
-   "previous": "9.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9a2bcd62b9ee",
-   "ccy": "JPY",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-09-15T23:50:00Z",
-   "local_date": "2026-09-15",
-   "all_day": false,
-   "forecast": "-1.00T",
-   "previous": "-0.69T",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a2d37377a783",
    "ccy": "AUD",
@@ -3020,7 +2950,7 @@
    "instant": "2026-09-30T07:55:00Z",
    "local_date": "2026-09-30",
    "all_day": false,
-   "forecast": "0K",
+   "forecast": "1K",
    "previous": "4K",
    "actual": "",
    "source": "forexfactory",
@@ -4175,5 +4105,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-09-29T20:44:22.896720Z"
+ "actuals_updated_at": "2026-09-30T00:24:33.685117Z"
 }
