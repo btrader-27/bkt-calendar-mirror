@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T06:29:11Z",
+ "generated_at": "2026-10-03T12:30:24Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 230,
+ "count": 229,
  "count_by_impact": {
-  "low": 169,
   "holiday": 6,
+  "low": 168,
   "medium": 38,
   "high": 17
  },
- "first_instant": "2026-09-19T10:15:00Z",
+ "first_instant": "2026-09-20T23:00:00Z",
  "last_instant": "2026-10-03T16:00:00Z",
  "events": [
-  {
-   "id": "c48f01301e69",
-   "ccy": "EUR",
-   "title": "ECOFIN Meetings",
-   "impact": "low",
-   "instant": "2026-09-19T10:15:00Z",
-   "local_date": "2026-09-19",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "f7fd0e7d40f4",
    "ccy": "JPY",
@@ -3270,5 +3256,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-03T06:29:12.004242Z"
+ "actuals_updated_at": "2026-10-03T12:30:24.333121Z"
 }
