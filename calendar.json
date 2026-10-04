@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T19:34:35Z",
+ "generated_at": "2026-10-04T23:06:12Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 304,
+ "count": 302,
  "count_by_impact": {
-  "holiday": 7,
-  "low": 233,
+  "low": 232,
   "medium": 43,
+  "holiday": 6,
   "high": 21
  },
- "first_instant": "2026-09-20T23:00:00Z",
+ "first_instant": "2026-09-21T03:00:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "f7fd0e7d40f4",
-   "ccy": "JPY",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-09-20T23:00:00Z",
-   "local_date": "2026-09-20",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1fe275ac07f9",
-   "ccy": "GBP",
-   "title": "Rightmove HPI m/m",
-   "impact": "low",
-   "instant": "2026-09-20T23:01:00Z",
-   "local_date": "2026-09-20",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-2.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "6aaf5f6f7e58",
    "ccy": "NZD",
