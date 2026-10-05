@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T01:57:36Z",
+ "generated_at": "2026-10-05T08:58:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 302,
+ "count": 301,
  "count_by_impact": {
-  "low": 232,
+  "low": 231,
   "medium": 43,
   "holiday": 6,
   "high": 21
  },
- "first_instant": "2026-09-21T03:00:00Z",
+ "first_instant": "2026-09-21T10:00:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "6aaf5f6f7e58",
-   "ccy": "NZD",
-   "title": "Credit Card Spending y/y",
-   "impact": "low",
-   "instant": "2026-09-21T03:00:00Z",
-   "local_date": "2026-09-20",
-   "all_day": false,
-   "forecast": "",
-   "previous": "5.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c40096558a27",
    "ccy": "EUR",
@@ -3269,7 +3255,7 @@
    "all_day": false,
    "forecast": "35.3",
    "previous": "35.5",
-   "actual": "",
+   "actual": "35.4",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3283,9 +3269,10 @@
    "all_day": false,
    "forecast": "57.1",
    "previous": "57.8",
-   "actual": "",
+   "actual": "58.3",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "5fd693b16c9c",
@@ -3311,9 +3298,10 @@
    "all_day": false,
    "forecast": "54.6",
    "previous": "55.2",
-   "actual": "",
+   "actual": "51.7",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c0b41c7bc52d",
@@ -3325,7 +3313,7 @@
    "all_day": false,
    "forecast": "51.4",
    "previous": "51.4",
-   "actual": "",
+   "actual": "51.2",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3339,7 +3327,7 @@
    "all_day": false,
    "forecast": "52.9",
    "previous": "52.9",
-   "actual": "",
+   "actual": "52.9",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3353,7 +3341,7 @@
    "all_day": false,
    "forecast": "53.0",
    "previous": "53.0",
-   "actual": "",
+   "actual": "53.0",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3367,9 +3355,10 @@
    "all_day": false,
    "forecast": "4.5",
    "previous": "5.1",
-   "actual": "",
+   "actual": "2.7",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "7f91bffdb123",
@@ -3381,9 +3370,10 @@
    "all_day": false,
    "forecast": "51.7",
    "previous": "51.7",
-   "actual": "",
+   "actual": "52.1",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "4fc0bdf1570d",
@@ -4268,5 +4258,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-05T01:57:37.121473Z"
+ "actuals_updated_at": "2026-10-05T08:58:44.788938Z"
 }
