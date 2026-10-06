@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T00:46:57Z",
+ "generated_at": "2026-10-06T07:31:37Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 298,
+ "count": 296,
  "count_by_impact": {
-  "high": 22,
-  "low": 229,
+  "low": 228,
   "medium": 42,
-  "holiday": 5
+  "holiday": 5,
+  "high": 21
  },
- "first_instant": "2026-09-22T03:10:00Z",
+ "first_instant": "2026-09-22T08:30:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "e3539c00b2c4",
-   "ccy": "AUD",
-   "title": "RBA Gov Bullock Speaks",
-   "impact": "high",
-   "instant": "2026-09-22T03:10:00Z",
-   "local_date": "2026-09-21",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ce3e41dffc10",
-   "ccy": "GBP",
-   "title": "Public Sector Net Borrowing",
-   "impact": "low",
-   "instant": "2026-09-22T06:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "15.2B",
-   "previous": "1.8B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "b58330ed0893",
    "ccy": "EUR",
@@ -3385,7 +3357,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.00|3.3",
-   "actual": "",
+   "actual": "3.10|3.8",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3399,9 +3371,10 @@
    "all_day": false,
    "forecast": "-0.9%",
    "previous": "2.5%",
-   "actual": "",
+   "actual": "-10.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "eaba1a968248",
@@ -3427,7 +3400,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-145.9B",
-   "actual": "",
+   "actual": "-159.6B",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3441,9 +3414,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "-0.4%",
-   "actual": "",
+   "actual": "-0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "a80b2be47d32",
@@ -3455,7 +3429,7 @@
    "all_day": false,
    "forecast": "3.1%",
    "previous": "3.1%",
-   "actual": "",
+   "actual": "3.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -4216,5 +4190,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-06T00:46:57.463396Z"
+ "actuals_updated_at": "2026-10-06T07:31:37.529310Z"
 }
