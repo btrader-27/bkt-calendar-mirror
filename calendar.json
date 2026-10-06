@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T18:23:33Z",
+ "generated_at": "2026-10-06T00:46:57Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 300,
+ "count": 298,
  "count_by_impact": {
-  "low": 230,
-  "holiday": 6,
   "high": 22,
-  "medium": 42
+  "low": 229,
+  "medium": 42,
+  "holiday": 5
  },
- "first_instant": "2026-09-21T19:00:00Z",
+ "first_instant": "2026-09-22T03:10:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "998e2dffa832",
-   "ccy": "AUD",
-   "title": "RBA Assist Gov Hunter Speaks",
-   "impact": "low",
-   "instant": "2026-09-21T19:00:00Z",
-   "local_date": "2026-09-21",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8cbca6731acf",
-   "ccy": "JPY",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-09-21T23:00:00Z",
-   "local_date": "2026-09-21",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "e3539c00b2c4",
    "ccy": "AUD",
@@ -3371,7 +3343,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "8",
-   "actual": "",
+   "actual": "43",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3385,7 +3357,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-5.2%",
-   "actual": "",
+   "actual": "-4.7%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3399,7 +3371,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "2.5%",
-   "actual": "",
+   "actual": "2.2%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3705,7 +3677,7 @@
    "instant": "2026-10-07T05:00:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "118.1%",
+   "forecast": "118.3%",
    "previous": "117.9%",
    "actual": "",
    "source": "forexfactory",
@@ -3817,7 +3789,7 @@
    "instant": "2026-10-07T19:00:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "15.4B",
+   "forecast": "14.4B",
    "previous": "18.1B",
    "actual": "",
    "source": "forexfactory",
@@ -3845,7 +3817,7 @@
    "instant": "2026-10-07T23:50:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "2.10T",
+   "forecast": "2.13T",
    "previous": "2.52T",
    "actual": "",
    "source": "forexfactory",
@@ -3887,7 +3859,7 @@
    "instant": "2026-10-08T05:00:00Z",
    "local_date": "2026-10-08",
    "all_day": false,
-   "forecast": "46.6",
+   "forecast": "46.7",
    "previous": "46.4",
    "actual": "",
    "source": "forexfactory",
@@ -4181,7 +4153,7 @@
    "instant": "2026-10-09T12:30:00Z",
    "local_date": "2026-10-09",
    "all_day": false,
-   "forecast": "9.0K",
+   "forecast": "6.2K",
    "previous": "-41.7K",
    "actual": "",
    "source": "forexfactory",
@@ -4244,5 +4216,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-05T18:23:34.197300Z"
+ "actuals_updated_at": "2026-10-06T00:46:57.463396Z"
 }
