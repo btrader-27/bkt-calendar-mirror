@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T15:07:18Z",
+ "generated_at": "2026-10-06T20:15:57Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 289,
+ "count": 288,
  "count_by_impact": {
-  "low": 223,
+  "low": 222,
   "holiday": 5,
   "medium": 40,
   "high": 21
  },
- "first_instant": "2026-09-22T17:00:00Z",
+ "first_instant": "2026-09-22T20:30:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "2f7a259c7190",
-   "ccy": "USD",
-   "title": "FOMC Member Barkin Speaks",
-   "impact": "low",
-   "instant": "2026-09-22T17:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5a8e108a8cdb",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-09-22T19:30:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "f8ca874af145",
    "ccy": "USD",
@@ -3507,7 +3479,21 @@
    "all_day": false,
    "forecast": "",
    "previous": "-1.1%",
-   "actual": "",
+   "actual": "1.2%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "16a194f92264",
+   "ccy": "NZD",
+   "title": "GDT Price Index",
+   "impact": "low",
+   "instant": "2026-10-06T15:46:00Z",
+   "local_date": "2026-10-06",
+   "all_day": false,
+   "forecast": "",
+   "previous": "-1.1%",
+   "actual": "1.2%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3561,7 +3547,7 @@
    "instant": "2026-10-07T05:00:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "118.3%",
+   "forecast": "118.1%",
    "previous": "117.9%",
    "actual": "",
    "source": "forexfactory",
@@ -3589,7 +3575,7 @@
    "instant": "2026-10-07T06:00:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "0.2%",
+   "forecast": "0.0%",
    "previous": "-0.2%",
    "actual": "",
    "source": "forexfactory",
@@ -4100,5 +4086,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-06T15:07:19.350267Z"
+ "actuals_updated_at": "2026-10-06T20:15:57.760865Z"
 }
