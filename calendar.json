@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T20:15:57Z",
+ "generated_at": "2026-10-06T23:49:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 288,
+ "count": 284,
  "count_by_impact": {
-  "low": 222,
-  "holiday": 5,
   "medium": 40,
-  "high": 21
+  "low": 219,
+  "high": 21,
+  "holiday": 4
  },
- "first_instant": "2026-09-22T20:30:00Z",
+ "first_instant": "2026-09-23T07:15:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "f8ca874af145",
-   "ccy": "USD",
-   "title": "API Weekly Statistical Bulletin",
-   "impact": "low",
-   "instant": "2026-09-22T20:30:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "49552d1f051f",
-   "ccy": "AUD",
-   "title": "Flash Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-22T23:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "52.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d90dcd5e9d77",
-   "ccy": "AUD",
-   "title": "Flash Services PMI",
-   "impact": "low",
-   "instant": "2026-09-22T23:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "52.9",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "27cca2443b6e",
-   "ccy": "JPY",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-09-22T23:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "70e2a5f1dcf2",
    "ccy": "EUR",
@@ -3535,9 +3479,10 @@
    "all_day": false,
    "forecast": "3.7%",
    "previous": "4.7%",
-   "actual": "",
+   "actual": "3.8%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "2ff207820264",
@@ -3617,7 +3562,7 @@
    "instant": "2026-10-07T14:30:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "2.1M",
+   "forecast": "1.9M",
    "previous": "0.9M",
    "actual": "",
    "source": "forexfactory",
@@ -3659,7 +3604,7 @@
    "instant": "2026-10-07T19:00:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "14.4B",
+   "forecast": "14.5B",
    "previous": "18.1B",
    "actual": "",
    "source": "forexfactory",
@@ -3687,7 +3632,7 @@
    "instant": "2026-10-07T23:50:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "2.13T",
+   "forecast": "2.14T",
    "previous": "2.52T",
    "actual": "",
    "source": "forexfactory",
@@ -3743,7 +3688,7 @@
    "instant": "2026-10-08T06:00:00Z",
    "local_date": "2026-10-08",
    "all_day": false,
-   "forecast": "18.9B",
+   "forecast": "19.0B",
    "previous": "21.3B",
    "actual": "",
    "source": "forexfactory",
@@ -3911,7 +3856,7 @@
    "instant": "2026-10-08T14:30:00Z",
    "local_date": "2026-10-08",
    "all_day": false,
-   "forecast": "",
+   "forecast": "79B",
    "previous": "64B",
    "actual": "",
    "source": "forexfactory",
@@ -4023,7 +3968,7 @@
    "instant": "2026-10-09T12:30:00Z",
    "local_date": "2026-10-09",
    "all_day": false,
-   "forecast": "6.2K",
+   "forecast": "6.3K",
    "previous": "-41.7K",
    "actual": "",
    "source": "forexfactory",
@@ -4051,7 +3996,7 @@
    "instant": "2026-10-09T14:00:00Z",
    "local_date": "2026-10-09",
    "all_day": false,
-   "forecast": "47.6",
+   "forecast": "47.5",
    "previous": "47.8",
    "actual": "",
    "source": "forexfactory",
@@ -4086,5 +4031,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-06T20:15:57.760865Z"
+ "actuals_updated_at": "2026-10-06T23:49:28.499774Z"
 }
