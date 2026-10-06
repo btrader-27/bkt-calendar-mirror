@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T07:31:37Z",
+ "generated_at": "2026-10-06T15:07:18Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,142 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 296,
+ "count": 289,
  "count_by_impact": {
-  "low": 228,
-  "medium": 42,
+  "low": 223,
   "holiday": 5,
+  "medium": 40,
   "high": 21
  },
- "first_instant": "2026-09-22T08:30:00Z",
+ "first_instant": "2026-09-22T17:00:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "b58330ed0893",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-09-22T08:30:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8b5df7342fd6",
-   "ccy": "GBP",
-   "title": "CBI Industrial Order Expectations",
-   "impact": "low",
-   "instant": "2026-09-22T10:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "-33",
-   "previous": "-25",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "62ac65cde886",
-   "ccy": "EUR",
-   "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
-   "instant": "2026-09-22T11:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ea64709ac9c0",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-09-22T12:15:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "16.3K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a3b566120d80",
-   "ccy": "USD",
-   "title": "President Trump Speaks",
-   "impact": "medium",
-   "instant": "2026-09-22T13:55:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3eeb0890123f",
-   "ccy": "EUR",
-   "title": "Consumer Confidence",
-   "impact": "low",
-   "instant": "2026-09-22T14:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "-16",
-   "previous": "-16",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "189ffe739eb1",
-   "ccy": "USD",
-   "title": "Richmond Manufacturing Index",
-   "impact": "low",
-   "instant": "2026-09-22T14:00:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "2",
-   "previous": "4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1a48dd51a154",
-   "ccy": "USD",
-   "title": "FOMC Member Williams Speaks",
-   "impact": "low",
-   "instant": "2026-09-22T14:05:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "966b46ab3050",
-   "ccy": "USD",
-   "title": "FOMC Member Jefferson Speaks",
-   "impact": "low",
-   "instant": "2026-09-22T14:20:00Z",
-   "local_date": "2026-09-22",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "2f7a259c7190",
    "ccy": "USD",
@@ -3443,9 +3317,10 @@
    "all_day": false,
    "forecast": "45.0",
    "previous": "44.3",
-   "actual": "",
+   "actual": "46.1",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f6084944c1d3",
@@ -3457,9 +3332,10 @@
    "all_day": false,
    "forecast": "-11.9B",
    "previous": "-12.6B",
-   "actual": "",
+   "actual": "-6.8B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "ff20caf4bc27",
@@ -3485,7 +3361,22 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "-0.6%",
-   "actual": "",
+   "actual": "0.1%",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "worse"
+  },
+  {
+   "id": "712c211a5b38",
+   "ccy": "USD",
+   "title": "ADP Weekly Employment Change",
+   "impact": "low",
+   "instant": "2026-10-06T12:14:00Z",
+   "local_date": "2026-10-06",
+   "all_day": false,
+   "forecast": "",
+   "previous": "20.0K",
+   "actual": "23.8K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3498,8 +3389,8 @@
    "local_date": "2026-10-06",
    "all_day": false,
    "forecast": "",
-   "previous": "",
-   "actual": "",
+   "previous": "22.5K",
+   "actual": "23.8K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3513,7 +3404,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "20.0K",
-   "actual": "",
+   "actual": "23.8K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3527,9 +3418,10 @@
    "all_day": false,
    "forecast": "1.5B",
    "previous": "0.8B",
-   "actual": "",
+   "actual": "4.2B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "06c3af23398e",
@@ -3541,9 +3433,10 @@
    "all_day": false,
    "forecast": "-100.8B",
    "previous": "-88.6B",
-   "actual": "",
+   "actual": "-105.6B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "8438f9eeffcf",
@@ -3555,9 +3448,25 @@
    "all_day": false,
    "forecast": "65.2",
    "previous": "64.3",
-   "actual": "",
+   "actual": "58.2",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
+  },
+  {
+   "id": "cbef0552a5d8",
+   "ccy": "USD",
+   "title": "RCM/TIPP Economic Optimism",
+   "impact": "low",
+   "instant": "2026-10-06T14:01:00Z",
+   "local_date": "2026-10-06",
+   "all_day": false,
+   "forecast": "44.5",
+   "previous": "45.6",
+   "actual": "46.8",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "4190c6318f5c",
@@ -3569,9 +3478,10 @@
    "all_day": false,
    "forecast": "44.5",
    "previous": "45.6",
-   "actual": "",
+   "actual": "46.8",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "92100ad2f64e",
@@ -3721,7 +3631,7 @@
    "instant": "2026-10-07T14:30:00Z",
    "local_date": "2026-10-07",
    "all_day": false,
-   "forecast": "",
+   "forecast": "2.1M",
    "previous": "0.9M",
    "actual": "",
    "source": "forexfactory",
@@ -4190,5 +4100,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-06T07:31:37.529310Z"
+ "actuals_updated_at": "2026-10-06T15:07:19.350267Z"
 }
