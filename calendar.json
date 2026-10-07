@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T23:49:28Z",
+ "generated_at": "2026-10-07T05:54:04Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,9 +16,9 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 284,
+ "count": 285,
  "count_by_impact": {
-  "medium": 40,
+  "medium": 41,
   "low": 219,
   "high": 21,
   "holiday": 4
@@ -2905,7 +2905,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.5%",
-   "actual": "0.3%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2919,7 +2919,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-0.4%",
-   "actual": "0.6%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3494,7 +3494,7 @@
    "all_day": false,
    "forecast": "118.1%",
    "previous": "117.9%",
-   "actual": "",
+   "actual": "118.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3564,6 +3564,20 @@
    "all_day": false,
    "forecast": "1.9M",
    "previous": "0.9M",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "855c5d77c08c",
+   "ccy": "USD",
+   "title": "President Trump Speaks",
+   "impact": "medium",
+   "instant": "2026-10-07T17:00:00Z",
+   "local_date": "2026-10-07",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -4031,5 +4045,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-06T23:49:28.499774Z"
+ "actuals_updated_at": "2026-10-07T05:54:04.966391Z"
 }
