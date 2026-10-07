@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T13:16:41Z",
+ "generated_at": "2026-10-07T19:21:31Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,86 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 275,
+ "count": 270,
  "count_by_impact": {
-  "low": 215,
+  "low": 210,
   "high": 21,
   "medium": 35,
   "holiday": 4
  },
- "first_instant": "2026-09-23T13:45:00Z",
+ "first_instant": "2026-09-24T00:30:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "de40a80d754c",
-   "ccy": "USD",
-   "title": "Flash Manufacturing PMI",
-   "impact": "low",
-   "instant": "2026-09-23T13:45:00Z",
-   "local_date": "2026-09-23",
-   "all_day": false,
-   "forecast": "53.6",
-   "previous": "53.2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e0eac075c58d",
-   "ccy": "USD",
-   "title": "Flash Services PMI",
-   "impact": "low",
-   "instant": "2026-09-23T13:45:00Z",
-   "local_date": "2026-09-23",
-   "all_day": false,
-   "forecast": "55.8",
-   "previous": "56.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6d0028c0e3d8",
-   "ccy": "USD",
-   "title": "FOMC Member Barr Speaks",
-   "impact": "low",
-   "instant": "2026-09-23T14:05:00Z",
-   "local_date": "2026-09-23",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cf6877c24842",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-09-23T14:30:00Z",
-   "local_date": "2026-09-23",
-   "all_day": false,
-   "forecast": "-0.7M",
-   "previous": "-0.6M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e673bf2b6901",
-   "ccy": "USD",
-   "title": "FOMC Member Goolsbee Speaks",
-   "impact": "low",
-   "instant": "2026-09-23T16:00:00Z",
-   "local_date": "2026-09-23",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a8a5c4c20ece",
    "ccy": "JPY",
@@ -3426,9 +3356,10 @@
    "all_day": false,
    "forecast": "1.9M",
    "previous": "0.9M",
-   "actual": "",
+   "actual": "-3.2M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "855c5d77c08c",
@@ -3454,7 +3385,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.83|2.7",
-   "actual": "",
+   "actual": "5.30|2.8",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3482,9 +3413,10 @@
    "all_day": false,
    "forecast": "14.5B",
    "previous": "18.1B",
-   "actual": "",
+   "actual": "8.3B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "75cc52f7126f",
@@ -3907,5 +3839,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-07T13:16:41.580397Z"
+ "actuals_updated_at": "2026-10-07T19:21:31.953194Z"
 }
