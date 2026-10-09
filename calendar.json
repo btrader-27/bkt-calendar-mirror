@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T00:20:41Z",
+ "generated_at": "2026-10-09T07:21:17Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,60 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 243,
+ "count": 240,
  "count_by_impact": {
-  "low": 193,
+  "low": 190,
   "high": 16,
   "medium": 30,
   "holiday": 4
  },
- "first_instant": "2026-09-25T01:30:00Z",
+ "first_instant": "2026-09-25T08:00:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "279ee6af443a",
-   "ccy": "AUD",
-   "title": "NAB Quarterly Business Confidence",
-   "impact": "low",
-   "instant": "2026-09-25T01:30:00Z",
-   "local_date": "2026-09-24",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-19",
-   "actual": "-11",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "575a26011fd7",
-   "ccy": "JPY",
-   "title": "BOJ Core CPI y/y",
-   "impact": "low",
-   "instant": "2026-09-25T05:00:00Z",
-   "local_date": "2026-09-25",
-   "all_day": false,
-   "forecast": "1.5%",
-   "previous": "1.6%",
-   "actual": "1.8%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "182e2477964b",
-   "ccy": "EUR",
-   "title": "German GfK Consumer Climate",
-   "impact": "low",
-   "instant": "2026-09-25T06:00:00Z",
-   "local_date": "2026-09-25",
-   "all_day": false,
-   "forecast": "-27.1",
-   "previous": "-26.6",
-   "actual": "-30.6",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
   {
    "id": "5c38058fa275",
    "ccy": "EUR",
@@ -3336,7 +3292,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "64.7%",
-   "actual": "",
+   "actual": "60.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3350,9 +3306,10 @@
    "all_day": false,
    "forecast": "-32",
    "previous": "-33",
-   "actual": "",
+   "actual": "-36",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "044937a9cf21",
@@ -3453,5 +3410,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-09T00:20:41.389733Z"
+ "actuals_updated_at": "2026-10-09T07:21:17.395386Z"
 }
