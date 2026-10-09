@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:15:51Z",
+ "generated_at": "2026-10-09T20:07:00Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 231,
+ "count": 230,
  "count_by_impact": {
-  "low": 184,
   "holiday": 4,
+  "low": 183,
   "medium": 28,
   "high": 15
  },
- "first_instant": "2026-09-25T18:00:00Z",
+ "first_instant": "2026-09-26T14:00:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "1d1d9ee74ee1",
-   "ccy": "USD",
-   "title": "FOMC Member Hammack Speaks",
-   "impact": "low",
-   "instant": "2026-09-25T18:00:00Z",
-   "local_date": "2026-09-25",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "d4e48f423cb7",
    "ccy": "NZD",
@@ -3283,5 +3269,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-09T15:15:52.155932Z"
+ "actuals_updated_at": "2026-10-09T20:07:00.690288Z"
 }
