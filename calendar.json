@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T12:26:20Z",
+ "generated_at": "2026-10-10T17:50:16Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 230,
+ "count": 229,
  "count_by_impact": {
-  "holiday": 4,
   "low": 183,
   "medium": 28,
-  "high": 15
+  "high": 15,
+  "holiday": 3
  },
- "first_instant": "2026-09-26T14:00:00Z",
+ "first_instant": "2026-09-27T23:50:00Z",
  "last_instant": "2026-10-09T20:00:00Z",
  "events": [
-  {
-   "id": "d4e48f423cb7",
-   "ccy": "NZD",
-   "title": "Daylight Saving Time Shift",
-   "impact": "holiday",
-   "instant": "2026-09-26T14:00:00Z",
-   "local_date": "2026-09-26",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "d433b4722b05",
    "ccy": "JPY",
@@ -3263,5 +3249,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-10T12:26:20.699608Z"
+ "actuals_updated_at": "2026-10-10T17:50:16.413577Z"
 }
