@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T02:21:29Z",
+ "generated_at": "2026-10-12T10:42:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 324,
+ "count": 323,
  "count_by_impact": {
-  "low": 252,
+  "low": 251,
   "medium": 38,
   "high": 28,
   "holiday": 6
  },
- "first_instant": "2026-09-28T10:00:00Z",
+ "first_instant": "2026-09-28T12:15:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "7cf0f4a8fccc",
-   "ccy": "GBP",
-   "title": "MPC Member Ramsden Speaks",
-   "impact": "low",
-   "instant": "2026-09-28T10:00:00Z",
-   "local_date": "2026-09-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "0e042a1fd340",
    "ccy": "USD",
