@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T22:51:26Z",
+ "generated_at": "2026-10-12T02:21:29Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 326,
+ "count": 324,
  "count_by_impact": {
-  "low": 254,
+  "low": 252,
   "medium": 38,
   "high": 28,
   "holiday": 6
  },
- "first_instant": "2026-09-27T23:50:00Z",
+ "first_instant": "2026-09-28T10:00:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "d433b4722b05",
-   "ccy": "JPY",
-   "title": "Monetary Policy Meeting Minutes",
-   "impact": "low",
-   "instant": "2026-09-27T23:50:00Z",
-   "local_date": "2026-09-27",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "db0dff963310",
-   "ccy": "JPY",
-   "title": "SPPI y/y",
-   "impact": "low",
-   "instant": "2026-09-27T23:50:00Z",
-   "local_date": "2026-09-27",
-   "all_day": false,
-   "forecast": "3.6%",
-   "previous": "3.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "7cf0f4a8fccc",
    "ccy": "GBP",
