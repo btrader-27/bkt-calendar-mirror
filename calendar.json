@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T17:34:33Z",
+ "generated_at": "2026-10-13T22:40:55Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 293,
+ "count": 290,
  "count_by_impact": {
-  "low": 227,
+  "low": 224,
   "high": 26,
   "medium": 34,
   "holiday": 6
  },
- "first_instant": "2026-09-29T18:00:00Z",
+ "first_instant": "2026-09-29T23:50:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "cbea2187ce75",
-   "ccy": "USD",
-   "title": "FOMC Member Williams Speaks",
-   "impact": "low",
-   "instant": "2026-09-29T18:00:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6012785b7834",
-   "ccy": "USD",
-   "title": "FOMC Member Waller Speaks",
-   "impact": "low",
-   "instant": "2026-09-29T19:00:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "89662621832d",
-   "ccy": "USD",
-   "title": "API Weekly Statistical Bulletin",
-   "impact": "low",
-   "instant": "2026-09-29T20:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "9b43339895d3",
    "ccy": "JPY",
@@ -3063,7 +3021,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.5%",
-   "actual": "",
+   "actual": "2.8%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -4146,5 +4104,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-13T17:34:33.762432Z"
+ "actuals_updated_at": "2026-10-13T22:40:55.635231Z"
 }
