@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T02:01:31Z",
+ "generated_at": "2026-10-13T09:22:15Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,156 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 317,
+ "count": 307,
  "count_by_impact": {
-  "high": 28,
-  "medium": 37,
-  "low": 246,
+  "low": 239,
+  "medium": 36,
+  "high": 26,
   "holiday": 6
  },
- "first_instant": "2026-09-29T04:30:00Z",
+ "first_instant": "2026-09-29T09:33:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "8b8b9fce474d",
-   "ccy": "AUD",
-   "title": "Cash Rate",
-   "impact": "high",
-   "instant": "2026-09-29T04:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "4.60%",
-   "previous": "4.35%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5b8bac85a295",
-   "ccy": "AUD",
-   "title": "RBA Rate Statement",
-   "impact": "high",
-   "instant": "2026-09-29T04:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b3b2b3465532",
-   "ccy": "AUD",
-   "title": "RBA Press Conference",
-   "impact": "medium",
-   "instant": "2026-09-29T05:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fc23d4924cd3",
-   "ccy": "CHF",
-   "title": "KOF Economic Barometer",
-   "impact": "low",
-   "instant": "2026-09-29T07:00:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "106.0",
-   "previous": "106.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "70a8dc919071",
-   "ccy": "EUR",
-   "title": "Spanish Flash CPI y/y",
-   "impact": "low",
-   "instant": "2026-09-29T07:00:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "4.6%",
-   "previous": "4.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "98b38d731d3e",
-   "ccy": "GBP",
-   "title": "M4 Money Supply m/m",
-   "impact": "low",
-   "instant": "2026-09-29T08:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "-0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d68368c09a95",
-   "ccy": "GBP",
-   "title": "Mortgage Approvals",
-   "impact": "low",
-   "instant": "2026-09-29T08:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "56K",
-   "previous": "56K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "45fafa2a64c4",
-   "ccy": "GBP",
-   "title": "Net Lending to Individuals m/m",
-   "impact": "low",
-   "instant": "2026-09-29T08:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "6.2B",
-   "previous": "6.3B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0ec8514921d0",
-   "ccy": "GBP",
-   "title": "10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-29T09:02:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "5.16|3.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9c9929f1751d",
-   "ccy": "EUR",
-   "title": "Italian 10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-09-29T09:04:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.10|1.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "35b1221525d5",
    "ccy": "EUR",
@@ -3300,7 +3160,7 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.6%",
-   "actual": "",
+   "actual": "0.6%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -4481,5 +4341,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-13T02:01:32.006264Z"
+ "actuals_updated_at": "2026-10-13T09:22:16.118897Z"
 }
