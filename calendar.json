@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T01:52:58Z",
+ "generated_at": "2026-10-14T07:33:52Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,157 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 283,
+ "count": 273,
  "count_by_impact": {
-  "low": 220,
-  "medium": 34,
+  "low": 211,
   "holiday": 6,
+  "medium": 33,
   "high": 23
  },
- "first_instant": "2026-09-30T05:00:00Z",
+ "first_instant": "2026-09-30T07:55:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "e56ba27d9781",
-   "ccy": "JPY",
-   "title": "Housing Starts y/y",
-   "impact": "low",
-   "instant": "2026-09-30T05:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "6.9%",
-   "previous": "8.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1e5437aaf72b",
-   "ccy": "EUR",
-   "title": "German Import Prices m/m",
-   "impact": "low",
-   "instant": "2026-09-30T06:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b9b52489019d",
-   "ccy": "EUR",
-   "title": "German Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-09-30T06:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "1.6%",
-   "previous": "-3.4%",
-   "actual": "1.3%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "22d885665a61",
-   "ccy": "GBP",
-   "title": "Current Account",
-   "impact": "low",
-   "instant": "2026-09-30T06:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "-25.6B",
-   "previous": "-22.1B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4bedfb2f8715",
-   "ccy": "GBP",
-   "title": "Final GDP q/q",
-   "impact": "low",
-   "instant": "2026-09-30T06:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "0.4%",
-   "previous": "0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "41e148984133",
-   "ccy": "GBP",
-   "title": "Revised Business Investment q/q",
-   "impact": "low",
-   "instant": "2026-09-30T06:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "1.7%",
-   "previous": "1.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "22e58803cf6f",
-   "ccy": "EUR",
-   "title": "German Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-09-30T06:04:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "1.6%",
-   "previous": "-3.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d101cbcbc67c",
-   "ccy": "EUR",
-   "title": "German Prelim CPI m/m",
-   "impact": "medium",
-   "instant": "2026-09-30T06:29:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "0.5%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "366c5c6958a2",
-   "ccy": "EUR",
-   "title": "French Consumer Spending m/m",
-   "impact": "low",
-   "instant": "2026-09-30T06:45:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "0.0%",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0997e6290445",
-   "ccy": "EUR",
-   "title": "French Prelim CPI m/m",
-   "impact": "low",
-   "instant": "2026-09-30T06:45:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "-0.5%",
-   "previous": "0.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "70252255306d",
    "ccy": "EUR",
@@ -2994,9 +2853,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.9%",
-   "actual": "",
+   "actual": "1.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "cac287b78ff4",
@@ -3888,7 +3748,7 @@
    "instant": "2026-10-16T12:30:00Z",
    "local_date": "2026-10-16",
    "all_day": false,
-   "forecast": "",
+   "forecast": "23.59B",
    "previous": "20.65B",
    "actual": "",
    "source": "forexfactory",
@@ -4007,5 +3867,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-14T01:52:59.078324Z"
+ "actuals_updated_at": "2026-10-14T07:33:52.492237Z"
 }
