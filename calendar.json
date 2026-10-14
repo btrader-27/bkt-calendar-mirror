@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:40:13Z",
+ "generated_at": "2026-10-14T18:34:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,86 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 257,
+ "count": 252,
  "count_by_impact": {
-  "low": 200,
+  "low": 195,
   "medium": 31,
   "high": 21,
   "holiday": 5
  },
- "first_instant": "2026-09-30T13:45:00Z",
+ "first_instant": "2026-09-30T19:25:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "dbf4a6245716",
-   "ccy": "USD",
-   "title": "Chicago PMI",
-   "impact": "low",
-   "instant": "2026-09-30T13:45:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "51.2",
-   "previous": "47.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f6959e999810",
-   "ccy": "CHF",
-   "title": "Gov Board Member Tschudin Speaks",
-   "impact": "low",
-   "instant": "2026-09-30T14:30:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "890c20490de1",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-09-30T14:30:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "-0.7M",
-   "previous": "3.0M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "46364aacda40",
-   "ccy": "CHF",
-   "title": "Gov Board Member Tschudin Speaks",
-   "impact": "low",
-   "instant": "2026-09-30T15:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f5b416598600",
-   "ccy": "USD",
-   "title": "FOMC Member Barkin Speaks",
-   "impact": "low",
-   "instant": "2026-09-30T17:30:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "0c7c38727f4d",
    "ccy": "USD",
@@ -3318,7 +3248,7 @@
    "instant": "2026-10-15T14:30:00Z",
    "local_date": "2026-10-15",
    "all_day": false,
-   "forecast": "",
+   "forecast": "76B",
    "previous": "85B",
    "actual": "",
    "source": "forexfactory",
@@ -3332,7 +3262,7 @@
    "instant": "2026-10-15T16:00:00Z",
    "local_date": "2026-10-15",
    "all_day": false,
-   "forecast": "",
+   "forecast": "-0.2M",
    "previous": "-3.2M",
    "actual": "",
    "source": "forexfactory",
@@ -3647,5 +3577,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-14T13:40:13.507980Z"
+ "actuals_updated_at": "2026-10-14T18:34:44.888938Z"
 }
