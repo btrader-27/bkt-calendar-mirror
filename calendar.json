@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T18:34:44Z",
+ "generated_at": "2026-10-14T22:16:15Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,86 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 252,
+ "count": 247,
  "count_by_impact": {
-  "low": 195,
-  "medium": 31,
+  "low": 192,
+  "medium": 29,
   "high": 21,
   "holiday": 5
  },
- "first_instant": "2026-09-30T19:25:00Z",
+ "first_instant": "2026-09-30T23:50:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "0c7c38727f4d",
-   "ccy": "USD",
-   "title": "FOMC Member Cook Speaks",
-   "impact": "low",
-   "instant": "2026-09-30T19:25:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "747bbba47846",
-   "ccy": "USD",
-   "title": "President Trump Speaks",
-   "impact": "medium",
-   "instant": "2026-09-30T19:30:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6b2b20fc96b2",
-   "ccy": "USD",
-   "title": "FOMC Member Goolsbee Speaks",
-   "impact": "low",
-   "instant": "2026-09-30T21:10:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bdbed5ade14b",
-   "ccy": "NZD",
-   "title": "Building Consents m/m",
-   "impact": "low",
-   "instant": "2026-09-30T21:45:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-4.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d549d3eba691",
-   "ccy": "USD",
-   "title": "FOMC Member Kashkari Speaks",
-   "impact": "medium",
-   "instant": "2026-09-30T22:00:00Z",
-   "local_date": "2026-09-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "386219e4efcb",
    "ccy": "JPY",
@@ -3577,5 +3507,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-14T18:34:44.888938Z"
+ "actuals_updated_at": "2026-10-14T22:16:16.314381Z"
 }
