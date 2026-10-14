@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T22:40:55Z",
+ "generated_at": "2026-10-14T01:52:58Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,128 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 290,
+ "count": 283,
  "count_by_impact": {
-  "low": 224,
-  "high": 26,
+  "low": 220,
   "medium": 34,
-  "holiday": 6
+  "holiday": 6,
+  "high": 23
  },
- "first_instant": "2026-09-29T23:50:00Z",
+ "first_instant": "2026-09-30T05:00:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "9b43339895d3",
-   "ccy": "JPY",
-   "title": "Prelim Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-09-29T23:50:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "1.4%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "32fff73418e3",
-   "ccy": "JPY",
-   "title": "Retail Sales y/y",
-   "impact": "low",
-   "instant": "2026-09-29T23:50:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "3.3%",
-   "previous": "4.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "71ca1acd0227",
-   "ccy": "NZD",
-   "title": "ANZ Business Confidence",
-   "impact": "low",
-   "instant": "2026-09-30T00:00:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "53.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "857b5d0fa903",
-   "ccy": "AUD",
-   "title": "Building Approvals m/m",
-   "impact": "low",
-   "instant": "2026-09-30T01:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "-1.6%",
-   "previous": "-3.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f195e3108726",
-   "ccy": "AUD",
-   "title": "CPI m/m",
-   "impact": "high",
-   "instant": "2026-09-30T01:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "0.5%",
-   "previous": "1.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fe4a35f20e8c",
-   "ccy": "AUD",
-   "title": "CPI y/y",
-   "impact": "high",
-   "instant": "2026-09-30T01:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "4.1%",
-   "previous": "3.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1990d7a7593b",
-   "ccy": "AUD",
-   "title": "Private Sector Credit m/m",
-   "impact": "low",
-   "instant": "2026-09-30T01:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "0.5%",
-   "previous": "0.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8f814833f641",
-   "ccy": "AUD",
-   "title": "Trimmed Mean CPI m/m",
-   "impact": "high",
-   "instant": "2026-09-30T01:30:00Z",
-   "local_date": "2026-09-29",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "e56ba27d9781",
    "ccy": "JPY",
@@ -3035,7 +2923,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.0%",
-   "actual": "",
+   "actual": "-0.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3049,9 +2937,10 @@
    "all_day": false,
    "forecast": "2.1%",
    "previous": "2.0%",
-   "actual": "",
+   "actual": "2.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "944b580fc7ec",
@@ -3297,6 +3186,20 @@
    "title": "Beige Book",
    "impact": "low",
    "instant": "2026-10-14T18:00:00Z",
+   "local_date": "2026-10-14",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "098fa94feb85",
+   "ccy": "USD",
+   "title": "FOMC Member Goolsbee Speaks",
+   "impact": "low",
+   "instant": "2026-10-14T19:00:00Z",
    "local_date": "2026-10-14",
    "all_day": false,
    "forecast": "",
@@ -4104,5 +4007,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-13T22:40:55.635231Z"
+ "actuals_updated_at": "2026-10-14T01:52:59.078324Z"
 }
