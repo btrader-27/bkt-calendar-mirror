@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:56:29Z",
+ "generated_at": "2026-10-15T20:19:15Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 207,
+ "count": 203,
  "count_by_impact": {
-  "low": 159,
+  "low": 155,
   "medium": 22,
   "high": 21,
   "holiday": 5
  },
- "first_instant": "2026-10-01T17:30:00Z",
+ "first_instant": "2026-10-01T22:45:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "eb398254f111",
-   "ccy": "USD",
-   "title": "FOMC Member Jefferson Speaks",
-   "impact": "low",
-   "instant": "2026-10-01T17:30:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c3d7cf0a0f59",
-   "ccy": "USD",
-   "title": "FOMC Member Bowman Speaks",
-   "impact": "low",
-   "instant": "2026-10-01T19:00:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ee40b8314048",
-   "ccy": "CAD",
-   "title": "Gov Council Member Rogers Speaks",
-   "impact": "low",
-   "instant": "2026-10-01T19:05:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "085f79d8ab12",
-   "ccy": "USD",
-   "title": "FOMC Member Cook Speaks",
-   "impact": "low",
-   "instant": "2026-10-01T19:30:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a896e064de13",
    "ccy": "USD",
@@ -2964,5 +2908,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-15T16:56:29.721550Z"
+ "actuals_updated_at": "2026-10-15T20:19:15.418776Z"
 }
