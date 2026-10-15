@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:19:15Z",
+ "generated_at": "2026-10-15T23:40:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 203,
+ "count": 199,
  "count_by_impact": {
-  "low": 155,
-  "medium": 22,
+  "low": 152,
+  "medium": 21,
   "high": 21,
   "holiday": 5
  },
- "first_instant": "2026-10-01T22:45:00Z",
+ "first_instant": "2026-10-01T23:50:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "a896e064de13",
-   "ccy": "USD",
-   "title": "FOMC Member Logan Speaks",
-   "impact": "low",
-   "instant": "2026-10-01T22:45:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "479dde2334b4",
-   "ccy": "USD",
-   "title": "FOMC Member Logan Speaks",
-   "impact": "low",
-   "instant": "2026-10-01T23:20:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "21da9bf0a6f1",
-   "ccy": "JPY",
-   "title": "Tokyo Core CPI y/y",
-   "impact": "medium",
-   "instant": "2026-10-01T23:30:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "2.4%",
-   "previous": "1.8%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "028880965def",
-   "ccy": "JPY",
-   "title": "Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-10-01T23:30:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "2.4%",
-   "previous": "2.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ed4d9f64d99a",
    "ccy": "JPY",
@@ -2623,7 +2567,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "53.1",
-   "actual": "",
+   "actual": "56.5",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2637,7 +2581,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2908,5 +2852,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-15T20:19:15.418776Z"
+ "actuals_updated_at": "2026-10-15T23:40:29.610487Z"
 }
