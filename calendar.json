@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T23:40:28Z",
+ "generated_at": "2026-10-16T04:26:25Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 199,
+ "count": 198,
  "count_by_impact": {
-  "low": 152,
+  "low": 151,
   "medium": 21,
   "high": 21,
   "holiday": 5
  },
- "first_instant": "2026-10-01T23:50:00Z",
+ "first_instant": "2026-10-02T07:00:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "ed4d9f64d99a",
-   "ccy": "JPY",
-   "title": "Monetary Base y/y",
-   "impact": "low",
-   "instant": "2026-10-01T23:50:00Z",
-   "local_date": "2026-10-01",
-   "all_day": false,
-   "forecast": "-16.3%",
-   "previous": "-15.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "061307f988d5",
    "ccy": "EUR",
@@ -1574,7 +1560,7 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.6%",
-   "actual": "0.6%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1602,7 +1588,7 @@
    "all_day": false,
    "forecast": "98.1",
    "previous": "98.7",
-   "actual": "97.9",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1616,7 +1602,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "23.8K",
-   "actual": "24.8K",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1630,10 +1616,9 @@
    "all_day": false,
    "forecast": "3.95M",
    "previous": "3.98M",
-   "actual": "3.99M",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "6680418cae34",
@@ -1645,7 +1630,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.5%",
-   "actual": "-0.3%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1701,7 +1686,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.5%",
-   "actual": "2.8%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1715,7 +1700,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.0%",
-   "actual": "-0.1%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1729,10 +1714,9 @@
    "all_day": false,
    "forecast": "2.1%",
    "previous": "2.0%",
-   "actual": "2.0%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "944b580fc7ec",
@@ -1786,10 +1770,9 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.9%",
-   "actual": "1.9%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "cac287b78ff4",
@@ -2852,5 +2835,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-15T23:40:29.610487Z"
+ "actuals_updated_at": "2026-10-16T04:26:26.167952Z"
 }
