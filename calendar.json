@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T04:26:25Z",
+ "generated_at": "2026-10-16T09:45:15Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,75 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 198,
+ "count": 194,
  "count_by_impact": {
-  "low": 151,
-  "medium": 21,
   "high": 21,
-  "holiday": 5
+  "low": 149,
+  "holiday": 5,
+  "medium": 19
  },
- "first_instant": "2026-10-02T07:00:00Z",
+ "first_instant": "2026-10-02T12:30:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "061307f988d5",
-   "ccy": "EUR",
-   "title": "Spanish Unemployment Change",
-   "impact": "low",
-   "instant": "2026-10-02T07:00:00Z",
-   "local_date": "2026-10-02",
-   "all_day": false,
-   "forecast": "17.6K",
-   "previous": "44.4K",
-   "actual": "23.6K",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "b03be5ed64e4",
-   "ccy": "EUR",
-   "title": "Italian Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-10-02T08:00:00Z",
-   "local_date": "2026-10-02",
-   "all_day": false,
-   "forecast": "-0.1%",
-   "previous": "-0.4%",
-   "actual": "0.3%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "2b1725a60a37",
-   "ccy": "EUR",
-   "title": "CPI Flash Estimate y/y",
-   "impact": "medium",
-   "instant": "2026-10-02T09:00:00Z",
-   "local_date": "2026-10-02",
-   "all_day": false,
-   "forecast": "3.7%",
-   "previous": "3.3%",
-   "actual": "3.8%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "d4963900e853",
-   "ccy": "EUR",
-   "title": "Core CPI Flash Estimate y/y",
-   "impact": "medium",
-   "instant": "2026-10-02T09:00:00Z",
-   "local_date": "2026-10-02",
-   "all_day": false,
-   "forecast": "2.5%",
-   "previous": "2.4%",
-   "actual": "2.5%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "5afafb0f68bd",
    "ccy": "USD",
@@ -2634,7 +2575,7 @@
    "all_day": false,
    "forecast": "3.8%",
    "previous": "3.8%",
-   "actual": "",
+   "actual": "3.8%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2648,7 +2589,7 @@
    "all_day": false,
    "forecast": "2.5%",
    "previous": "2.5%",
-   "actual": "",
+   "actual": "2.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2662,9 +2603,10 @@
    "all_day": false,
    "forecast": "4.5B",
    "previous": "5.0B",
-   "actual": "",
+   "actual": "-6.8B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "10e65484f61c",
@@ -2835,5 +2777,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-16T04:26:26.167952Z"
+ "actuals_updated_at": "2026-10-16T09:45:15.286472Z"
 }
