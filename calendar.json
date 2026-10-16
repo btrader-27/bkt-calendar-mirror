@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:48:45Z",
+ "generated_at": "2026-10-16T18:47:05Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 189,
+ "count": 188,
  "count_by_impact": {
-  "low": 147,
+  "low": 146,
   "holiday": 5,
   "medium": 19,
   "high": 18
  },
- "first_instant": "2026-10-02T16:00:00Z",
+ "first_instant": "2026-10-02T19:35:00Z",
  "last_instant": "2026-10-18T00:00:00Z",
  "events": [
-  {
-   "id": "e4bcb416ce69",
-   "ccy": "USD",
-   "title": "FOMC Member Goolsbee Speaks",
-   "impact": "low",
-   "instant": "2026-10-02T16:00:00Z",
-   "local_date": "2026-10-02",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6d86d1e1a300",
-   "ccy": "USD",
-   "title": "FOMC Member Goolsbee Speaks",
-   "impact": "low",
-   "instant": "2026-10-02T17:00:00Z",
-   "local_date": "2026-10-02",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "6dc828f7375d",
    "ccy": "EUR",
@@ -2650,9 +2622,25 @@
    "all_day": false,
    "forecast": "-34.7B",
    "previous": "-166.8B",
-   "actual": "",
+   "actual": "-26.9B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
+  },
+  {
+   "id": "fff76c14087f",
+   "ccy": "USD",
+   "title": "Federal Budget Balance",
+   "impact": "low",
+   "instant": "2026-10-16T18:05:00Z",
+   "local_date": "2026-10-16",
+   "all_day": false,
+   "forecast": "-34.7B",
+   "previous": "-166.8B",
+   "actual": "-26.9B",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "82cb0211cb61",
@@ -2711,5 +2699,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-16T14:48:47.698104Z"
+ "actuals_updated_at": "2026-10-16T18:47:05.812899Z"
 }
