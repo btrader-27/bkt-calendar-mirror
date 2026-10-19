@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T13:05:40Z",
+ "generated_at": "2026-10-19T19:18:29Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 248,
+ "count": 246,
  "count_by_impact": {
-  "low": 185,
-  "medium": 34,
+  "low": 184,
   "high": 23,
+  "medium": 33,
   "holiday": 6
  },
- "first_instant": "2026-10-05T13:45:00Z",
+ "first_instant": "2026-10-05T21:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "414bce4cc80d",
-   "ccy": "USD",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-10-05T13:45:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "58.7",
-   "previous": "58.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "372321f42b8e",
-   "ccy": "USD",
-   "title": "ISM Services PMI",
-   "impact": "medium",
-   "instant": "2026-10-05T14:00:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "55.1",
-   "previous": "55.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ae1218fe4f5f",
    "ccy": "NZD",
@@ -2620,9 +2592,10 @@
    "all_day": false,
    "forecast": "31",
    "previous": "32",
-   "actual": "",
+   "actual": "29",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "e3d2fd6e8ae9",
@@ -2800,7 +2773,7 @@
    "instant": "2026-10-20T14:00:00Z",
    "local_date": "2026-10-20",
    "all_day": false,
-   "forecast": "-0.4%",
+   "forecast": "-0.7%",
    "previous": "0.3%",
    "actual": "",
    "source": "forexfactory",
@@ -2870,7 +2843,7 @@
    "instant": "2026-10-20T23:50:00Z",
    "local_date": "2026-10-20",
    "all_day": false,
-   "forecast": "-0.21T",
+   "forecast": "-0.26T",
    "previous": "-0.84T",
    "actual": "",
    "source": "forexfactory",
@@ -3521,5 +3494,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-19T13:05:41.091378Z"
+ "actuals_updated_at": "2026-10-19T19:18:29.434308Z"
 }
