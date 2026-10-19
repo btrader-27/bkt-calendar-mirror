@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T01:13:02Z",
+ "generated_at": "2026-10-19T06:10:50Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 258,
+ "count": 257,
  "count_by_impact": {
-  "low": 195,
+  "low": 194,
   "medium": 34,
   "high": 23,
   "holiday": 6
  },
- "first_instant": "2026-10-05T05:00:00Z",
+ "first_instant": "2026-10-05T07:15:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "39824dd164cc",
-   "ccy": "JPY",
-   "title": "Consumer Confidence",
-   "impact": "low",
-   "instant": "2026-10-05T05:00:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "35.3",
-   "previous": "35.5",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "62bae232d102",
    "ccy": "EUR",
@@ -2671,9 +2657,10 @@
    "all_day": false,
    "forecast": "-0.3%",
    "previous": "0.4%",
-   "actual": "",
+   "actual": "-0.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "4151bb618b00",
@@ -3656,5 +3643,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-19T01:13:02.909414Z"
+ "actuals_updated_at": "2026-10-19T06:10:51.099881Z"
 }
