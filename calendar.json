@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T06:10:50Z",
+ "generated_at": "2026-10-19T13:05:40Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,142 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 257,
+ "count": 248,
  "count_by_impact": {
-  "low": 194,
+  "low": 185,
   "medium": 34,
   "high": 23,
   "holiday": 6
  },
- "first_instant": "2026-10-05T07:15:00Z",
+ "first_instant": "2026-10-05T13:45:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "62bae232d102",
-   "ccy": "EUR",
-   "title": "Spanish Services PMI",
-   "impact": "low",
-   "instant": "2026-10-05T07:15:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "57.1",
-   "previous": "57.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5fd693b16c9c",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-10-05T07:45:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "961164642584",
-   "ccy": "EUR",
-   "title": "Italian Services PMI",
-   "impact": "low",
-   "instant": "2026-10-05T07:45:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "54.6",
-   "previous": "55.2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c0b41c7bc52d",
-   "ccy": "EUR",
-   "title": "French Final Services PMI",
-   "impact": "low",
-   "instant": "2026-10-05T07:50:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "51.4",
-   "previous": "51.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "39617f9db1a6",
-   "ccy": "EUR",
-   "title": "German Final Services PMI",
-   "impact": "low",
-   "instant": "2026-10-05T07:55:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "52.9",
-   "previous": "52.9",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bac4f9c22715",
-   "ccy": "EUR",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-10-05T08:00:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "53.0",
-   "previous": "53.0",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "87940e0cef84",
-   "ccy": "EUR",
-   "title": "Sentix Investor Confidence",
-   "impact": "low",
-   "instant": "2026-10-05T08:30:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "4.5",
-   "previous": "5.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "7f91bffdb123",
-   "ccy": "GBP",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-10-05T08:30:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "51.7",
-   "previous": "51.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4fc0bdf1570d",
-   "ccy": "EUR",
-   "title": "PPI m/m",
-   "impact": "low",
-   "instant": "2026-10-05T09:00:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "1.9%",
-   "previous": "1.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "414bce4cc80d",
    "ccy": "USD",
@@ -2672,9 +2546,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "0.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "550d71b70e6e",
@@ -2686,9 +2561,10 @@
    "all_day": false,
    "forecast": "2.6%",
    "previous": "2.6%",
-   "actual": "",
+   "actual": "2.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f961ee81b541",
@@ -2700,7 +2576,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2714,9 +2590,10 @@
    "all_day": false,
    "forecast": "2.0%",
    "previous": "2.0%",
-   "actual": "",
+   "actual": "1.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "9f341d790124",
@@ -2728,9 +2605,10 @@
    "all_day": false,
    "forecast": "1.9%",
    "previous": "1.9%",
-   "actual": "",
+   "actual": "1.8%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "4c7ebafbbbb4",
@@ -3643,5 +3521,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-19T06:10:51.099881Z"
+ "actuals_updated_at": "2026-10-19T13:05:41.091378Z"
 }
