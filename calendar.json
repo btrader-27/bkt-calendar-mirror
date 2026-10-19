@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T23:08:28Z",
+ "generated_at": "2026-10-19T01:13:02Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 260,
+ "count": 258,
  "count_by_impact": {
-  "low": 197,
+  "low": 195,
   "medium": 34,
   "high": 23,
   "holiday": 6
  },
- "first_instant": "2026-10-05T00:00:00Z",
+ "first_instant": "2026-10-05T05:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "e82b784b8296",
-   "ccy": "AUD",
-   "title": "MI Inflation Gauge m/m",
-   "impact": "low",
-   "instant": "2026-10-05T00:00:00Z",
-   "local_date": "2026-10-04",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d7ecd2fac6c5",
-   "ccy": "NZD",
-   "title": "ANZ Commodity Prices m/m",
-   "impact": "low",
-   "instant": "2026-10-05T00:00:00Z",
-   "local_date": "2026-10-04",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "39824dd164cc",
    "ccy": "JPY",
@@ -3684,5 +3656,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-18T23:08:28.927990Z"
+ "actuals_updated_at": "2026-10-19T01:13:02.909414Z"
 }
