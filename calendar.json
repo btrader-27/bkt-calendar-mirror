@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T15:01:45Z",
+ "generated_at": "2026-10-20T19:12:16Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 224,
+ "count": 223,
  "count_by_impact": {
-  "low": 164,
+  "low": 163,
   "medium": 32,
   "high": 22,
   "holiday": 6
  },
- "first_instant": "2026-10-06T15:46:00Z",
+ "first_instant": "2026-10-06T20:30:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "16a194f92264",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-10-06T15:46:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-1.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "260cd5a77f16",
-   "ccy": "USD",
-   "title": "FOMC Member Schmid Speaks",
-   "impact": "low",
-   "instant": "2026-10-06T17:15:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "661e6ff797fc",
    "ccy": "USD",
@@ -2489,7 +2461,21 @@
    "all_day": false,
    "forecast": "",
    "previous": "1.2%",
-   "actual": "",
+   "actual": "2.5%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "ef6322eeff37",
+   "ccy": "NZD",
+   "title": "GDT Price Index",
+   "impact": "low",
+   "instant": "2026-10-20T15:19:00Z",
+   "local_date": "2026-10-20",
+   "all_day": false,
+   "forecast": "",
+   "previous": "1.2%",
+   "actual": "2.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3194,5 +3180,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-20T15:01:45.974694Z"
+ "actuals_updated_at": "2026-10-20T19:12:17.006755Z"
 }
