@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T10:00:08Z",
+ "generated_at": "2026-10-20T15:01:45Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,157 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 234,
+ "count": 224,
  "count_by_impact": {
-  "low": 173,
-  "medium": 33,
+  "low": 164,
+  "medium": 32,
   "high": 22,
   "holiday": 6
  },
- "first_instant": "2026-10-06T12:14:00Z",
+ "first_instant": "2026-10-06T15:46:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "712c211a5b38",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-10-06T12:14:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "20.0K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4ca863c37a61",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-10-06T12:15:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "22.5K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6d803cbc3d02",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-10-06T12:16:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "20.0K",
-   "actual": "23.8K",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2e31e39a59c0",
-   "ccy": "CAD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-10-06T12:30:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "1.5B",
-   "previous": "0.8B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "06c3af23398e",
-   "ccy": "USD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-10-06T12:30:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "-100.8B",
-   "previous": "-88.6B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8438f9eeffcf",
-   "ccy": "CAD",
-   "title": "Ivey PMI",
-   "impact": "medium",
-   "instant": "2026-10-06T14:00:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "65.2",
-   "previous": "64.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cbef0552a5d8",
-   "ccy": "USD",
-   "title": "RCM/TIPP Economic Optimism",
-   "impact": "low",
-   "instant": "2026-10-06T14:01:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "44.5",
-   "previous": "45.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4190c6318f5c",
-   "ccy": "USD",
-   "title": "RCM/TIPP Economic Optimism",
-   "impact": "low",
-   "instant": "2026-10-06T14:10:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "44.5",
-   "previous": "45.6",
-   "actual": "46.8",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "92100ad2f64e",
-   "ccy": "USD",
-   "title": "FOMC Member Bowman Speaks",
-   "impact": "low",
-   "instant": "2026-10-06T14:45:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d52deb499220",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-10-06T14:50:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-1.1%",
-   "actual": "1.2%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "16a194f92264",
    "ccy": "NZD",
@@ -2572,7 +2431,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "24.8K",
-   "actual": "",
+   "actual": "18.5K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2586,7 +2445,7 @@
    "all_day": false,
    "forecast": "1.39M",
    "previous": "1.39M",
-   "actual": "",
+   "actual": "1.40M",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2600,9 +2459,10 @@
    "all_day": false,
    "forecast": "1.30M",
    "previous": "1.28M",
-   "actual": "",
+   "actual": "1.22M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "58d9e80bab61",
@@ -2614,9 +2474,10 @@
    "all_day": false,
    "forecast": "-0.6%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "-7.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "e60e588e139c",
@@ -2738,7 +2599,7 @@
    "instant": "2026-10-21T06:00:00Z",
    "local_date": "2026-10-21",
    "all_day": false,
-   "forecast": "1.4%",
+   "forecast": "1.3%",
    "previous": "0.3%",
    "actual": "",
    "source": "forexfactory",
@@ -2850,7 +2711,7 @@
    "instant": "2026-10-21T14:30:00Z",
    "local_date": "2026-10-21",
    "all_day": false,
-   "forecast": "-0.3M",
+   "forecast": "-0.1M",
    "previous": "-8.6M",
    "actual": "",
    "source": "forexfactory",
@@ -2934,7 +2795,7 @@
    "instant": "2026-10-22T12:30:00Z",
    "local_date": "2026-10-22",
    "all_day": false,
-   "forecast": "3.0%",
+   "forecast": "3.1%",
    "previous": "3.1%",
    "actual": "",
    "source": "forexfactory",
@@ -3333,5 +3194,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-20T10:00:08.710129Z"
+ "actuals_updated_at": "2026-10-20T15:01:45.974694Z"
 }
