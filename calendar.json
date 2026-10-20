@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T23:36:20Z",
+ "generated_at": "2026-10-20T04:44:13Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 244,
+ "count": 242,
  "count_by_impact": {
-  "low": 182,
+  "low": 180,
   "high": 23,
   "medium": 33,
   "holiday": 6
  },
- "first_instant": "2026-10-06T00:30:00Z",
+ "first_instant": "2026-10-06T06:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "598b902b507c",
-   "ccy": "AUD",
-   "title": "ANZ Job Advertisements m/m",
-   "impact": "low",
-   "instant": "2026-10-06T00:30:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "2.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a5ae534b6b27",
-   "ccy": "JPY",
-   "title": "10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-10-06T03:35:00Z",
-   "local_date": "2026-10-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "3.00|3.3",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "70450ee1c2a4",
    "ccy": "EUR",
@@ -3466,5 +3438,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-19T23:36:21.166899Z"
+ "actuals_updated_at": "2026-10-20T04:44:17.383317Z"
 }
