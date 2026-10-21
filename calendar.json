@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:36:26Z",
+ "generated_at": "2026-10-21T23:59:18Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 211,
+ "count": 209,
  "count_by_impact": {
-  "low": 153,
+  "low": 151,
   "medium": 31,
   "high": 21,
   "holiday": 6
  },
- "first_instant": "2026-10-07T23:01:00Z",
+ "first_instant": "2026-10-08T00:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "75cc52f7126f",
-   "ccy": "GBP",
-   "title": "RICS House Price Balance",
-   "impact": "low",
-   "instant": "2026-10-07T23:01:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "-30%",
-   "previous": "-28%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2714670836b6",
-   "ccy": "JPY",
-   "title": "Current Account",
-   "impact": "low",
-   "instant": "2026-10-07T23:50:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "2.14T",
-   "previous": "2.52T",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c711e7cb99a3",
    "ccy": "AUD",
@@ -2540,9 +2512,10 @@
    "all_day": false,
    "forecast": "0.8%",
    "previous": "1.5%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "ba3aa764dabe",
@@ -3007,5 +2980,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-21T20:36:26.691099Z"
+ "actuals_updated_at": "2026-10-21T23:59:18.317286Z"
 }
