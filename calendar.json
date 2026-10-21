@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T11:42:54Z",
+ "generated_at": "2026-10-21T17:07:53Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 216,
+ "count": 213,
  "count_by_impact": {
-  "low": 156,
-  "medium": 32,
   "high": 22,
+  "low": 154,
+  "medium": 31,
   "holiday": 6
  },
- "first_instant": "2026-10-07T14:30:00Z",
+ "first_instant": "2026-10-07T18:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "6131cd3d1004",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-10-07T14:30:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "1.9M",
-   "previous": "0.9M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "855c5d77c08c",
-   "ccy": "USD",
-   "title": "President Trump Speaks",
-   "impact": "medium",
-   "instant": "2026-10-07T17:00:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c6f99bf30b46",
-   "ccy": "USD",
-   "title": "10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-10-07T17:01:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.83|2.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "d9eda1283507",
    "ccy": "USD",
@@ -2067,10 +2025,9 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "-0.1%",
-   "actual": "0.1%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "550d71b70e6e",
@@ -2082,10 +2039,9 @@
    "all_day": false,
    "forecast": "2.6%",
    "previous": "2.6%",
-   "actual": "2.4%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "f961ee81b541",
@@ -2097,7 +2053,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.1%",
-   "actual": "0.0%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2111,10 +2067,9 @@
    "all_day": false,
    "forecast": "2.0%",
    "previous": "2.0%",
-   "actual": "1.9%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "9f341d790124",
@@ -2126,10 +2081,9 @@
    "all_day": false,
    "forecast": "1.9%",
    "previous": "1.9%",
-   "actual": "1.8%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "4c7ebafbbbb4",
@@ -2141,10 +2095,9 @@
    "all_day": false,
    "forecast": "31",
    "previous": "32",
-   "actual": "29",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "e3d2fd6e8ae9",
@@ -2604,9 +2557,10 @@
    "all_day": false,
    "forecast": "-0.1M",
    "previous": "-8.6M",
-   "actual": "",
+   "actual": "-3.1M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "7d7d31c5f326",
@@ -3085,5 +3039,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-21T11:42:54.263567Z"
+ "actuals_updated_at": "2026-10-21T17:07:53.578468Z"
 }
