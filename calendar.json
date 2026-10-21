@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T00:37:59Z",
+ "generated_at": "2026-10-21T05:59:38Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 221,
+ "count": 220,
  "count_by_impact": {
-  "low": 161,
+  "low": 160,
   "medium": 32,
   "high": 22,
   "holiday": 6
  },
- "first_instant": "2026-10-07T05:00:00Z",
+ "first_instant": "2026-10-07T06:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "2ff207820264",
-   "ccy": "JPY",
-   "title": "Leading Indicators",
-   "impact": "low",
-   "instant": "2026-10-07T05:00:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "118.1%",
-   "previous": "117.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "bc706d1fe0ec",
    "ccy": "EUR",
@@ -2516,7 +2502,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.5%",
-   "actual": "",
+   "actual": "6.9%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3151,5 +3137,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-21T00:37:59.795454Z"
+ "actuals_updated_at": "2026-10-21T05:59:38.538686Z"
 }
