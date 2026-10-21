@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T22:15:59Z",
+ "generated_at": "2026-10-21T00:37:59Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 222,
+ "count": 221,
  "count_by_impact": {
-  "low": 162,
+  "low": 161,
   "medium": 32,
   "high": 22,
   "holiday": 6
  },
- "first_instant": "2026-10-06T23:30:00Z",
+ "first_instant": "2026-10-07T05:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "051b117f402b",
-   "ccy": "JPY",
-   "title": "Average Cash Earnings y/y",
-   "impact": "low",
-   "instant": "2026-10-06T23:30:00Z",
-   "local_date": "2026-10-06",
-   "all_day": false,
-   "forecast": "3.7%",
-   "previous": "4.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "2ff207820264",
    "ccy": "JPY",
@@ -2081,7 +2067,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "51.2",
-   "actual": "50.9",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2095,10 +2081,9 @@
    "all_day": false,
    "forecast": "-775M",
    "previous": "-1349M",
-   "actual": "-1971M",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "9dab84db80cf",
@@ -2110,7 +2095,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.7%",
-   "actual": "1.0%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2138,10 +2123,9 @@
    "all_day": false,
    "forecast": "-0.3%",
    "previous": "0.4%",
-   "actual": "-0.1%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "4151bb618b00",
@@ -2517,9 +2501,10 @@
    "all_day": false,
    "forecast": "-0.26T",
    "previous": "-0.84T",
-   "actual": "",
+   "actual": "-0.70T",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "1319aa6bdc03",
@@ -3166,5 +3151,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-20T22:15:59.374753Z"
+ "actuals_updated_at": "2026-10-21T00:37:59.795454Z"
 }
