@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:14:19Z",
+ "generated_at": "2026-10-22T19:13:02Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 195,
+ "count": 193,
  "count_by_impact": {
-  "low": 140,
+  "low": 138,
   "high": 20,
   "medium": 29,
   "holiday": 6
  },
- "first_instant": "2026-10-08T17:01:00Z",
+ "first_instant": "2026-10-08T23:30:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "fdfc1fb9c2c1",
-   "ccy": "USD",
-   "title": "30-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-10-08T17:01:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "5.31|2.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5dc7e52892b0",
-   "ccy": "USD",
-   "title": "FOMC Member Musalem Speaks",
-   "impact": "low",
-   "instant": "2026-10-08T17:40:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "aceb3d017d17",
    "ccy": "JPY",
@@ -1829,9 +1801,10 @@
    "all_day": false,
    "forecast": "1.5%",
    "previous": "1.1%",
-   "actual": "",
+   "actual": "1.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "97b9a25d19c2",
@@ -1843,9 +1816,10 @@
    "all_day": false,
    "forecast": "3.8%",
    "previous": "3.9%",
-   "actual": "",
+   "actual": "3.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "4ec1851eb578",
@@ -1857,9 +1831,10 @@
    "all_day": false,
    "forecast": "19.4K",
    "previous": "27.8K",
-   "actual": "",
+   "actual": "30.3K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "6fc6fc7dcb6b",
@@ -1871,9 +1846,10 @@
    "all_day": false,
    "forecast": "4.9%",
    "previous": "4.9%",
-   "actual": "",
+   "actual": "4.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "0b36964a3d45",
@@ -2795,5 +2771,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-22T15:14:19.256277Z"
+ "actuals_updated_at": "2026-10-22T19:13:02.695260Z"
 }
