@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T04:38:17Z",
+ "generated_at": "2026-10-22T10:08:00Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,128 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 207,
+ "count": 199,
  "count_by_impact": {
-  "low": 149,
-  "medium": 31,
+  "low": 142,
   "high": 21,
+  "medium": 30,
   "holiday": 6
  },
- "first_instant": "2026-10-08T05:00:00Z",
+ "first_instant": "2026-10-08T10:30:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "b210f975cd9d",
-   "ccy": "JPY",
-   "title": "Economy Watchers Sentiment",
-   "impact": "low",
-   "instant": "2026-10-08T05:00:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "46.7",
-   "previous": "46.4",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4273e38f7dd0",
-   "ccy": "EUR",
-   "title": "German Trade Balance",
-   "impact": "low",
-   "instant": "2026-10-08T06:00:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "19.0B",
-   "previous": "21.3B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bbf0536df05a",
-   "ccy": "CHF",
-   "title": "Gov Board Member Martin Speaks",
-   "impact": "low",
-   "instant": "2026-10-08T08:05:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "77c165e2432c",
-   "ccy": "GBP",
-   "title": "BOE Credit Conditions Survey",
-   "impact": "low",
-   "instant": "2026-10-08T08:30:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f4d24b4af9f0",
-   "ccy": "USD",
-   "title": "FOMC Member Waller Speaks",
-   "impact": "medium",
-   "instant": "2026-10-08T08:30:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "baeff92891b4",
-   "ccy": "GBP",
-   "title": "MPC Member Pill Speaks",
-   "impact": "low",
-   "instant": "2026-10-08T09:00:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "7453bb217144",
-   "ccy": "EUR",
-   "title": "Eurogroup Meetings",
-   "impact": "low",
-   "instant": "2026-10-08T09:15:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "451d790328d8",
-   "ccy": "GBP",
-   "title": "MPC Member Greene Speaks",
-   "impact": "low",
-   "instant": "2026-10-08T09:15:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c09b21c59564",
    "ccy": "GBP",
@@ -2513,9 +2401,10 @@
    "all_day": false,
    "forecast": "-20",
    "previous": "-9",
-   "actual": "",
+   "actual": "-32",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5325992c3e9e",
@@ -2952,5 +2841,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-22T04:38:18.215375Z"
+ "actuals_updated_at": "2026-10-22T10:08:00.685096Z"
 }
