@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:59:18Z",
+ "generated_at": "2026-10-22T04:38:17Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 209,
+ "count": 207,
  "count_by_impact": {
-  "low": 151,
+  "low": 149,
   "medium": 31,
   "high": 21,
   "holiday": 6
  },
- "first_instant": "2026-10-08T00:00:00Z",
+ "first_instant": "2026-10-08T05:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "c711e7cb99a3",
-   "ccy": "AUD",
-   "title": "MI Inflation Expectations",
-   "impact": "low",
-   "instant": "2026-10-08T00:00:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cff5c7c21933",
-   "ccy": "JPY",
-   "title": "30-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-10-08T03:35:00Z",
-   "local_date": "2026-10-07",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.08|3.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "b210f975cd9d",
    "ccy": "JPY",
@@ -2980,5 +2952,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-21T23:59:18.317286Z"
+ "actuals_updated_at": "2026-10-22T04:38:18.215375Z"
 }
