@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:22:01Z",
+ "generated_at": "2026-10-23T18:17:15Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,45 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 186,
+ "count": 184,
  "count_by_impact": {
-  "medium": 29,
   "low": 133,
   "holiday": 6,
+  "medium": 27,
   "high": 18
  },
- "first_instant": "2026-10-09T14:00:00Z",
+ "first_instant": "2026-10-09T20:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "85feef5f60bd",
-   "ccy": "USD",
-   "title": "Prelim UoM Consumer Sentiment",
-   "impact": "medium",
-   "instant": "2026-10-09T14:00:00Z",
-   "local_date": "2026-10-09",
-   "all_day": false,
-   "forecast": "47.5",
-   "previous": "47.8",
-   "actual": "46.3",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "0b144b6ae64b",
-   "ccy": "USD",
-   "title": "Prelim UoM Inflation Expectations",
-   "impact": "medium",
-   "instant": "2026-10-09T14:00:00Z",
-   "local_date": "2026-10-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.6%",
-   "actual": "4.7%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a9413dad1885",
    "ccy": "USD",
@@ -2580,9 +2551,10 @@
    "all_day": false,
    "forecast": "55.4",
    "previous": "57.0",
-   "actual": "",
+   "actual": "56.0",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b8e1624e9dbc",
@@ -2594,7 +2566,7 @@
    "all_day": false,
    "forecast": "57.9",
    "previous": "58.7",
-   "actual": "",
+   "actual": "57.9",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2608,9 +2580,10 @@
    "all_day": false,
    "forecast": "46.3",
    "previous": "46.3",
-   "actual": "",
+   "actual": "48.0",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "9fc1e539a801",
@@ -2622,7 +2595,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.7%",
-   "actual": "",
+   "actual": "4.7%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2669,5 +2642,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-23T13:22:02.317307Z"
+ "actuals_updated_at": "2026-10-23T18:17:16.081832Z"
 }
