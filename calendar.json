@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T22:18:27Z",
+ "generated_at": "2026-10-23T01:27:51Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,31 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 193,
+ "count": 192,
  "count_by_impact": {
-  "low": 138,
+  "low": 137,
   "high": 20,
   "medium": 29,
   "holiday": 6
  },
- "first_instant": "2026-10-08T23:30:00Z",
+ "first_instant": "2026-10-09T06:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "aceb3d017d17",
-   "ccy": "JPY",
-   "title": "Household Spending y/y",
-   "impact": "low",
-   "instant": "2026-10-08T23:30:00Z",
-   "local_date": "2026-10-08",
-   "all_day": false,
-   "forecast": "-3.5%",
-   "previous": "-3.6%",
-   "actual": "-3.1%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
   {
    "id": "0c0d6feb60ab",
    "ccy": "JPY",
@@ -2468,9 +2453,10 @@
    "all_day": false,
    "forecast": "-14",
    "previous": "-13",
-   "actual": "",
+   "actual": "-24",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c8cee4ce5348",
@@ -2482,7 +2468,7 @@
    "all_day": false,
    "forecast": "2.1%",
    "previous": "1.7%",
-   "actual": "",
+   "actual": "2.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2496,9 +2482,10 @@
    "all_day": false,
    "forecast": "54.5",
    "previous": "54.1",
-   "actual": "",
+   "actual": "53.3",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "ee6d2470d866",
@@ -2767,5 +2754,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-22T22:18:27.984167Z"
+ "actuals_updated_at": "2026-10-23T01:27:51.470680Z"
 }
