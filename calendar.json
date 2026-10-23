@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T18:17:15Z",
+ "generated_at": "2026-10-23T22:06:36Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 184,
+ "count": 183,
  "count_by_impact": {
-  "low": 133,
   "holiday": 6,
+  "low": 132,
   "medium": 27,
   "high": 18
  },
- "first_instant": "2026-10-09T20:00:00Z",
+ "first_instant": "2026-10-11T23:00:00Z",
  "last_instant": "2026-10-25T01:00:00Z",
  "events": [
-  {
-   "id": "a9413dad1885",
-   "ccy": "USD",
-   "title": "FOMC Member Collins Speaks",
-   "impact": "low",
-   "instant": "2026-10-09T20:00:00Z",
-   "local_date": "2026-10-09",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "b2377915e08a",
    "ccy": "JPY",
@@ -2048,10 +2034,9 @@
    "all_day": false,
    "forecast": "1.2%",
    "previous": "1.4%",
-   "actual": "0.9%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "af2e95573647",
@@ -2091,10 +2076,9 @@
    "all_day": false,
    "forecast": "-0.1M",
    "previous": "-8.6M",
-   "actual": "-3.1M",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "7d7d31c5f326",
@@ -2106,10 +2090,9 @@
    "all_day": false,
    "forecast": "0.8%",
    "previous": "1.5%",
-   "actual": "0.7%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "ba3aa764dabe",
@@ -2642,5 +2625,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-23T18:17:16.081832Z"
+ "actuals_updated_at": "2026-10-23T22:06:36.642514Z"
 }
