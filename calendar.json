@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T06:08:35Z",
+ "generated_at": "2026-10-26T12:54:21Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 275,
+ "count": 272,
  "count_by_impact": {
-  "low": 191,
-  "holiday": 6,
+  "low": 190,
   "medium": 37,
-  "high": 41
+  "high": 41,
+  "holiday": 4
  },
- "first_instant": "2026-10-12T09:30:00Z",
+ "first_instant": "2026-10-12T16:10:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "4d2de673ab92",
-   "ccy": "GBP",
-   "title": "MPC Member Breeden Speaks",
-   "impact": "low",
-   "instant": "2026-10-12T09:30:00Z",
-   "local_date": "2026-10-12",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bbcd2e460794",
-   "ccy": "USD",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-10-12T11:00:00Z",
-   "local_date": "2026-10-12",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e1130710ed85",
-   "ccy": "CAD",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-10-12T12:00:00Z",
-   "local_date": "2026-10-12",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "74b20bca8649",
-   "ccy": "GBP",
-   "title": "MPC Member Mann Speaks",
-   "impact": "low",
-   "instant": "2026-10-12T12:50:00Z",
-   "local_date": "2026-10-12",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "495206f5cc98",
    "ccy": "USD",
@@ -2637,7 +2581,7 @@
    "all_day": false,
    "forecast": "90.0",
    "previous": "89.9",
-   "actual": "",
+   "actual": "90.2",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2651,9 +2595,10 @@
    "all_day": false,
    "forecast": "-47",
    "previous": "-55",
-   "actual": "",
+   "actual": "-10",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "33e32acb1a08",
@@ -3440,6 +3385,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "c6f8289e1a39",
+   "ccy": "CAD",
+   "title": "Gov Council Member Vincent Speaks",
+   "impact": "low",
+   "instant": "2026-10-29T15:59:00Z",
+   "local_date": "2026-10-29",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "e156238dc1f4",
    "ccy": "CHF",
    "title": "Gov Board Member Tschudin Speaks",
@@ -3901,5 +3860,6 @@
    "source": "forexfactory",
    "feed": "thisweek"
   }
- ]
+ ],
+ "actuals_updated_at": "2026-10-26T12:54:21.836820Z"
 }
