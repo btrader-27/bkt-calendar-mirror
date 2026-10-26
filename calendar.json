@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T12:54:21Z",
+ "generated_at": "2026-10-26T19:14:57Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 272,
+ "count": 273,
  "count_by_impact": {
-  "low": 190,
+  "low": 191,
   "medium": 37,
   "high": 41,
   "holiday": 4
  },
- "first_instant": "2026-10-12T16:10:00Z",
+ "first_instant": "2026-10-12T23:01:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "495206f5cc98",
-   "ccy": "USD",
-   "title": "FOMC Member Hammack Speaks",
-   "impact": "low",
-   "instant": "2026-10-12T16:10:00Z",
-   "local_date": "2026-10-12",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "6396436c2121",
    "ccy": "GBP",
@@ -2650,7 +2636,7 @@
    "instant": "2026-10-27T08:00:00Z",
    "local_date": "2026-10-27",
    "all_day": false,
-   "forecast": "",
+   "forecast": "9.8%",
    "previous": "9.9%",
    "actual": "",
    "source": "forexfactory",
@@ -2762,7 +2748,7 @@
    "instant": "2026-10-27T14:00:00Z",
    "local_date": "2026-10-27",
    "all_day": false,
-   "forecast": "80.5",
+   "forecast": "80.7",
    "previous": "81.9",
    "actual": "",
    "source": "forexfactory",
@@ -3315,6 +3301,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "5fc2010027da",
+   "ccy": "CAD",
+   "title": "Gov Council Member Gravelle Speaks",
+   "impact": "low",
+   "instant": "2026-10-29T12:50:00Z",
+   "local_date": "2026-10-29",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "7685228b758e",
    "ccy": "EUR",
    "title": "Main Refinancing Rate",
@@ -3376,6 +3376,20 @@
    "title": "Gov Council Member Vincent Speaks",
    "impact": "low",
    "instant": "2026-10-29T14:50:00Z",
+   "local_date": "2026-10-29",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "af5f487badee",
+   "ccy": "CAD",
+   "title": "Gov Council Member Vincent Speaks",
+   "impact": "low",
+   "instant": "2026-10-29T15:30:00Z",
    "local_date": "2026-10-29",
    "all_day": false,
    "forecast": "",
@@ -3861,5 +3875,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-26T12:54:21.836820Z"
+ "actuals_updated_at": "2026-10-26T19:14:58.189375Z"
 }
