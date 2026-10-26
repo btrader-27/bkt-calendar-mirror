@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T21:44:25Z",
+ "generated_at": "2026-10-26T00:18:47Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 276,
+ "count": 275,
  "count_by_impact": {
-  "holiday": 7,
   "low": 191,
+  "holiday": 6,
   "medium": 37,
   "high": 41
  },
- "first_instant": "2026-10-11T23:00:00Z",
+ "first_instant": "2026-10-12T09:30:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "b2377915e08a",
-   "ccy": "JPY",
-   "title": "Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-10-11T23:00:00Z",
-   "local_date": "2026-10-11",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4d2de673ab92",
    "ccy": "GBP",
