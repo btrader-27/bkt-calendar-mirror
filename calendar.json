@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T14:26:17Z",
+ "generated_at": "2026-10-27T20:03:04Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 263,
+ "count": 259,
  "count_by_impact": {
-  "low": 180,
+  "low": 176,
   "medium": 38,
   "high": 41,
   "holiday": 4
  },
- "first_instant": "2026-10-13T14:30:00Z",
+ "first_instant": "2026-10-13T21:45:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "6680418cae34",
-   "ccy": "AUD",
-   "title": "CB Leading Index m/m",
-   "impact": "low",
-   "instant": "2026-10-13T14:30:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "301b4dd13cfa",
-   "ccy": "GBP",
-   "title": "MPC Member Dhingra Speaks",
-   "impact": "low",
-   "instant": "2026-10-13T16:00:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e80a7d8ce2cc",
-   "ccy": "USD",
-   "title": "FOMC Member Barkin Speaks",
-   "impact": "low",
-   "instant": "2026-10-13T17:00:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e94c79b063d8",
-   "ccy": "USD",
-   "title": "FOMC Member Collins Speaks",
-   "impact": "low",
-   "instant": "2026-10-13T20:00:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "1306479b4083",
    "ccy": "NZD",
@@ -2910,7 +2854,7 @@
    "instant": "2026-10-28T14:30:00Z",
    "local_date": "2026-10-28",
    "all_day": false,
-   "forecast": "-0.3M",
+   "forecast": "-0.1M",
    "previous": "-3.1M",
    "actual": "",
    "source": "forexfactory",
@@ -3743,5 +3687,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-27T14:26:17.466069Z"
+ "actuals_updated_at": "2026-10-27T20:03:04.782759Z"
 }
