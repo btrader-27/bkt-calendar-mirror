@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T02:02:16Z",
+ "generated_at": "2026-10-27T07:47:00Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 269,
+ "count": 266,
  "count_by_impact": {
-  "low": 186,
+  "low": 183,
   "medium": 38,
   "high": 41,
   "holiday": 4
  },
- "first_instant": "2026-10-13T03:00:00Z",
+ "first_instant": "2026-10-13T10:00:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "63a9a6e114ad",
-   "ccy": "GBP",
-   "title": "MPC Member Greene Speaks",
-   "impact": "low",
-   "instant": "2026-10-13T03:00:00Z",
-   "local_date": "2026-10-12",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "840bdf7438b7",
-   "ccy": "EUR",
-   "title": "German Final CPI m/m",
-   "impact": "low",
-   "instant": "2026-10-13T06:00:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b76b803ded53",
-   "ccy": "USD",
-   "title": "FOMC Member Waller Speaks",
-   "impact": "low",
-   "instant": "2026-10-13T07:45:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a01b9281193a",
    "ccy": "USD",
@@ -2555,9 +2513,10 @@
    "all_day": false,
    "forecast": "1.9%",
    "previous": "1.8%",
-   "actual": "",
+   "actual": "2.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "a8f9a905d1e7",
@@ -3820,5 +3779,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-27T02:02:16.913735Z"
+ "actuals_updated_at": "2026-10-27T07:47:01.245763Z"
 }
