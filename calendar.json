@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T07:47:00Z",
+ "generated_at": "2026-10-27T14:26:17Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 266,
+ "count": 263,
  "count_by_impact": {
-  "low": 183,
+  "low": 180,
   "medium": 38,
   "high": 41,
   "holiday": 4
  },
- "first_instant": "2026-10-13T10:00:00Z",
+ "first_instant": "2026-10-13T14:30:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "a01b9281193a",
-   "ccy": "USD",
-   "title": "NFIB Small Business Index",
-   "impact": "low",
-   "instant": "2026-10-13T10:00:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "98.1",
-   "previous": "98.7",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bb25c8b2a90f",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-10-13T12:15:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "23.8K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "03e8bcecade3",
-   "ccy": "USD",
-   "title": "Existing Home Sales",
-   "impact": "low",
-   "instant": "2026-10-13T14:00:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "3.95M",
-   "previous": "3.98M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "6680418cae34",
    "ccy": "AUD",
@@ -2528,9 +2486,10 @@
    "all_day": false,
    "forecast": "9.9%",
    "previous": "9.9%",
-   "actual": "",
+   "actual": "10.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "3a29ebcb0f72",
@@ -2542,7 +2501,7 @@
    "all_day": false,
    "forecast": "3.5%",
    "previous": "3.5%",
-   "actual": "",
+   "actual": "3.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2556,7 +2515,7 @@
    "all_day": false,
    "forecast": "3.1%",
    "previous": "3.1%",
-   "actual": "",
+   "actual": "3.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2570,7 +2529,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "18.5K",
-   "actual": "",
+   "actual": "16.8K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2584,7 +2543,7 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2598,9 +2557,10 @@
    "all_day": false,
    "forecast": "2.0%",
    "previous": "0.0%",
-   "actual": "",
+   "actual": "1.8%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "b34099c0749c",
@@ -2612,9 +2572,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f37a020d352f",
@@ -2626,7 +2587,7 @@
    "all_day": false,
    "forecast": "2.6%",
    "previous": "2.5%",
-   "actual": "",
+   "actual": "2.7%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2640,9 +2601,10 @@
    "all_day": false,
    "forecast": "81.2",
    "previous": "81.9",
-   "actual": "",
+   "actual": "91.7",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "df0a77614ae8",
@@ -2654,9 +2616,10 @@
    "all_day": false,
    "forecast": "651K",
    "previous": "684K",
-   "actual": "",
+   "actual": "676K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "a54228eb0433",
@@ -2668,9 +2631,10 @@
    "all_day": false,
    "forecast": "0",
    "previous": "-2",
-   "actual": "",
+   "actual": "-2",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "084ebf089dd2",
@@ -3779,5 +3743,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-27T07:47:01.245763Z"
+ "actuals_updated_at": "2026-10-27T14:26:17.466069Z"
 }
