@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T20:03:04Z",
+ "generated_at": "2026-10-27T23:44:36Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 259,
+ "count": 257,
  "count_by_impact": {
-  "low": 176,
+  "low": 174,
   "medium": 38,
   "high": 41,
   "holiday": 4
  },
- "first_instant": "2026-10-13T21:45:00Z",
+ "first_instant": "2026-10-13T23:50:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "1306479b4083",
-   "ccy": "NZD",
-   "title": "Visitor Arrivals m/m",
-   "impact": "low",
-   "instant": "2026-10-13T21:45:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6011106b085c",
-   "ccy": "AUD",
-   "title": "MI Leading Index m/m",
-   "impact": "low",
-   "instant": "2026-10-13T23:30:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "5f0e8b878dee",
    "ccy": "JPY",
@@ -3687,5 +3659,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-27T20:03:04.782759Z"
+ "actuals_updated_at": "2026-10-27T23:44:37.140370Z"
 }
