@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T23:44:36Z",
+ "generated_at": "2026-10-28T05:35:04Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 257,
+ "count": 253,
  "count_by_impact": {
-  "low": 174,
-  "medium": 38,
+  "low": 172,
+  "medium": 36,
   "high": 41,
   "holiday": 4
  },
- "first_instant": "2026-10-13T23:50:00Z",
+ "first_instant": "2026-10-14T06:00:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "5f0e8b878dee",
-   "ccy": "JPY",
-   "title": "M2 Money Stock y/y",
-   "impact": "low",
-   "instant": "2026-10-13T23:50:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "2.1%",
-   "previous": "2.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "944b580fc7ec",
-   "ccy": "EUR",
-   "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
-   "instant": "2026-10-14T02:10:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3b6e45f001c8",
-   "ccy": "GBP",
-   "title": "MPC Member Breeden Speaks",
-   "impact": "low",
-   "instant": "2026-10-14T03:30:00Z",
-   "local_date": "2026-10-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "aaef49ee6695",
-   "ccy": "GBP",
-   "title": "BOE Gov Bailey Speaks",
-   "impact": "medium",
-   "instant": "2026-10-14T05:30:00Z",
-   "local_date": "2026-10-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "d3bc2d37f324",
    "ccy": "EUR",
@@ -2590,9 +2534,10 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "0.4%",
-   "actual": "",
+   "actual": "0.8%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "93a5956d53c7",
@@ -2604,9 +2549,10 @@
    "all_day": false,
    "forecast": "4.2%",
    "previous": "4.0%",
-   "actual": "",
+   "actual": "4.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "3f9d809d7744",
@@ -2618,7 +2564,7 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2632,9 +2578,10 @@
    "all_day": false,
    "forecast": "3.00%",
    "previous": "2.75%",
-   "actual": "",
+   "actual": "2.75%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "c0b93c32b0bc",
@@ -2826,7 +2773,7 @@
    "instant": "2026-10-28T14:30:00Z",
    "local_date": "2026-10-28",
    "all_day": false,
-   "forecast": "-0.1M",
+   "forecast": "0.1M",
    "previous": "-3.1M",
    "actual": "",
    "source": "forexfactory",
@@ -2994,7 +2941,7 @@
    "instant": "2026-10-29T12:30:00Z",
    "local_date": "2026-10-29",
    "all_day": false,
-   "forecast": "3.3%",
+   "forecast": "3.2%",
    "previous": "6.2%",
    "actual": "",
    "source": "forexfactory",
@@ -3134,7 +3081,7 @@
    "instant": "2026-10-29T14:30:00Z",
    "local_date": "2026-10-29",
    "all_day": false,
-   "forecast": "",
+   "forecast": "75B",
    "previous": "77B",
    "actual": "",
    "source": "forexfactory",
@@ -3414,7 +3361,7 @@
    "instant": "2026-10-30T07:00:00Z",
    "local_date": "2026-10-30",
    "all_day": false,
-   "forecast": "-0.1%",
+   "forecast": "-0.2%",
    "previous": "-0.2%",
    "actual": "",
    "source": "forexfactory",
@@ -3659,5 +3606,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-27T23:44:37.140370Z"
+ "actuals_updated_at": "2026-10-28T05:35:04.742997Z"
 }
