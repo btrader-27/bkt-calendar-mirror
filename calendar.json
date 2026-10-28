@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T12:46:31Z",
+ "generated_at": "2026-10-28T18:49:47Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 241,
+ "count": 238,
  "count_by_impact": {
-  "low": 167,
+  "low": 164,
   "high": 37,
   "medium": 33,
   "holiday": 4
  },
- "first_instant": "2026-10-14T13:30:00Z",
+ "first_instant": "2026-10-14T19:00:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "c002ff4d0e17",
-   "ccy": "GBP",
-   "title": "CB Leading Index m/m",
-   "impact": "low",
-   "instant": "2026-10-14T13:30:00Z",
-   "local_date": "2026-10-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "06c84a852077",
-   "ccy": "USD",
-   "title": "FOMC Member Barkin Speaks",
-   "impact": "low",
-   "instant": "2026-10-14T17:30:00Z",
-   "local_date": "2026-10-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ea182f39b0b4",
-   "ccy": "USD",
-   "title": "Beige Book",
-   "impact": "low",
-   "instant": "2026-10-14T18:00:00Z",
-   "local_date": "2026-10-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "098fa94feb85",
    "ccy": "USD",
@@ -2582,7 +2540,7 @@
    "all_day": false,
    "forecast": "2.50%",
    "previous": "2.25%",
-   "actual": "",
+   "actual": "2.50%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2610,9 +2568,10 @@
    "all_day": false,
    "forecast": "0.1M",
    "previous": "-3.1M",
-   "actual": "",
+   "actual": "-1.9M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "1b64bee7ea20",
@@ -2638,7 +2597,7 @@
    "all_day": false,
    "forecast": "4.00%",
    "previous": "4.00%",
-   "actual": "",
+   "actual": "4.00%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3441,5 +3400,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-28T12:46:31.291891Z"
+ "actuals_updated_at": "2026-10-28T18:49:48.342566Z"
 }
