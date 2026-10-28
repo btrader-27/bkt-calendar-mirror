@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:49:47Z",
+ "generated_at": "2026-10-28T23:11:26Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 238,
+ "count": 236,
  "count_by_impact": {
-  "low": 164,
+  "low": 162,
   "high": 37,
   "medium": 33,
   "holiday": 4
  },
- "first_instant": "2026-10-14T19:00:00Z",
+ "first_instant": "2026-10-14T23:50:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "098fa94feb85",
-   "ccy": "USD",
-   "title": "FOMC Member Goolsbee Speaks",
-   "impact": "low",
-   "instant": "2026-10-14T19:00:00Z",
-   "local_date": "2026-10-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a4f4b985cbc8",
-   "ccy": "USD",
-   "title": "API Weekly Statistical Bulletin",
-   "impact": "low",
-   "instant": "2026-10-14T20:30:00Z",
-   "local_date": "2026-10-14",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c29fde65ea57",
    "ccy": "JPY",
@@ -3400,5 +3372,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-28T18:49:48.342566Z"
+ "actuals_updated_at": "2026-10-28T23:11:27.274939Z"
 }
