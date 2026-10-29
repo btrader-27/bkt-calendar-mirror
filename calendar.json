@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T09:52:50Z",
+ "generated_at": "2026-10-29T16:53:59Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,198 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 214,
+ "count": 202,
  "count_by_impact": {
-  "medium": 31,
-  "low": 145,
-  "high": 34,
+  "low": 140,
+  "high": 30,
+  "medium": 28,
   "holiday": 4
  },
- "first_instant": "2026-10-15T10:15:00Z",
+ "first_instant": "2026-10-15T20:30:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "5a0023b00236",
-   "ccy": "EUR",
-   "title": "EU Economic Summit",
-   "impact": "medium",
-   "instant": "2026-10-15T10:15:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fd3df108dc63",
-   "ccy": "CAD",
-   "title": "Manufacturing Sales m/m",
-   "impact": "low",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "1.1%",
-   "previous": "-0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "cee01dc705dd",
-   "ccy": "CAD",
-   "title": "Wholesale Sales m/m",
-   "impact": "low",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "-1.5%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6c1941622500",
-   "ccy": "USD",
-   "title": "Core PPI m/m",
-   "impact": "high",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "68ccd326daa5",
-   "ccy": "USD",
-   "title": "Core Retail Sales m/m",
-   "impact": "high",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "1.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a1001669e441",
-   "ccy": "USD",
-   "title": "Empire State Manufacturing Index",
-   "impact": "low",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "12.1",
-   "previous": "7.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2f2b03f070de",
-   "ccy": "USD",
-   "title": "PPI m/m",
-   "impact": "high",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "818f40acb90e",
-   "ccy": "USD",
-   "title": "Philly Fed Manufacturing Index",
-   "impact": "medium",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "28.2",
-   "previous": "37.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d60d088b8bfe",
-   "ccy": "USD",
-   "title": "Retail Sales m/m",
-   "impact": "high",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "1.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f03496632ba2",
-   "ccy": "USD",
-   "title": "Unemployment Claims",
-   "impact": "medium",
-   "instant": "2026-10-15T12:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "199K",
-   "previous": "197K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d9739063d136",
-   "ccy": "USD",
-   "title": "Business Inventories m/m",
-   "impact": "low",
-   "instant": "2026-10-15T14:00:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "0.4%",
-   "previous": "0.8%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "45c7e1517bc0",
-   "ccy": "USD",
-   "title": "Natural Gas Storage",
-   "impact": "low",
-   "instant": "2026-10-15T14:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "76B",
-   "previous": "85B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3289738ec6c0",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-10-15T16:00:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "0.2M",
-   "previous": "-3.2M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "a5880d01a027",
    "ccy": "USD",
@@ -2389,7 +2207,21 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.58|1.6",
-   "actual": "",
+   "actual": "4.49|1.6",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "88d1670bad11",
+   "ccy": "EUR",
+   "title": "Italian 10-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-10-29T10:08:00Z",
+   "local_date": "2026-10-29",
+   "all_day": false,
+   "forecast": "",
+   "previous": "4.58|1.6",
+   "actual": "4.49|1.6",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2403,9 +2235,10 @@
    "all_day": false,
    "forecast": "3.2%",
    "previous": "6.2%",
-   "actual": "",
+   "actual": "2.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "311189546a6d",
@@ -2417,9 +2250,10 @@
    "all_day": false,
    "forecast": "3.2%",
    "previous": "1.5%",
-   "actual": "",
+   "actual": "3.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "99c2f6c067d7",
@@ -2431,7 +2265,7 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2445,9 +2279,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f4915a5e7784",
@@ -2459,9 +2294,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.9%",
-   "actual": "",
+   "actual": "0.5%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "110e0f102fc4",
@@ -2473,7 +2309,7 @@
    "all_day": false,
    "forecast": "198K",
    "previous": "194K",
-   "actual": "",
+   "actual": "194K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2501,7 +2337,7 @@
    "all_day": false,
    "forecast": "2.65%",
    "previous": "2.65%",
-   "actual": "",
+   "actual": "2.65%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2543,9 +2379,10 @@
    "all_day": false,
    "forecast": "75B",
    "previous": "77B",
-   "actual": "",
+   "actual": "80B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "d78b31bd3f35",
@@ -3066,5 +2903,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-29T09:52:50.373920Z"
+ "actuals_updated_at": "2026-10-29T16:54:00.130026Z"
 }
