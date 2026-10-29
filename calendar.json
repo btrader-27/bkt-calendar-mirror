@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T16:53:59Z",
+ "generated_at": "2026-10-29T21:46:57Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 202,
+ "count": 199,
  "count_by_impact": {
-  "low": 140,
   "high": 30,
+  "low": 137,
   "medium": 28,
   "holiday": 4
  },
- "first_instant": "2026-10-15T20:30:00Z",
+ "first_instant": "2026-10-16T02:00:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "a5880d01a027",
-   "ccy": "USD",
-   "title": "FOMC Member Hammack Speaks",
-   "impact": "low",
-   "instant": "2026-10-15T20:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6645a8de9f36",
-   "ccy": "NZD",
-   "title": "BusinessNZ Manufacturing Index",
-   "impact": "low",
-   "instant": "2026-10-15T21:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "53.1",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "31b787e1aec5",
-   "ccy": "NZD",
-   "title": "FPI m/m",
-   "impact": "low",
-   "instant": "2026-10-15T21:45:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "42198e4b70dd",
    "ccy": "GBP",
@@ -1587,10 +1545,9 @@
    "all_day": false,
    "forecast": "1.9%",
    "previous": "1.8%",
-   "actual": "2.4%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "a8f9a905d1e7",
@@ -2903,5 +2860,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-29T16:54:00.130026Z"
+ "actuals_updated_at": "2026-10-29T21:46:57.387808Z"
 }
