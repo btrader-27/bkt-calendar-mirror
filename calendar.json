@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T01:55:57Z",
+ "generated_at": "2026-10-30T08:34:39Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -18,70 +18,14 @@
  "feeds_failed": [],
  "count": 199,
  "count_by_impact": {
-  "high": 30,
-  "low": 137,
-  "medium": 28,
+  "low": 136,
+  "medium": 27,
+  "high": 32,
   "holiday": 4
  },
- "first_instant": "2026-10-16T02:00:00Z",
+ "first_instant": "2026-10-16T09:00:00Z",
  "last_instant": "2026-10-30T16:30:00Z",
  "events": [
-  {
-   "id": "42198e4b70dd",
-   "ccy": "GBP",
-   "title": "BOE Gov Bailey Speaks",
-   "impact": "high",
-   "instant": "2026-10-16T02:00:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "67b82a7a1b0a",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-10-16T02:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "923cb8fbe266",
-   "ccy": "USD",
-   "title": "Fed Chairman Warsh Speaks",
-   "impact": "high",
-   "instant": "2026-10-16T03:30:00Z",
-   "local_date": "2026-10-15",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9105d578b2d1",
-   "ccy": "CAD",
-   "title": "BOC Gov Macklem Speaks",
-   "impact": "medium",
-   "instant": "2026-10-16T04:15:00Z",
-   "local_date": "2026-10-16",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "dc891830f79b",
    "ccy": "EUR",
@@ -1559,10 +1503,9 @@
    "all_day": false,
    "forecast": "9.9%",
    "previous": "9.9%",
-   "actual": "10.2%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "3a29ebcb0f72",
@@ -1574,7 +1517,7 @@
    "all_day": false,
    "forecast": "3.5%",
    "previous": "3.5%",
-   "actual": "3.5%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1588,7 +1531,7 @@
    "all_day": false,
    "forecast": "3.1%",
    "previous": "3.1%",
-   "actual": "3.1%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1602,7 +1545,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "18.5K",
-   "actual": "16.8K",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1616,7 +1559,7 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.3%",
-   "actual": "0.5%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1630,10 +1573,9 @@
    "all_day": false,
    "forecast": "2.0%",
    "previous": "0.0%",
-   "actual": "1.8%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "b34099c0749c",
@@ -1645,10 +1587,9 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.3%",
-   "actual": "0.3%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "f37a020d352f",
@@ -1660,7 +1601,7 @@
    "all_day": false,
    "forecast": "2.6%",
    "previous": "2.5%",
-   "actual": "2.7%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1674,10 +1615,9 @@
    "all_day": false,
    "forecast": "81.2",
    "previous": "81.9",
-   "actual": "91.7",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "df0a77614ae8",
@@ -1689,10 +1629,9 @@
    "all_day": false,
    "forecast": "651K",
    "previous": "684K",
-   "actual": "676K",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "a54228eb0433",
@@ -1704,10 +1643,9 @@
    "all_day": false,
    "forecast": "0",
    "previous": "-2",
-   "actual": "-2",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "084ebf089dd2",
@@ -1747,10 +1685,9 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "0.4%",
-   "actual": "0.8%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "93a5956d53c7",
@@ -1762,10 +1699,9 @@
    "all_day": false,
    "forecast": "4.2%",
    "previous": "4.0%",
-   "actual": "4.3%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "3f9d809d7744",
@@ -1777,7 +1713,7 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.2%",
-   "actual": "0.3%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -1791,10 +1727,9 @@
    "all_day": false,
    "forecast": "3.00%",
    "previous": "2.75%",
-   "actual": "2.75%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "c0b93c32b0bc",
@@ -2495,7 +2430,7 @@
    "all_day": false,
    "forecast": "<1.25%",
    "previous": "<1.25%",
-   "actual": "",
+   "actual": "<1.25%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2528,6 +2463,48 @@
    "feed": "thisweek"
   },
   {
+   "id": "6c1a351af46c",
+   "ccy": "JPY",
+   "title": "BOJ Outlook Report",
+   "impact": "high",
+   "instant": "2026-10-30T03:02:00Z",
+   "local_date": "2026-10-29",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "8bd0a9c82643",
+   "ccy": "JPY",
+   "title": "BOJ Policy Rate",
+   "impact": "high",
+   "instant": "2026-10-30T03:02:00Z",
+   "local_date": "2026-10-29",
+   "all_day": false,
+   "forecast": "<1.25%",
+   "previous": "<1.25%",
+   "actual": "<1.25%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "96405e148513",
+   "ccy": "JPY",
+   "title": "Monetary Policy Statement",
+   "impact": "high",
+   "instant": "2026-10-30T03:02:00Z",
+   "local_date": "2026-10-29",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "1e763af1e10b",
    "ccy": "JPY",
    "title": "Housing Starts y/y",
@@ -2537,9 +2514,10 @@
    "all_day": false,
    "forecast": "2.7%",
    "previous": "6.1%",
-   "actual": "",
+   "actual": "-2.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "e54afca819f4",
@@ -2579,9 +2557,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "-0.5%",
-   "actual": "",
+   "actual": "-0.5%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f66a59a34b1b",
@@ -2593,6 +2572,21 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.2%",
+   "actual": "-0.1%",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "worse"
+  },
+  {
+   "id": "3efad7d08e7f",
+   "ccy": "JPY",
+   "title": "BOJ Press Conference",
+   "impact": "high",
+   "instant": "2026-10-30T06:30:00Z",
+   "local_date": "2026-10-30",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -2607,9 +2601,10 @@
    "all_day": false,
    "forecast": "1.9%",
    "previous": "1.0%",
-   "actual": "",
+   "actual": "2.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "0c75dfb4ff8e",
@@ -2621,9 +2616,10 @@
    "all_day": false,
    "forecast": "-0.2%",
    "previous": "-0.2%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8613cdd557db",
@@ -2649,9 +2645,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "-0.3%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "a4d031c15610",
@@ -2663,7 +2660,7 @@
    "all_day": false,
    "forecast": "-0.1%",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "-0.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2677,9 +2674,10 @@
    "all_day": false,
    "forecast": "108.1",
    "previous": "109.1",
-   "actual": "",
+   "actual": "107.6",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "2ab42d5dab46",
@@ -2691,7 +2689,7 @@
    "all_day": false,
    "forecast": "4.9%",
    "previous": "4.9%",
-   "actual": "",
+   "actual": "4.9%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2705,7 +2703,7 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.7%",
-   "actual": "",
+   "actual": "0.6%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2864,5 +2862,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-30T01:55:57.740038Z"
+ "actuals_updated_at": "2026-10-30T08:34:40.409797Z"
 }
