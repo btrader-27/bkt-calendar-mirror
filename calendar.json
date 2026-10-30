@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T15:53:34Z",
+ "generated_at": "2026-10-30T20:44:38Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,61 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 189,
+ "count": 187,
  "count_by_impact": {
-  "low": 126,
+  "low": 124,
   "medium": 27,
   "high": 32,
   "holiday": 4
  },
- "first_instant": "2026-10-16T18:00:00Z",
- "last_instant": "2026-10-30T16:30:00Z",
+ "first_instant": "2026-10-17T04:45:00Z",
+ "last_instant": "2026-10-30T17:30:00Z",
  "events": [
-  {
-   "id": "e5d63d85a133",
-   "ccy": "USD",
-   "title": "Federal Budget Balance",
-   "impact": "low",
-   "instant": "2026-10-16T18:00:00Z",
-   "local_date": "2026-10-16",
-   "all_day": false,
-   "forecast": "-34.7B",
-   "previous": "-166.8B",
-   "actual": "-26.9B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "fff76c14087f",
-   "ccy": "USD",
-   "title": "Federal Budget Balance",
-   "impact": "low",
-   "instant": "2026-10-16T18:05:00Z",
-   "local_date": "2026-10-16",
-   "all_day": false,
-   "forecast": "-34.7B",
-   "previous": "-166.8B",
-   "actual": "-26.9B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "82cb0211cb61",
-   "ccy": "USD",
-   "title": "TIC Long-Term Purchases",
-   "impact": "low",
-   "instant": "2026-10-16T20:00:00Z",
-   "local_date": "2026-10-16",
-   "all_day": false,
-   "forecast": "75.2B",
-   "previous": "-27.9B",
-   "actual": "279.2B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
   {
    "id": "d559e04c1851",
    "ccy": "EUR",
@@ -2722,7 +2677,21 @@
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
+  },
+  {
+   "id": "d359c7aa3a59",
+   "ccy": "USD",
+   "title": "FOMC Member Logan Speaks",
+   "impact": "low",
+   "instant": "2026-10-30T17:30:00Z",
+   "local_date": "2026-10-30",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-30T15:53:34.836580Z"
+ "actuals_updated_at": "2026-10-30T20:44:38.504357Z"
 }
