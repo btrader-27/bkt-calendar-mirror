@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T22:26:39Z",
+ "generated_at": "2026-11-01T02:10:23Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 185,
+ "count": 184,
  "count_by_impact": {
-  "low": 123,
+  "low": 122,
   "high": 32,
   "medium": 26,
   "holiday": 4
  },
- "first_instant": "2026-10-18T00:00:00Z",
+ "first_instant": "2026-10-18T21:30:00Z",
  "last_instant": "2026-10-30T17:30:00Z",
  "events": [
-  {
-   "id": "b3a7502c25a8",
-   "ccy": "AUD",
-   "title": "RBA Assist Gov Kent Speaks",
-   "impact": "low",
-   "instant": "2026-10-18T00:00:00Z",
-   "local_date": "2026-10-17",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "e0cc06ae25b3",
    "ccy": "NZD",
@@ -1801,7 +1787,7 @@
    "all_day": false,
    "forecast": "35.1",
    "previous": "35.4",
-   "actual": "",
+   "actual": "35.0",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2660,5 +2646,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-10-31T22:26:39.929679Z"
+ "actuals_updated_at": "2026-11-01T02:10:24.140507Z"
 }
