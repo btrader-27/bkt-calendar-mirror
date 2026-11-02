@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T20:28:10Z",
+ "generated_at": "2026-11-02T00:39:37Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 298,
+ "count": 294,
  "count_by_impact": {
-  "low": 199,
+  "low": 195,
   "high": 51,
   "medium": 41,
   "holiday": 7
  },
- "first_instant": "2026-10-18T21:30:00Z",
+ "first_instant": "2026-10-19T04:30:00Z",
  "last_instant": "2026-11-06T21:45:00Z",
  "events": [
-  {
-   "id": "e0cc06ae25b3",
-   "ccy": "NZD",
-   "title": "BusinessNZ Services Index",
-   "impact": "low",
-   "instant": "2026-10-18T21:30:00Z",
-   "local_date": "2026-10-18",
-   "all_day": false,
-   "forecast": "",
-   "previous": "51.2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0cf4de080743",
-   "ccy": "NZD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-10-18T21:45:00Z",
-   "local_date": "2026-10-18",
-   "all_day": false,
-   "forecast": "-775M",
-   "previous": "-1349M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9dab84db80cf",
-   "ccy": "GBP",
-   "title": "Rightmove HPI m/m",
-   "impact": "low",
-   "instant": "2026-10-18T23:01:00Z",
-   "local_date": "2026-10-18",
-   "all_day": false,
-   "forecast": "",
-   "previous": "0.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b2338b1fc0fc",
-   "ccy": "AUD",
-   "title": "RBA Assist Gov Kent Speaks",
-   "impact": "low",
-   "instant": "2026-10-18T23:05:00Z",
-   "local_date": "2026-10-18",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4d0e04bf6720",
    "ccy": "JPY",
@@ -2683,7 +2627,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2697,9 +2641,10 @@
    "all_day": false,
    "forecast": "1.8%",
    "previous": "-6.1%",
-   "actual": "",
+   "actual": "5.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "39522703867a",
@@ -2711,7 +2656,7 @@
    "all_day": false,
    "forecast": "53.3",
    "previous": "53.3",
-   "actual": "",
+   "actual": "53.3",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2919,7 +2864,7 @@
    "instant": "2026-11-02T15:00:00Z",
    "local_date": "2026-11-02",
    "all_day": false,
-   "forecast": "0.3%",
+   "forecast": "0.4%",
    "previous": "0.9%",
    "actual": "",
    "source": "forexfactory",
@@ -2933,7 +2878,7 @@
    "instant": "2026-11-02T15:00:00Z",
    "local_date": "2026-11-02",
    "all_day": false,
-   "forecast": "54.7",
+   "forecast": "54.5",
    "previous": "54.5",
    "actual": "",
    "source": "forexfactory",
@@ -4241,5 +4186,6 @@
    "source": "forexfactory",
    "feed": "thisweek"
   }
- ]
+ ],
+ "actuals_updated_at": "2026-11-02T00:39:37.372340Z"
 }
