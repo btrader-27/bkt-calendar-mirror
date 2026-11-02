@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T00:39:37Z",
+ "generated_at": "2026-11-02T07:38:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 294,
+ "count": 293,
  "count_by_impact": {
-  "low": 195,
   "high": 51,
   "medium": 41,
+  "low": 194,
   "holiday": 7
  },
- "first_instant": "2026-10-19T04:30:00Z",
+ "first_instant": "2026-10-19T12:30:00Z",
  "last_instant": "2026-11-06T21:45:00Z",
  "events": [
-  {
-   "id": "4d0e04bf6720",
-   "ccy": "JPY",
-   "title": "Tertiary Industry Activity m/m",
-   "impact": "low",
-   "instant": "2026-10-19T04:30:00Z",
-   "local_date": "2026-10-19",
-   "all_day": false,
-   "forecast": "-0.3%",
-   "previous": "0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "4151bb618b00",
    "ccy": "CAD",
@@ -2684,7 +2670,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "15.5%",
-   "actual": "",
+   "actual": "12.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2698,9 +2684,10 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "1.3%",
-   "actual": "",
+   "actual": "-2.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "a8f80c6522ed",
@@ -2712,9 +2699,10 @@
    "all_day": false,
    "forecast": "3.0%",
    "previous": "3.2%",
-   "actual": "",
+   "actual": "1.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5b2d60911d2c",
@@ -4187,5 +4175,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-02T00:39:37.372340Z"
+ "actuals_updated_at": "2026-11-02T07:38:28.439137Z"
 }
