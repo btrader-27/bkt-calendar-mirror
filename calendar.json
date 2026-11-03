@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T00:59:59Z",
+ "generated_at": "2026-11-03T07:53:31Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,72 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 288,
+ "count": 284,
  "count_by_impact": {
-  "low": 193,
-  "medium": 40,
+  "low": 190,
   "high": 48,
+  "medium": 39,
   "holiday": 7
  },
- "first_instant": "2026-10-20T06:00:00Z",
+ "first_instant": "2026-10-20T08:00:00Z",
  "last_instant": "2026-11-06T21:45:00Z",
  "events": [
-  {
-   "id": "31ffa9380e11",
-   "ccy": "EUR",
-   "title": "German PPI m/m",
-   "impact": "low",
-   "instant": "2026-10-20T06:00:00Z",
-   "local_date": "2026-10-20",
-   "all_day": false,
-   "forecast": "1.5%",
-   "previous": "1.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "97b9a25d19c2",
-   "ccy": "GBP",
-   "title": "Average Earnings Index 3m/y",
-   "impact": "medium",
-   "instant": "2026-10-20T06:00:00Z",
-   "local_date": "2026-10-20",
-   "all_day": false,
-   "forecast": "3.8%",
-   "previous": "3.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4ec1851eb578",
-   "ccy": "GBP",
-   "title": "Claimant Count Change",
-   "impact": "low",
-   "instant": "2026-10-20T06:00:00Z",
-   "local_date": "2026-10-20",
-   "all_day": false,
-   "forecast": "19.4K",
-   "previous": "27.8K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6fc6fc7dcb6b",
-   "ccy": "GBP",
-   "title": "Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-10-20T06:00:00Z",
-   "local_date": "2026-10-20",
-   "all_day": false,
-   "forecast": "4.9%",
-   "previous": "4.9%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "0b36964a3d45",
    "ccy": "EUR",
@@ -2876,7 +2820,7 @@
    "all_day": false,
    "forecast": "4.85%",
    "previous": "4.60%",
-   "actual": "",
+   "actual": "4.85%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2932,9 +2876,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "0.0%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "c54f5e74c016",
@@ -2946,7 +2891,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-159.6B",
-   "actual": "",
+   "actual": "-159.2B",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -4113,5 +4058,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-03T00:59:59.404209Z"
+ "actuals_updated_at": "2026-11-03T07:53:32.083725Z"
 }
