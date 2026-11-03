@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T16:11:43Z",
+ "generated_at": "2026-11-03T21:44:23Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 276,
+ "count": 275,
  "count_by_impact": {
-  "low": 182,
+  "low": 181,
   "high": 48,
   "medium": 39,
   "holiday": 7
  },
- "first_instant": "2026-10-20T17:00:00Z",
+ "first_instant": "2026-10-20T22:30:00Z",
  "last_instant": "2026-11-06T21:45:00Z",
  "events": [
-  {
-   "id": "e83596cc7a13",
-   "ccy": "GBP",
-   "title": "MPC Member Greene Speaks",
-   "impact": "low",
-   "instant": "2026-10-20T17:00:00Z",
-   "local_date": "2026-10-20",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "40309374043b",
-   "ccy": "USD",
-   "title": "API Weekly Statistical Bulletin",
-   "impact": "low",
-   "instant": "2026-10-20T20:30:00Z",
-   "local_date": "2026-10-20",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "fb81e1c31caa",
    "ccy": "AUD",
@@ -2914,6 +2886,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "b1d7bbe6b9d8",
+   "ccy": "EUR",
+   "title": "German Buba President Nagel Speaks",
+   "impact": "low",
+   "instant": "2026-11-03T18:00:00Z",
+   "local_date": "2026-11-03",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "8003c289bcf3",
    "ccy": "USD",
    "title": "API Weekly Statistical Bulletin",
@@ -3950,5 +3936,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-03T16:11:43.975899Z"
+ "actuals_updated_at": "2026-11-03T21:44:23.533430Z"
 }
