@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:58:25Z",
+ "generated_at": "2026-11-04T23:37:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 261,
+ "count": 260,
  "count_by_impact": {
-  "high": 47,
   "low": 169,
   "medium": 38,
-  "holiday": 7
+  "holiday": 7,
+  "high": 46
  },
- "first_instant": "2026-10-21T21:45:00Z",
+ "first_instant": "2026-10-22T07:30:00Z",
  "last_instant": "2026-11-06T21:45:00Z",
  "events": [
-  {
-   "id": "7d7d31c5f326",
-   "ccy": "NZD",
-   "title": "CPI q/q",
-   "impact": "high",
-   "instant": "2026-10-21T21:45:00Z",
-   "local_date": "2026-10-21",
-   "all_day": false,
-   "forecast": "0.8%",
-   "previous": "1.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ba3aa764dabe",
    "ccy": "CHF",
@@ -3754,5 +3740,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-04T17:58:25.478844Z"
+ "actuals_updated_at": "2026-11-04T23:37:28.536661Z"
 }
