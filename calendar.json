@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T06:17:15Z",
+ "generated_at": "2026-11-09T17:26:28Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 320,
+ "count": 318,
  "count_by_impact": {
-  "low": 232,
+  "low": 230,
   "medium": 31,
   "high": 51,
   "holiday": 6
  },
- "first_instant": "2026-10-26T09:00:00Z",
+ "first_instant": "2026-10-26T23:50:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "67cc3412c273",
-   "ccy": "EUR",
-   "title": "German ifo Business Climate",
-   "impact": "low",
-   "instant": "2026-10-26T09:00:00Z",
-   "local_date": "2026-10-26",
-   "all_day": false,
-   "forecast": "90.0",
-   "previous": "89.9",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "168d51cd1159",
-   "ccy": "GBP",
-   "title": "CBI Realized Sales",
-   "impact": "low",
-   "instant": "2026-10-26T11:00:00Z",
-   "local_date": "2026-10-26",
-   "all_day": false,
-   "forecast": "-47",
-   "previous": "-55",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "33e32acb1a08",
    "ccy": "JPY",
@@ -3257,9 +3229,10 @@
    "all_day": false,
    "forecast": "19.2B",
    "previous": "19.5B",
-   "actual": "",
+   "actual": "15.6B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "b9932c6b9b55",
@@ -3271,9 +3244,10 @@
    "all_day": false,
    "forecast": "2.1",
    "previous": "2.7",
-   "actual": "",
+   "actual": "2.4",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8080a77983b7",
@@ -3341,9 +3315,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.6%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "3fd294d5f3bc",
@@ -4550,5 +4525,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-09T06:17:15.913658Z"
+ "actuals_updated_at": "2026-11-09T17:26:28.882479Z"
 }
