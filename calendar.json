@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T17:26:28Z",
+ "generated_at": "2026-11-10T01:29:02Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 318,
+ "count": 322,
  "count_by_impact": {
-  "low": 230,
-  "medium": 31,
+  "low": 233,
+  "medium": 32,
   "high": 51,
   "holiday": 6
  },
- "first_instant": "2026-10-26T23:50:00Z",
+ "first_instant": "2026-10-27T05:00:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "33e32acb1a08",
-   "ccy": "JPY",
-   "title": "SPPI y/y",
-   "impact": "low",
-   "instant": "2026-10-26T23:50:00Z",
-   "local_date": "2026-10-26",
-   "all_day": false,
-   "forecast": "3.7%",
-   "previous": "3.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9b05fbe89cec",
-   "ccy": "GBP",
-   "title": "BRC Shop Price Index y/y",
-   "impact": "low",
-   "instant": "2026-10-27T00:01:00Z",
-   "local_date": "2026-10-26",
-   "all_day": false,
-   "forecast": "1.6%",
-   "previous": "1.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "1b31b8c9caca",
    "ccy": "JPY",
@@ -3358,7 +3330,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-4.7%",
-   "actual": "",
+   "actual": "-2.7%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3372,9 +3344,10 @@
    "all_day": false,
    "forecast": "-3.1%",
    "previous": "-3.1%",
-   "actual": "",
+   "actual": "-6.8%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "8c86b747c888",
@@ -3400,9 +3373,10 @@
    "all_day": false,
    "forecast": "5.4%",
    "previous": "5.3%",
-   "actual": "",
+   "actual": "5.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "dba0b86f668e",
@@ -3414,9 +3388,10 @@
    "all_day": false,
    "forecast": "2.81T",
    "previous": "2.98T",
-   "actual": "",
+   "actual": "1.82T",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "3d31c4732e6f",
@@ -3428,7 +3403,7 @@
    "all_day": false,
    "forecast": "1.2%",
    "previous": "1.0%",
-   "actual": "",
+   "actual": "1.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3442,7 +3417,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-13",
-   "actual": "",
+   "actual": "-15",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3468,7 +3443,7 @@
    "instant": "2026-11-10T05:00:00Z",
    "local_date": "2026-11-10",
    "all_day": false,
-   "forecast": "46.9",
+   "forecast": "47.1",
    "previous": "47.0",
    "actual": "",
    "source": "forexfactory",
@@ -3510,7 +3485,7 @@
    "instant": "2026-11-10T11:00:00Z",
    "local_date": "2026-11-10",
    "all_day": false,
-   "forecast": "97.7",
+   "forecast": "98.0",
    "previous": "97.9",
    "actual": "",
    "source": "forexfactory",
@@ -3783,6 +3758,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "dd2adf0774a1",
+   "ccy": "EUR",
+   "title": "German Buba President Nagel Speaks",
+   "impact": "low",
+   "instant": "2026-11-11T08:15:00Z",
+   "local_date": "2026-11-11",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "1c1e492b52c4",
    "ccy": "EUR",
    "title": "German Buba President Nagel Speaks",
@@ -3806,6 +3795,20 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "-1.3%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "6166fee045a3",
+   "ccy": "EUR",
+   "title": "ECB President Lagarde Speaks",
+   "impact": "medium",
+   "instant": "2026-11-11T09:45:00Z",
+   "local_date": "2026-11-11",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3902,7 +3905,7 @@
    "instant": "2026-11-12T00:01:00Z",
    "local_date": "2026-11-11",
    "all_day": false,
-   "forecast": "-32%",
+   "forecast": "-33%",
    "previous": "-32%",
    "actual": "",
    "source": "forexfactory",
@@ -4000,7 +4003,7 @@
    "instant": "2026-11-12T07:00:00Z",
    "local_date": "2026-11-12",
    "all_day": false,
-   "forecast": "-0.3%",
+   "forecast": "0.4%",
    "previous": "1.7%",
    "actual": "",
    "source": "forexfactory",
@@ -4056,8 +4059,22 @@
    "instant": "2026-11-12T13:30:00Z",
    "local_date": "2026-11-12",
    "all_day": false,
-   "forecast": "-3.9%",
+   "forecast": "-4.0%",
    "previous": "8.8%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "63b94d416887",
+   "ccy": "USD",
+   "title": "FOMC Member Hammack Speaks",
+   "impact": "low",
+   "instant": "2026-11-12T13:30:00Z",
+   "local_date": "2026-11-12",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -4098,7 +4115,7 @@
    "instant": "2026-11-12T15:00:00Z",
    "local_date": "2026-11-12",
    "all_day": false,
-   "forecast": "3.86M",
+   "forecast": "3.89M",
    "previous": "3.99M",
    "actual": "",
    "source": "forexfactory",
@@ -4147,6 +4164,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "e36435b48d7f",
+   "ccy": "USD",
+   "title": "FOMC Member Goolsbee Speaks",
+   "impact": "low",
+   "instant": "2026-11-12T16:15:00Z",
+   "local_date": "2026-11-12",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "567fff95028d",
    "ccy": "USD",
    "title": "FOMC Member Goolsbee Speaks",
@@ -4170,6 +4201,20 @@
    "all_day": false,
    "forecast": "",
    "previous": "-0.9M",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "aa1b6d100e3f",
+   "ccy": "EUR",
+   "title": "German Buba President Nagel Speaks",
+   "impact": "low",
+   "instant": "2026-11-12T17:30:00Z",
+   "local_date": "2026-11-12",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -4224,7 +4269,7 @@
    "instant": "2026-11-12T19:00:00Z",
    "local_date": "2026-11-12",
    "all_day": false,
-   "forecast": "",
+   "forecast": "-286.3B",
    "previous": "-26.9B",
    "actual": "",
    "source": "forexfactory",
@@ -4322,7 +4367,7 @@
    "instant": "2026-11-13T09:00:00Z",
    "local_date": "2026-11-13",
    "all_day": false,
-   "forecast": "1.85B",
+   "forecast": "2.84B",
    "previous": "1.77B",
    "actual": "",
    "source": "forexfactory",
@@ -4483,6 +4528,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "c8a1ddffcbe9",
+   "ccy": "EUR",
+   "title": "German Buba President Nagel Speaks",
+   "impact": "low",
+   "instant": "2026-11-13T16:00:00Z",
+   "local_date": "2026-11-13",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "6bc493e18f8e",
    "ccy": "USD",
    "title": "FOMC Member Daly Speaks",
@@ -4525,5 +4584,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-09T17:26:28.882479Z"
+ "actuals_updated_at": "2026-11-10T01:29:02.520498Z"
 }
