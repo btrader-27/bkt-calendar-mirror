@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T09:43:24Z",
+ "generated_at": "2026-11-10T17:45:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,128 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 318,
+ "count": 312,
  "count_by_impact": {
-  "low": 229,
-  "medium": 32,
+  "low": 224,
+  "medium": 31,
   "high": 51,
   "holiday": 6
  },
- "first_instant": "2026-10-27T12:15:00Z",
+ "first_instant": "2026-10-27T20:30:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "7de29880a1c5",
-   "ccy": "USD",
-   "title": "ADP Weekly Employment Change",
-   "impact": "low",
-   "instant": "2026-10-27T12:15:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "",
-   "previous": "18.5K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "33a3f44d6e5f",
-   "ccy": "USD",
-   "title": "Core Durable Goods Orders m/m",
-   "impact": "low",
-   "instant": "2026-10-27T12:30:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "60a1d164cb65",
-   "ccy": "USD",
-   "title": "Durable Goods Orders m/m",
-   "impact": "low",
-   "instant": "2026-10-27T12:30:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "2.0%",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b34099c0749c",
-   "ccy": "USD",
-   "title": "HPI m/m",
-   "impact": "low",
-   "instant": "2026-10-27T13:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f37a020d352f",
-   "ccy": "USD",
-   "title": "S&P/CS Composite-20 HPI y/y",
-   "impact": "low",
-   "instant": "2026-10-27T13:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "2.6%",
-   "previous": "2.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "146b0fc024b3",
-   "ccy": "USD",
-   "title": "CB Consumer Confidence",
-   "impact": "medium",
-   "instant": "2026-10-27T14:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "81.2",
-   "previous": "81.9",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "df0a77614ae8",
-   "ccy": "USD",
-   "title": "New Home Sales",
-   "impact": "low",
-   "instant": "2026-10-27T14:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "651K",
-   "previous": "684K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a54228eb0433",
-   "ccy": "USD",
-   "title": "Richmond Manufacturing Index",
-   "impact": "low",
-   "instant": "2026-10-27T14:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "0",
-   "previous": "-2",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "084ebf089dd2",
    "ccy": "USD",
@@ -3423,6 +3311,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "9d5d83573ae4",
+   "ccy": "GBP",
+   "title": "30-y Bond Auction",
+   "impact": "low",
+   "instant": "2026-11-10T10:02:00Z",
+   "local_date": "2026-11-10",
+   "all_day": false,
+   "forecast": "",
+   "previous": "5.52|3.8",
+   "actual": "5.54|3.8",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "5071388b1201",
    "ccy": "USD",
    "title": "NFIB Small Business Index",
@@ -3432,7 +3334,7 @@
    "all_day": false,
    "forecast": "98.0",
    "previous": "97.9",
-   "actual": "",
+   "actual": "97.8",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3446,7 +3348,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "5.52|3.8",
-   "actual": "",
+   "actual": "5.54|3.8",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3465,6 +3367,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "9ea6aa80a1e8",
+   "ccy": "USD",
+   "title": "ADP Weekly Employment Change",
+   "impact": "low",
+   "instant": "2026-11-10T13:14:00Z",
+   "local_date": "2026-11-10",
+   "all_day": false,
+   "forecast": "",
+   "previous": "16.8K",
+   "actual": "19.8K",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "556dcb77838c",
    "ccy": "USD",
    "title": "ADP Weekly Employment Change",
@@ -3473,8 +3389,8 @@
    "local_date": "2026-11-10",
    "all_day": false,
    "forecast": "",
-   "previous": "",
-   "actual": "",
+   "previous": "19.5K",
+   "actual": "19.8K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3488,7 +3404,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "16.8K",
-   "actual": "",
+   "actual": "19.8K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3502,9 +3418,10 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.6%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "26fac93a4364",
@@ -3516,9 +3433,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "e99eeb0f3de5",
@@ -4529,5 +4447,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-10T09:43:24.952077Z"
+ "actuals_updated_at": "2026-11-10T17:45:44.657655Z"
 }
