@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T23:15:44Z",
+ "generated_at": "2026-11-11T02:47:29Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,114 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 311,
+ "count": 304,
  "count_by_impact": {
-  "medium": 31,
-  "high": 51,
   "low": 223,
+  "high": 45,
+  "medium": 30,
   "holiday": 6
  },
- "first_instant": "2026-10-28T00:15:00Z",
+ "first_instant": "2026-10-28T07:00:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "0e646cc27348",
-   "ccy": "AUD",
-   "title": "RBA Gov Bullock Speaks",
-   "impact": "medium",
-   "instant": "2026-10-28T00:15:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "86827b58ddf1",
-   "ccy": "AUD",
-   "title": "CPI m/m",
-   "impact": "high",
-   "instant": "2026-10-28T00:30:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "0.7%",
-   "previous": "0.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "93a5956d53c7",
-   "ccy": "AUD",
-   "title": "CPI y/y",
-   "impact": "high",
-   "instant": "2026-10-28T00:30:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "4.2%",
-   "previous": "4.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3f9d809d7744",
-   "ccy": "AUD",
-   "title": "Trimmed Mean CPI m/m",
-   "impact": "high",
-   "instant": "2026-10-28T00:30:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f59f693006b2",
-   "ccy": "NZD",
-   "title": "Official Cash Rate",
-   "impact": "high",
-   "instant": "2026-10-28T01:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "3.00%",
-   "previous": "2.75%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c0b93c32b0bc",
-   "ccy": "NZD",
-   "title": "RBNZ Rate Statement",
-   "impact": "high",
-   "instant": "2026-10-28T01:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2275a82a6fa3",
-   "ccy": "NZD",
-   "title": "RBNZ Press Conference",
-   "impact": "high",
-   "instant": "2026-10-28T02:00:00Z",
-   "local_date": "2026-10-27",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "f9921c37e199",
    "ccy": "EUR",
@@ -3005,7 +2907,7 @@
    "all_day": false,
    "forecast": "116.7%",
    "previous": "118.0%",
-   "actual": "116.4%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3560,9 +3462,10 @@
    "all_day": false,
    "forecast": "2.1%",
    "previous": "2.0%",
-   "actual": "",
+   "actual": "1.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "bcf3c59e22f3",
@@ -4433,5 +4336,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-10T23:15:44.857714Z"
+ "actuals_updated_at": "2026-11-11T02:47:30.178314Z"
 }
