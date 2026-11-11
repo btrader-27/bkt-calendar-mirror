@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T10:49:57Z",
+ "generated_at": "2026-11-11T18:39:38Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,184 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 302,
+ "count": 290,
  "count_by_impact": {
-  "high": 45,
-  "medium": 30,
-  "low": 221,
+  "low": 218,
+  "medium": 29,
+  "high": 37,
   "holiday": 6
  },
- "first_instant": "2026-10-28T12:30:00Z",
+ "first_instant": "2026-10-29T00:00:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "0caa0defab0b",
-   "ccy": "GBP",
-   "title": "Annual Budget Release",
-   "impact": "high",
-   "instant": "2026-10-28T12:30:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "950a1ec15ee7",
-   "ccy": "GBP",
-   "title": "Autumn Forecast Statement",
-   "impact": "medium",
-   "instant": "2026-10-28T12:30:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2d5ad45dad1f",
-   "ccy": "USD",
-   "title": "Goods Trade Balance",
-   "impact": "low",
-   "instant": "2026-10-28T12:30:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "-130.4B",
-   "previous": "-132.6B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bd12510ad10a",
-   "ccy": "USD",
-   "title": "Prelim Wholesale Inventories m/m",
-   "impact": "low",
-   "instant": "2026-10-28T12:30:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "0.5%",
-   "previous": "0.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f89cdcb694da",
-   "ccy": "CAD",
-   "title": "BOC Monetary Policy Report",
-   "impact": "high",
-   "instant": "2026-10-28T13:45:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "5c8e9d97031b",
-   "ccy": "CAD",
-   "title": "BOC Rate Statement",
-   "impact": "high",
-   "instant": "2026-10-28T13:45:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b8bf7927a488",
-   "ccy": "CAD",
-   "title": "Overnight Rate",
-   "impact": "high",
-   "instant": "2026-10-28T13:45:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "2.50%",
-   "previous": "2.25%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e43a316a198f",
-   "ccy": "CAD",
-   "title": "BOC Press Conference",
-   "impact": "high",
-   "instant": "2026-10-28T14:30:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f95f6df757b9",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-10-28T14:30:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "0.1M",
-   "previous": "-3.1M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1b64bee7ea20",
-   "ccy": "USD",
-   "title": "FOMC Statement",
-   "impact": "high",
-   "instant": "2026-10-28T18:00:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c98672822b88",
-   "ccy": "USD",
-   "title": "Federal Funds Rate",
-   "impact": "high",
-   "instant": "2026-10-28T18:00:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "4.00%",
-   "previous": "4.00%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "0e22bed97018",
-   "ccy": "USD",
-   "title": "FOMC Press Conference",
-   "impact": "high",
-   "instant": "2026-10-28T18:30:00Z",
-   "local_date": "2026-10-28",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "8dc2dd279e03",
    "ccy": "NZD",
@@ -2851,7 +2683,7 @@
    "all_day": false,
    "forecast": "116.7%",
    "previous": "118.0%",
-   "actual": "",
+   "actual": "116.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2865,9 +2697,10 @@
    "all_day": false,
    "forecast": "19.2B",
    "previous": "19.5B",
-   "actual": "",
+   "actual": "15.6B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "b9932c6b9b55",
@@ -4308,5 +4141,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-11T10:49:57.228113Z"
+ "actuals_updated_at": "2026-11-11T18:39:38.345663Z"
 }
