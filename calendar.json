@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:14:52Z",
+ "generated_at": "2026-11-12T23:38:36Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,45 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 267,
+ "count": 266,
  "count_by_impact": {
-  "medium": 27,
   "low": 202,
   "high": 32,
+  "medium": 26,
   "holiday": 6
  },
- "first_instant": "2026-10-29T23:30:00Z",
+ "first_instant": "2026-10-29T23:50:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "77a3347f945c",
-   "ccy": "JPY",
-   "title": "Tokyo Core CPI y/y",
-   "impact": "medium",
-   "instant": "2026-10-29T23:30:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "2.6%",
-   "previous": "2.7%",
-   "actual": "2.6%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "455c6be806d9",
-   "ccy": "JPY",
-   "title": "Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-10-29T23:30:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "2.5%",
-   "previous": "2.5%",
-   "actual": "2.4%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
   {
    "id": "94efd1df093d",
    "ccy": "JPY",
@@ -2591,10 +2562,9 @@
    "all_day": false,
    "forecast": "47.1",
    "previous": "47.0",
-   "actual": "46.1",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "cad703a6ff91",
@@ -3488,9 +3458,10 @@
    "all_day": false,
    "forecast": "-298.6B",
    "previous": "-26.9B",
-   "actual": "",
+   "actual": "-404.1B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "479fd40e1a8d",
@@ -3516,7 +3487,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "56.5",
-   "actual": "",
+   "actual": "54.9",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3731,6 +3702,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "4d837de79fcb",
+   "ccy": "USD",
+   "title": "Mortgage Delinquencies",
+   "impact": "low",
+   "instant": "2026-11-13T15:15:00Z",
+   "local_date": "2026-11-13",
+   "all_day": false,
+   "forecast": "",
+   "previous": "4.37%",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "322f3ef886f1",
    "ccy": "USD",
    "title": "Natural Gas Storage",
@@ -3815,5 +3800,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-12T18:14:52.363137Z"
+ "actuals_updated_at": "2026-11-12T23:38:36.478104Z"
 }
