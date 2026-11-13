@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T15:20:03Z",
+ "generated_at": "2026-11-13T21:57:24Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,58 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 233,
+ "count": 231,
  "count_by_impact": {
-  "low": 182,
   "holiday": 6,
+  "low": 180,
   "medium": 21,
   "high": 24
  },
- "first_instant": "2026-10-30T16:00:00Z",
+ "first_instant": "2026-11-01T07:00:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "88a029fbad2a",
-   "ccy": "USD",
-   "title": "FOMC Member Daly Speaks",
-   "impact": "low",
-   "instant": "2026-10-30T16:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a3e5428aa23a",
-   "ccy": "USD",
-   "title": "FOMC Member Musalem Speaks",
-   "impact": "low",
-   "instant": "2026-10-30T16:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d359c7aa3a59",
-   "ccy": "USD",
-   "title": "FOMC Member Logan Speaks",
-   "impact": "low",
-   "instant": "2026-10-30T17:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c54a8a52aa01",
    "ccy": "CAD",
@@ -2389,7 +2347,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "60.4%",
-   "actual": "42.5%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2403,7 +2361,7 @@
    "all_day": false,
    "forecast": "-0.2%",
    "previous": "-0.2%",
-   "actual": "-0.2%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3247,9 +3205,10 @@
    "all_day": false,
    "forecast": "65B",
    "previous": "77B",
-   "actual": "",
+   "actual": "61B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "28a3dd545ccc",
@@ -3294,6 +3253,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "dc78485cafcb",
+   "ccy": "USD",
+   "title": "FOMC Financial Stability Report",
+   "impact": "low",
+   "instant": "2026-11-13T21:00:00Z",
+   "local_date": "2026-11-13",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "c44aff59a4df",
    "ccy": "USD",
    "title": "FOMC Member Jefferson Speaks",
@@ -3322,5 +3295,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-13T15:20:04.099745Z"
+ "actuals_updated_at": "2026-11-13T21:57:24.557537Z"
 }
