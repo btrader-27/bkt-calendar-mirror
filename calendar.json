@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T06:36:24Z",
+ "generated_at": "2026-11-13T15:20:03Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,266 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 250,
+ "count": 233,
  "count_by_impact": {
-  "low": 195,
-  "medium": 25,
+  "low": 182,
   "holiday": 6,
+  "medium": 21,
   "high": 24
  },
- "first_instant": "2026-10-30T07:00:00Z",
+ "first_instant": "2026-10-30T16:00:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "ca443c8ff66d",
-   "ccy": "EUR",
-   "title": "German Import Prices m/m",
-   "impact": "low",
-   "instant": "2026-10-30T07:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "1.9%",
-   "previous": "1.0%",
-   "actual": "2.1%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "0c75dfb4ff8e",
-   "ccy": "GBP",
-   "title": "Nationwide HPI m/m",
-   "impact": "low",
-   "instant": "2026-10-30T07:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "-0.2%",
-   "previous": "-0.2%",
-   "actual": "0.0%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "8613cdd557db",
-   "ccy": "EUR",
-   "title": "German Prelim CPI m/m",
-   "impact": "medium",
-   "instant": "2026-10-30T07:29:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.6%",
-   "actual": "-0.2%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "6a83cdf2d593",
-   "ccy": "EUR",
-   "title": "French Prelim CPI m/m",
-   "impact": "low",
-   "instant": "2026-10-30T07:45:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "-0.3%",
-   "actual": "0.4%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "a4d031c15610",
-   "ccy": "EUR",
-   "title": "French Prelim Private Payrolls q/q",
-   "impact": "low",
-   "instant": "2026-10-30T07:45:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "-0.1%",
-   "previous": "-0.1%",
-   "actual": "-0.1%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "999cd922b4bd",
-   "ccy": "CHF",
-   "title": "KOF Economic Barometer",
-   "impact": "low",
-   "instant": "2026-10-30T08:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "108.1",
-   "previous": "109.1",
-   "actual": "107.6",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "2ab42d5dab46",
-   "ccy": "EUR",
-   "title": "Spanish Flash CPI y/y",
-   "impact": "low",
-   "instant": "2026-10-30T08:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "4.9%",
-   "previous": "4.9%",
-   "actual": "4.9%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9f464ac8c049",
-   "ccy": "EUR",
-   "title": "Spanish Flash GDP q/q",
-   "impact": "low",
-   "instant": "2026-10-30T08:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.6%",
-   "previous": "0.7%",
-   "actual": "0.6%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "94b68c6ae284",
-   "ccy": "EUR",
-   "title": "German Unemployment Change",
-   "impact": "low",
-   "instant": "2026-10-30T08:55:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "5K",
-   "previous": "12K",
-   "actual": "4K",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9ef038bda8ec",
-   "ccy": "EUR",
-   "title": "German Prelim GDP q/q",
-   "impact": "medium",
-   "instant": "2026-10-30T09:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.2%",
-   "actual": "0.2%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "fe893b78abb1",
-   "ccy": "EUR",
-   "title": "Italian Prelim GDP q/q",
-   "impact": "low",
-   "instant": "2026-10-30T09:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.2%",
-   "actual": "0.0%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "47645a4ad640",
-   "ccy": "EUR",
-   "title": "Italian Prelim CPI m/m",
-   "impact": "low",
-   "instant": "2026-10-30T10:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.7%",
-   "actual": "0.9%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "fdf860fda63c",
-   "ccy": "EUR",
-   "title": "Prelim Flash GDP q/q",
-   "impact": "low",
-   "instant": "2026-10-30T10:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.4%",
-   "actual": "0.4%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "ecf60c4c0ca9",
-   "ccy": "EUR",
-   "title": "Unemployment Rate",
-   "impact": "low",
-   "instant": "2026-10-30T10:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "6.4%",
-   "previous": "6.4%",
-   "actual": "6.5%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "6aa4c55b9900",
-   "ccy": "CAD",
-   "title": "GDP m/m",
-   "impact": "medium",
-   "instant": "2026-10-30T12:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.2%",
-   "previous": "0.0%",
-   "actual": "0.0%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "d77d76055680",
-   "ccy": "USD",
-   "title": "Employment Cost Index q/q",
-   "impact": "medium",
-   "instant": "2026-10-30T12:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.8%",
-   "previous": "0.9%",
-   "actual": "0.8%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "23bdf81b50c0",
-   "ccy": "USD",
-   "title": "Chicago PMI",
-   "impact": "low",
-   "instant": "2026-10-30T13:45:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "55.8",
-   "previous": "58.8",
-   "actual": "55.3",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
   {
    "id": "88a029fbad2a",
    "ccy": "USD",
@@ -2639,7 +2389,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "60.4%",
-   "actual": "",
+   "actual": "42.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3281,7 +3031,7 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "1.9%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3295,9 +3045,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.3%",
-   "actual": "",
+   "actual": "0.9%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "3db44c650b97",
@@ -3309,7 +3060,7 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "0.4%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3323,9 +3074,10 @@
    "all_day": false,
    "forecast": "2.84B",
    "previous": "1.77B",
-   "actual": "",
+   "actual": "2.08B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "3e54564f73be",
@@ -3337,9 +3089,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.1%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5594ab506481",
@@ -3351,7 +3104,7 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "0.4%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3365,9 +3118,10 @@
    "all_day": false,
    "forecast": "-4.5B",
    "previous": "-6.8B",
-   "actual": "",
+   "actual": "-8.7B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "09cadcdf514e",
@@ -3379,7 +3133,7 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "1.5%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3393,9 +3147,10 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "-1.6%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "ff8ef110bf22",
@@ -3407,7 +3162,7 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.7%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3421,9 +3176,10 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "1.3%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "1eefebff87ad",
@@ -3449,7 +3205,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "-0.1%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3566,5 +3322,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-13T06:36:25.132331Z"
+ "actuals_updated_at": "2026-11-13T15:20:04.099745Z"
 }
