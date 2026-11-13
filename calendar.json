@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T23:38:36Z",
+ "generated_at": "2026-11-13T06:36:24Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,247 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 266,
+ "count": 250,
  "count_by_impact": {
-  "low": 202,
-  "high": 32,
-  "medium": 26,
-  "holiday": 6
+  "low": 195,
+  "medium": 25,
+  "holiday": 6,
+  "high": 24
  },
- "first_instant": "2026-10-29T23:50:00Z",
+ "first_instant": "2026-10-30T07:00:00Z",
  "last_instant": "2026-11-14T11:00:00Z",
  "events": [
-  {
-   "id": "94efd1df093d",
-   "ccy": "JPY",
-   "title": "Prelim Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-10-29T23:50:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "1.2%",
-   "previous": "-1.7%",
-   "actual": "2.2%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "2d78c2e5dc7b",
-   "ccy": "JPY",
-   "title": "Retail Sales y/y",
-   "impact": "low",
-   "instant": "2026-10-29T23:50:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "3.3%",
-   "previous": "2.7%",
-   "actual": "2.3%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "0964d116b0bb",
-   "ccy": "AUD",
-   "title": "PPI q/q",
-   "impact": "low",
-   "instant": "2026-10-30T00:30:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "1.0%",
-   "previous": "1.3%",
-   "actual": "1.1%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ed52b67f6d09",
-   "ccy": "AUD",
-   "title": "Private Sector Credit m/m",
-   "impact": "low",
-   "instant": "2026-10-30T00:30:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "0.5%",
-   "previous": "0.6%",
-   "actual": "0.6%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "b03311246bdc",
-   "ccy": "JPY",
-   "title": "BOJ Policy Rate",
-   "impact": "high",
-   "instant": "2026-10-30T02:30:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "<1.25%",
-   "previous": "<1.25%",
-   "actual": "<1.25%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c46af3375a27",
-   "ccy": "JPY",
-   "title": "Monetary Policy Statement",
-   "impact": "high",
-   "instant": "2026-10-30T02:30:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fe63a276cfa2",
-   "ccy": "JPY",
-   "title": "BOJ Outlook Report",
-   "impact": "high",
-   "instant": "2026-10-30T02:31:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6c1a351af46c",
-   "ccy": "JPY",
-   "title": "BOJ Outlook Report",
-   "impact": "high",
-   "instant": "2026-10-30T03:02:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8bd0a9c82643",
-   "ccy": "JPY",
-   "title": "BOJ Policy Rate",
-   "impact": "high",
-   "instant": "2026-10-30T03:02:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "<1.25%",
-   "previous": "<1.25%",
-   "actual": "<1.25%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "96405e148513",
-   "ccy": "JPY",
-   "title": "Monetary Policy Statement",
-   "impact": "high",
-   "instant": "2026-10-30T03:02:00Z",
-   "local_date": "2026-10-29",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1e763af1e10b",
-   "ccy": "JPY",
-   "title": "Housing Starts y/y",
-   "impact": "low",
-   "instant": "2026-10-30T05:00:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "2.7%",
-   "previous": "6.1%",
-   "actual": "-2.7%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "e54afca819f4",
-   "ccy": "JPY",
-   "title": "BOJ Press Conference",
-   "impact": "high",
-   "instant": "2026-10-30T05:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d167f2d47ddb",
-   "ccy": "EUR",
-   "title": "German Prelim CPI m/m",
-   "impact": "medium",
-   "instant": "2026-10-30T06:29:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.6%",
-   "actual": "-0.2%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "3dec9ac03219",
-   "ccy": "EUR",
-   "title": "French Consumer Spending m/m",
-   "impact": "low",
-   "instant": "2026-10-30T06:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "-0.5%",
-   "actual": "-0.5%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "f66a59a34b1b",
-   "ccy": "EUR",
-   "title": "French Flash GDP q/q",
-   "impact": "low",
-   "instant": "2026-10-30T06:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "0.1%",
-   "previous": "0.2%",
-   "actual": "-0.1%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "3efad7d08e7f",
-   "ccy": "JPY",
-   "title": "BOJ Press Conference",
-   "impact": "high",
-   "instant": "2026-10-30T06:30:00Z",
-   "local_date": "2026-10-30",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "ca443c8ff66d",
    "ccy": "EUR",
@@ -2604,7 +2373,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "5.52|3.8",
-   "actual": "5.54|3.8",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2618,7 +2387,7 @@
    "all_day": false,
    "forecast": "98.0",
    "previous": "97.9",
-   "actual": "97.8",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2660,7 +2429,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "16.8K",
-   "actual": "19.8K",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2674,7 +2443,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "19.5K",
-   "actual": "19.8K",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2702,10 +2471,9 @@
    "all_day": false,
    "forecast": "0.3%",
    "previous": "0.6%",
-   "actual": "0.4%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "26fac93a4364",
@@ -2717,10 +2485,9 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.3%",
-   "actual": "0.3%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
+   "feed": "thisweek"
   },
   {
    "id": "e99eeb0f3de5",
@@ -2746,7 +2513,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "5.30|2.8",
-   "actual": "5.02|2.5",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2858,10 +2625,9 @@
    "all_day": false,
    "forecast": "2.1%",
    "previous": "2.0%",
-   "actual": "1.7%",
+   "actual": "",
    "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
+   "feed": "thisweek"
   },
   {
    "id": "bcf3c59e22f3",
@@ -2873,7 +2639,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "60.4%",
-   "actual": "42.5%",
+   "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3800,5 +3566,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-12T23:38:36.478104Z"
+ "actuals_updated_at": "2026-11-13T06:36:25.132331Z"
 }
