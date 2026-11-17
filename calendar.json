@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:17:27Z",
+ "generated_at": "2026-11-17T22:17:14Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,213 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 312,
+ "count": 299,
  "count_by_impact": {
-  "low": 242,
-  "medium": 34,
-  "high": 33,
+  "low": 234,
+  "medium": 32,
+  "high": 30,
   "holiday": 3
  },
- "first_instant": "2026-11-03T15:00:00Z",
+ "first_instant": "2026-11-03T23:50:00Z",
  "last_instant": "2026-11-20T17:15:00Z",
  "events": [
-  {
-   "id": "7acc5df4ecdf",
-   "ccy": "USD",
-   "title": "Factory Orders m/m",
-   "impact": "low",
-   "instant": "2026-11-03T15:00:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "1.2%",
-   "previous": "0.1%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f1af7a8b4e0d",
-   "ccy": "USD",
-   "title": "JOLTS Job Openings",
-   "impact": "medium",
-   "instant": "2026-11-03T15:00:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "7.15M",
-   "previous": "7.08M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "f6e4991960e3",
-   "ccy": "USD",
-   "title": "RCM/TIPP Economic Optimism",
-   "impact": "low",
-   "instant": "2026-11-03T15:10:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "46.2",
-   "previous": "46.8",
-   "actual": "48.5",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "8c81b9afee0d",
-   "ccy": "USD",
-   "title": "Omdia Total Vehicle Sales",
-   "impact": "low",
-   "instant": "2026-11-03T15:15:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "15.8M",
-   "previous": "16.0M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "ed050e33399f",
-   "ccy": "USD",
-   "title": "Congressional Elections",
-   "impact": "high",
-   "instant": "2026-11-03T15:16:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d80241a6f06a",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-11-03T15:27:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "2.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e958de79fba6",
-   "ccy": "NZD",
-   "title": "GDT Price Index",
-   "impact": "low",
-   "instant": "2026-11-03T15:50:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "2.5%",
-   "actual": "3.0%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3d705b2122fa",
-   "ccy": "CAD",
-   "title": "BOC Gov Macklem Speaks",
-   "impact": "medium",
-   "instant": "2026-11-03T16:00:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "42a7608b98d6",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-11-03T17:00:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "b1d7bbe6b9d8",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-11-03T18:00:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8003c289bcf3",
-   "ccy": "USD",
-   "title": "API Weekly Statistical Bulletin",
-   "impact": "low",
-   "instant": "2026-11-03T21:30:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d4441979150d",
-   "ccy": "NZD",
-   "title": "Employment Change q/q",
-   "impact": "high",
-   "instant": "2026-11-03T21:45:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "0.4%",
-   "previous": "0.5%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1bd2f7e70f17",
-   "ccy": "NZD",
-   "title": "Labor Cost Index q/q",
-   "impact": "low",
-   "instant": "2026-11-03T21:45:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "0.5%",
-   "previous": "0.7%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a7f8e381335a",
-   "ccy": "NZD",
-   "title": "Unemployment Rate",
-   "impact": "high",
-   "instant": "2026-11-03T21:45:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "5.5%",
-   "previous": "5.6%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "5b1f103dae05",
    "ccy": "JPY",
@@ -3277,9 +3080,10 @@
    "all_day": false,
    "forecast": "241K",
    "previous": "249K",
-   "actual": "",
+   "actual": "245K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "b2243ab4c951",
@@ -3305,9 +3109,10 @@
    "all_day": false,
    "forecast": "14.85B",
    "previous": "-17.31B",
-   "actual": "",
+   "actual": "19.46B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "cf651c81c0aa",
@@ -3319,9 +3124,10 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "0.9%",
-   "actual": "",
+   "actual": "0.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "44d085c9a381",
@@ -3333,9 +3139,10 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "1.1%",
-   "actual": "",
+   "actual": "1.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8ef81cff59c5",
@@ -3347,9 +3154,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "0.8%",
-   "actual": "",
+   "actual": "0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "cd6cb7327617",
@@ -3375,9 +3183,10 @@
    "all_day": false,
    "forecast": "76.8%",
    "previous": "76.9%",
-   "actual": "",
+   "actual": "76.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "870135189dbe",
@@ -3389,7 +3198,22 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "0.7%",
-   "actual": "",
+   "actual": "-0.4%",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "worse"
+  },
+  {
+   "id": "b487e442691f",
+   "ccy": "NZD",
+   "title": "GDT Price Index",
+   "impact": "low",
+   "instant": "2026-11-17T14:29:00Z",
+   "local_date": "2026-11-17",
+   "all_day": false,
+   "forecast": "",
+   "previous": "3.0%",
+   "actual": "0.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3417,7 +3241,7 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "0.4%",
-   "actual": "",
+   "actual": "0.5%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3431,9 +3255,10 @@
    "all_day": false,
    "forecast": "29",
    "previous": "29",
-   "actual": "",
+   "actual": "25",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "5bfe7cdda2d7",
@@ -3445,7 +3270,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "3.0%",
-   "actual": "",
+   "actual": "0.0%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3487,9 +3312,10 @@
    "all_day": false,
    "forecast": "1.5%",
    "previous": "2.9%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "fc32e59119df",
@@ -3501,9 +3327,10 @@
    "all_day": false,
    "forecast": "1.1%",
    "previous": "1.6%",
-   "actual": "",
+   "actual": "0.8%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "21d6ec3ad237",
@@ -3779,7 +3606,7 @@
    "instant": "2026-11-18T15:00:00Z",
    "local_date": "2026-11-18",
    "all_day": false,
-   "forecast": "-2.1%",
+   "forecast": "-2.0%",
    "previous": "-7.3%",
    "actual": "",
    "source": "forexfactory",
@@ -3793,7 +3620,7 @@
    "instant": "2026-11-18T15:30:00Z",
    "local_date": "2026-11-18",
    "all_day": false,
-   "forecast": "",
+   "forecast": "0.4M",
    "previous": "4.7M",
    "actual": "",
    "source": "forexfactory",
@@ -4031,7 +3858,7 @@
    "instant": "2026-11-19T13:30:00Z",
    "local_date": "2026-11-19",
    "all_day": false,
-   "forecast": "1.2%",
+   "forecast": "0.4%",
    "previous": "2.0%",
    "actual": "",
    "source": "forexfactory",
@@ -4045,7 +3872,7 @@
    "instant": "2026-11-19T13:30:00Z",
    "local_date": "2026-11-19",
    "all_day": false,
-   "forecast": "2.0%",
+   "forecast": "0.9%",
    "previous": "4.8%",
    "actual": "",
    "source": "forexfactory",
@@ -4073,7 +3900,7 @@
    "instant": "2026-11-19T13:30:00Z",
    "local_date": "2026-11-19",
    "all_day": false,
-   "forecast": "19.2",
+   "forecast": "20.6",
    "previous": "20.9",
    "actual": "",
    "source": "forexfactory",
@@ -4087,7 +3914,7 @@
    "instant": "2026-11-19T13:30:00Z",
    "local_date": "2026-11-19",
    "all_day": false,
-   "forecast": "199K",
+   "forecast": "198K",
    "previous": "200K",
    "actual": "",
    "source": "forexfactory",
@@ -4157,7 +3984,7 @@
    "instant": "2026-11-19T15:30:00Z",
    "local_date": "2026-11-19",
    "all_day": false,
-   "forecast": "",
+   "forecast": "25B",
    "previous": "61B",
    "actual": "",
    "source": "forexfactory",
@@ -4395,7 +4222,7 @@
    "instant": "2026-11-20T15:00:00Z",
    "local_date": "2026-11-20",
    "all_day": false,
-   "forecast": "52.1",
+   "forecast": "51.7",
    "previous": "51.0",
    "actual": "",
    "source": "forexfactory",
@@ -4430,5 +4257,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-17T13:17:27.421847Z"
+ "actuals_updated_at": "2026-11-17T22:17:14.892189Z"
 }
