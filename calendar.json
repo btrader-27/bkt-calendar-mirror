@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T03:47:41Z",
+ "generated_at": "2026-11-17T13:17:27Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,100 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 318,
+ "count": 312,
  "count_by_impact": {
-  "high": 34,
-  "medium": 35,
-  "low": 246,
+  "low": 242,
+  "medium": 34,
+  "high": 33,
   "holiday": 3
  },
- "first_instant": "2026-11-03T04:30:00Z",
+ "first_instant": "2026-11-03T15:00:00Z",
  "last_instant": "2026-11-20T17:15:00Z",
  "events": [
-  {
-   "id": "9690f375b81e",
-   "ccy": "AUD",
-   "title": "RBA Press Conference",
-   "impact": "high",
-   "instant": "2026-11-03T04:30:00Z",
-   "local_date": "2026-11-02",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "51905eac0d4e",
-   "ccy": "CHF",
-   "title": "CPI m/m",
-   "impact": "medium",
-   "instant": "2026-11-03T07:30:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "0.0%",
-   "previous": "0.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c54f5e74c016",
-   "ccy": "EUR",
-   "title": "French Gov Budget Balance",
-   "impact": "low",
-   "instant": "2026-11-03T07:45:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "-159.6B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6496e72b657e",
-   "ccy": "USD",
-   "title": "RCM/TIPP Economic Optimism",
-   "impact": "low",
-   "instant": "2026-11-03T09:00:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "46.2",
-   "previous": "46.8",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "01dd66df50ba",
-   "ccy": "GBP",
-   "title": "10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-11-03T10:02:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "5.42|3.6",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1aebaaa35442",
-   "ccy": "GBP",
-   "title": "10-y Bond Auction",
-   "impact": "low",
-   "instant": "2026-11-03T10:33:00Z",
-   "local_date": "2026-11-03",
-   "all_day": false,
-   "forecast": "",
-   "previous": "5.42|3.6",
-   "actual": "5.27|3.4",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "7acc5df4ecdf",
    "ccy": "USD",
@@ -3243,9 +3159,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "-0.1%",
-   "actual": "",
+   "actual": "-0.5%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "cafd7ee386e8",
@@ -3257,9 +3174,10 @@
    "all_day": false,
    "forecast": "3.5%",
    "previous": "3.7%",
-   "actual": "",
+   "actual": "3.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "adc07c17755e",
@@ -3271,9 +3189,10 @@
    "all_day": false,
    "forecast": "25.4K",
    "previous": "30.3K",
-   "actual": "",
+   "actual": "33.2K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "635492606b91",
@@ -3285,9 +3204,10 @@
    "all_day": false,
    "forecast": "4.7%",
    "previous": "4.7%",
-   "actual": "",
+   "actual": "4.6%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8b4fa2e05eb3",
@@ -3313,9 +3233,10 @@
    "all_day": false,
    "forecast": "28.8",
    "previous": "28.1",
-   "actual": "",
+   "actual": "35.6",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8ab2036ca929",
@@ -3327,9 +3248,10 @@
    "all_day": false,
    "forecast": "19.1",
    "previous": "18.5",
-   "actual": "",
+   "actual": "26.5",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "44b9d42709d9",
@@ -3369,7 +3291,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "19.8K",
-   "actual": "",
+   "actual": "23.8K",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -4508,5 +4430,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-17T03:47:41.346271Z"
+ "actuals_updated_at": "2026-11-17T13:17:27.421847Z"
 }
