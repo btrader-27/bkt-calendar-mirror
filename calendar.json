@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:02:52Z",
+ "generated_at": "2026-11-18T21:23:41Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,100 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 288,
+ "count": 282,
  "count_by_impact": {
-  "low": 225,
-  "medium": 30,
+  "low": 220,
   "high": 30,
+  "medium": 29,
   "holiday": 3
  },
- "first_instant": "2026-11-04T13:15:00Z",
+ "first_instant": "2026-11-04T23:50:00Z",
  "last_instant": "2026-11-20T17:15:00Z",
  "events": [
-  {
-   "id": "44bc0467f9d3",
-   "ccy": "USD",
-   "title": "ADP Non-Farm Employment Change",
-   "impact": "low",
-   "instant": "2026-11-04T13:15:00Z",
-   "local_date": "2026-11-04",
-   "all_day": false,
-   "forecast": "67K",
-   "previous": "90K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "09b6a6177e48",
-   "ccy": "CAD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-11-04T13:30:00Z",
-   "local_date": "2026-11-04",
-   "all_day": false,
-   "forecast": "4.8B",
-   "previous": "4.2B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "903f25116e30",
-   "ccy": "USD",
-   "title": "Trade Balance",
-   "impact": "low",
-   "instant": "2026-11-04T13:30:00Z",
-   "local_date": "2026-11-04",
-   "all_day": false,
-   "forecast": "-107.9B",
-   "previous": "-105.6B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "9ba2e3a395a8",
-   "ccy": "USD",
-   "title": "Final Services PMI",
-   "impact": "low",
-   "instant": "2026-11-04T14:45:00Z",
-   "local_date": "2026-11-04",
-   "all_day": false,
-   "forecast": "57.9",
-   "previous": "57.9",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a2741a1ef326",
-   "ccy": "USD",
-   "title": "ISM Services PMI",
-   "impact": "medium",
-   "instant": "2026-11-04T15:00:00Z",
-   "local_date": "2026-11-04",
-   "all_day": false,
-   "forecast": "54.8",
-   "previous": "54.9",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "780c7ebc2419",
-   "ccy": "USD",
-   "title": "Crude Oil Inventories",
-   "impact": "low",
-   "instant": "2026-11-04T15:30:00Z",
-   "local_date": "2026-11-04",
-   "all_day": false,
-   "forecast": "-1.7M",
-   "previous": "-1.9M",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "d963898a6802",
    "ccy": "JPY",
@@ -3388,9 +3304,10 @@
    "all_day": false,
    "forecast": "0.1%",
    "previous": "-0.2%",
-   "actual": "",
+   "actual": "-0.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "bb31dde648c9",
@@ -3402,9 +3319,10 @@
    "all_day": false,
    "forecast": "1.38M",
    "previous": "1.40M",
-   "actual": "",
+   "actual": "1.30M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "2028256a6bd3",
@@ -3416,9 +3334,10 @@
    "all_day": false,
    "forecast": "1.25M",
    "previous": "1.22M",
-   "actual": "",
+   "actual": "1.31M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "ced9a1f9e59e",
@@ -3458,9 +3377,10 @@
    "all_day": false,
    "forecast": "-2.0%",
    "previous": "-7.3%",
-   "actual": "",
+   "actual": "-4.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "2215cd40e022",
@@ -3472,9 +3392,10 @@
    "all_day": false,
    "forecast": "0.4M",
    "previous": "4.7M",
-   "actual": "",
+   "actual": "3.4M",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "e514c04611a7",
@@ -3570,9 +3491,10 @@
    "all_day": false,
    "forecast": "160.7B",
    "previous": "279.2B",
-   "actual": "",
+   "actual": "155.3B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "2278bd2beb73",
@@ -4107,5 +4029,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-18T13:02:52.352254Z"
+ "actuals_updated_at": "2026-11-18T21:23:41.936045Z"
 }
