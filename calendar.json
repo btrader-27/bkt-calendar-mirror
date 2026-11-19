@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T12:57:45Z",
+ "generated_at": "2026-11-19T21:27:59Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,156 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 261,
+ "count": 252,
  "count_by_impact": {
-  "low": 205,
-  "medium": 28,
+  "low": 200,
   "high": 25,
+  "medium": 24,
   "holiday": 3
  },
- "first_instant": "2026-11-05T13:30:00Z",
+ "first_instant": "2026-11-05T23:30:00Z",
  "last_instant": "2026-11-20T17:15:00Z",
  "events": [
-  {
-   "id": "20d524ec13bc",
-   "ccy": "USD",
-   "title": "Prelim Nonfarm Productivity q/q",
-   "impact": "low",
-   "instant": "2026-11-05T13:30:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "2.8%",
-   "previous": "1.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "2c0e21116b74",
-   "ccy": "USD",
-   "title": "Prelim Unit Labor Costs q/q",
-   "impact": "low",
-   "instant": "2026-11-05T13:30:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "1.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8d3a6a10e1dc",
-   "ccy": "USD",
-   "title": "Unemployment Claims",
-   "impact": "medium",
-   "instant": "2026-11-05T13:30:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "197K",
-   "previous": "194K",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3e24824f006c",
-   "ccy": "USD",
-   "title": "FOMC Member Hammack Speaks",
-   "impact": "low",
-   "instant": "2026-11-05T13:50:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "e5cecbb46eee",
-   "ccy": "USD",
-   "title": "FOMC Member Barkin Speaks",
-   "impact": "low",
-   "instant": "2026-11-05T14:10:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fe0f2c649760",
-   "ccy": "CAD",
-   "title": "BOC Gov Macklem Speaks",
-   "impact": "medium",
-   "instant": "2026-11-05T15:30:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "3b2333e2b5e3",
-   "ccy": "USD",
-   "title": "Natural Gas Storage",
-   "impact": "low",
-   "instant": "2026-11-05T15:30:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "81B",
-   "previous": "80B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "d718782ef051",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-11-05T17:45:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "7c8b06a92543",
-   "ccy": "EUR",
-   "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
-   "instant": "2026-11-05T18:00:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "a0caf980ed30",
-   "ccy": "CAD",
-   "title": "Annual Budget Release",
-   "impact": "medium",
-   "instant": "2026-11-05T21:00:00Z",
-   "local_date": "2026-11-05",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "b160ec276329",
    "ccy": "JPY",
@@ -3338,9 +3198,10 @@
    "all_day": false,
    "forecast": "0.4%",
    "previous": "2.0%",
-   "actual": "",
+   "actual": "0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f19772262fc8",
@@ -3352,9 +3213,10 @@
    "all_day": false,
    "forecast": "0.9%",
    "previous": "4.8%",
-   "actual": "",
+   "actual": "-1.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "fa6a9bb40999",
@@ -3380,9 +3242,10 @@
    "all_day": false,
    "forecast": "20.6",
    "previous": "20.9",
-   "actual": "",
+   "actual": "6.3",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "90699aca1553",
@@ -3394,9 +3257,10 @@
    "all_day": false,
    "forecast": "198K",
    "previous": "200K",
-   "actual": "",
+   "actual": "203K",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "84111503d4e3",
@@ -3436,9 +3300,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "0.0%",
-   "actual": "",
+   "actual": "-0.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "2c2b4d33f8ee",
@@ -3450,7 +3315,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.37%",
-   "actual": "",
+   "actual": "4.42%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3464,7 +3329,22 @@
    "all_day": false,
    "forecast": "25B",
    "previous": "61B",
-   "actual": "",
+   "actual": "20B",
+   "source": "forexfactory",
+   "feed": "thisweek",
+   "actual_class": "better"
+  },
+  {
+   "id": "4661a241e25c",
+   "ccy": "USD",
+   "title": "Mortgage Delinquencies",
+   "impact": "low",
+   "instant": "2026-11-19T15:46:00Z",
+   "local_date": "2026-11-19",
+   "all_day": false,
+   "forecast": "",
+   "previous": "4.37%",
+   "actual": "4.42%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3735,5 +3615,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-19T12:57:45.706406Z"
+ "actuals_updated_at": "2026-11-19T21:27:59.421017Z"
 }
