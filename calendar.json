@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T03:07:42Z",
+ "generated_at": "2026-11-20T11:28:57Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,133 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 251,
+ "count": 243,
  "count_by_impact": {
-  "low": 199,
+  "low": 191,
   "high": 25,
   "medium": 24,
   "holiday": 3
  },
- "first_instant": "2026-11-06T07:00:00Z",
+ "first_instant": "2026-11-06T12:15:00Z",
  "last_instant": "2026-11-20T17:15:00Z",
  "events": [
-  {
-   "id": "786189a0f15c",
-   "ccy": "EUR",
-   "title": "German Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-11-06T07:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "0.0%",
-   "previous": "2.0%",
-   "actual": "0.7%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "344cb8e3f75b",
-   "ccy": "GBP",
-   "title": "Lloyds HPI m/m",
-   "impact": "low",
-   "instant": "2026-11-06T07:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "0.0%",
-   "previous": "0.0%",
-   "actual": "-0.6%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "0e3ab4112560",
-   "ccy": "EUR",
-   "title": "French Trade Balance",
-   "impact": "low",
-   "instant": "2026-11-06T07:45:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "-5.8B",
-   "previous": "-6.1B",
-   "actual": "-7.3B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "bb78d3062673",
-   "ccy": "CHF",
-   "title": "Foreign Currency Reserves",
-   "impact": "low",
-   "instant": "2026-11-06T08:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "770B",
-   "actual": "759B",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "fb1f93632d91",
-   "ccy": "CHF",
-   "title": "SECO Consumer Climate",
-   "impact": "low",
-   "instant": "2026-11-06T08:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "-35",
-   "previous": "-36",
-   "actual": "-45",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "c0b1a2403821",
-   "ccy": "USD",
-   "title": "FOMC Member Williams Speaks",
-   "impact": "low",
-   "instant": "2026-11-06T09:30:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4d7128be2354",
-   "ccy": "EUR",
-   "title": "Retail Sales m/m",
-   "impact": "low",
-   "instant": "2026-11-06T10:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "-0.1%",
-   "previous": "0.1%",
-   "actual": "-0.7%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "5a216bb7a1d2",
-   "ccy": "CHF",
-   "title": "Gov Board Member Tschudin Speaks",
-   "impact": "low",
-   "instant": "2026-11-06T11:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "892cae6daba9",
    "ccy": "GBP",
@@ -2688,7 +2571,7 @@
    "all_day": false,
    "forecast": "3.6%",
    "previous": "3.5%",
-   "actual": "",
+   "actual": "3.6%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2702,7 +2585,7 @@
    "all_day": false,
    "forecast": "2.8%",
    "previous": "2.8%",
-   "actual": "",
+   "actual": "2.8%",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -2716,9 +2599,10 @@
    "all_day": false,
    "forecast": "0.8%",
    "previous": "1.5%",
-   "actual": "",
+   "actual": "2.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "f381475ab27e",
@@ -2730,9 +2614,10 @@
    "all_day": false,
    "forecast": "0.6%",
    "previous": "0.8%",
-   "actual": "",
+   "actual": "0.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "086da3df71bc",
@@ -2744,9 +2629,10 @@
    "all_day": false,
    "forecast": "4.1%",
    "previous": "3.9%",
-   "actual": "",
+   "actual": "4.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "1958afb6c4a4",
@@ -3423,9 +3309,10 @@
    "all_day": false,
    "forecast": "0.9%",
    "previous": "1.9%",
-   "actual": "",
+   "actual": "1.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "a4e73cbdd2b6",
@@ -3437,9 +3324,10 @@
    "all_day": false,
    "forecast": "18.0B",
    "previous": "24.5B",
-   "actual": "",
+   "actual": "17.0B",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "9f8addea26c0",
@@ -3451,9 +3339,10 @@
    "all_day": false,
    "forecast": "0.0%",
    "previous": "-0.4%",
-   "actual": "",
+   "actual": "0.7%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "8925dd21d782",
@@ -3582,5 +3471,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-20T03:07:42.386808Z"
+ "actuals_updated_at": "2026-11-20T11:28:57.608076Z"
 }
