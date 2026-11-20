@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:28:57Z",
+ "generated_at": "2026-11-20T20:07:47Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,220 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 243,
+ "count": 231,
  "count_by_impact": {
-  "low": 191,
-  "high": 25,
-  "medium": 24,
+  "high": 19,
+  "low": 187,
+  "medium": 22,
   "holiday": 3
  },
- "first_instant": "2026-11-06T12:15:00Z",
+ "first_instant": "2026-11-06T21:45:00Z",
  "last_instant": "2026-11-20T17:15:00Z",
  "events": [
-  {
-   "id": "892cae6daba9",
-   "ccy": "GBP",
-   "title": "MPC Member Pill Speaks",
-   "impact": "low",
-   "instant": "2026-11-06T12:15:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "666da1756145",
-   "ccy": "CAD",
-   "title": "Employment Change",
-   "impact": "high",
-   "instant": "2026-11-06T13:30:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "14.6K",
-   "previous": "-68.3K",
-   "actual": "-4.7K",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "b88f81a0512e",
-   "ccy": "CAD",
-   "title": "Unemployment Rate",
-   "impact": "high",
-   "instant": "2026-11-06T13:30:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "6.5%",
-   "previous": "6.5%",
-   "actual": "6.7%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "worse"
-  },
-  {
-   "id": "431568a42ab9",
-   "ccy": "USD",
-   "title": "Average Hourly Earnings m/m",
-   "impact": "high",
-   "instant": "2026-11-06T13:30:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "0.3%",
-   "previous": "0.1%",
-   "actual": "0.4%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "41260cbaea32",
-   "ccy": "USD",
-   "title": "Non-Farm Employment Change",
-   "impact": "high",
-   "instant": "2026-11-06T13:30:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "65K",
-   "previous": "29K",
-   "actual": "165K",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "2d070649daa4",
-   "ccy": "USD",
-   "title": "Unemployment Rate",
-   "impact": "high",
-   "instant": "2026-11-06T13:30:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "4.2%",
-   "previous": "4.2%",
-   "actual": "4.1%",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "c1c9706017e1",
-   "ccy": "USD",
-   "title": "FOMC Member Musalem Speaks",
-   "impact": "low",
-   "instant": "2026-11-06T14:10:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8ef67db4a799",
-   "ccy": "CAD",
-   "title": "Ivey PMI",
-   "impact": "medium",
-   "instant": "2026-11-06T15:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "57.7",
-   "previous": "58.2",
-   "actual": "58.3",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "7d02ab37bacf",
-   "ccy": "USD",
-   "title": "Prelim UoM Consumer Sentiment",
-   "impact": "medium",
-   "instant": "2026-11-06T15:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "48.1",
-   "previous": "46.3",
-   "actual": "51.0",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "0a0e32d5be17",
-   "ccy": "USD",
-   "title": "Prelim UoM Inflation Expectations",
-   "impact": "medium",
-   "instant": "2026-11-06T15:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.7%",
-   "actual": "4.3%",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "4fdd27da0879",
-   "ccy": "JPY",
-   "title": "BOJ Gov Ueda Speaks",
-   "impact": "high",
-   "instant": "2026-11-06T16:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "03087d05ce99",
-   "ccy": "USD",
-   "title": "FOMC Member Bowman Speaks",
-   "impact": "low",
-   "instant": "2026-11-06T17:15:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "8da45c33a6a6",
-   "ccy": "USD",
-   "title": "FOMC Member Daly Speaks",
-   "impact": "low",
-   "instant": "2026-11-06T18:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1710b9664ec4",
-   "ccy": "USD",
-   "title": "Consumer Credit m/m",
-   "impact": "low",
-   "instant": "2026-11-06T20:00:00Z",
-   "local_date": "2026-11-06",
-   "all_day": false,
-   "forecast": "13.4B",
-   "previous": "8.3B",
-   "actual": "27.8B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
   {
    "id": "0c0032dfff47",
    "ccy": "NZD",
@@ -2170,6 +1966,20 @@
    "feed": "thisweek"
   },
   {
+   "id": "06a98835f6fe",
+   "ccy": "GBP",
+   "title": "HMRC Payrolls Change",
+   "impact": "low",
+   "instant": "2026-11-17T07:00:00Z",
+   "local_date": "2026-11-17",
+   "all_day": false,
+   "forecast": "9K",
+   "previous": "13K",
+   "actual": "",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
    "id": "635492606b91",
    "ccy": "GBP",
    "title": "Unemployment Rate",
@@ -3396,9 +3206,10 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "1.2%",
-   "actual": "",
+   "actual": "1.0%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "92f6c38e7e7b",
@@ -3410,9 +3221,10 @@
    "all_day": false,
    "forecast": "0.7%",
    "previous": "1.2%",
-   "actual": "",
+   "actual": "0.8%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "87675adfb899",
@@ -3424,9 +3236,10 @@
    "all_day": false,
    "forecast": "-18",
    "previous": "-18",
-   "actual": "",
+   "actual": "-17",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "d79171fa9319",
@@ -3438,7 +3251,7 @@
    "all_day": false,
    "forecast": "51.7",
    "previous": "51.0",
-   "actual": "",
+   "actual": "51.5",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3452,6 +3265,20 @@
    "all_day": false,
    "forecast": "",
    "previous": "4.3%",
+   "actual": "3.7%",
+   "source": "forexfactory",
+   "feed": "thisweek"
+  },
+  {
+   "id": "0c508a1f5d0f",
+   "ccy": "USD",
+   "title": "President Trump Speaks",
+   "impact": "medium",
+   "instant": "2026-11-20T17:00:00Z",
+   "local_date": "2026-11-20",
+   "all_day": false,
+   "forecast": "",
+   "previous": "",
    "actual": "",
    "source": "forexfactory",
    "feed": "thisweek"
@@ -3471,5 +3298,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-20T11:28:57.608076Z"
+ "actuals_updated_at": "2026-11-20T20:07:47.365226Z"
 }
