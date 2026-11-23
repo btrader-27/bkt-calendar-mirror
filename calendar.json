@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T00:16:11Z",
+ "generated_at": "2026-11-23T07:41:45Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,44 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 302,
+ "count": 300,
  "count_by_impact": {
-  "low": 239,
+  "low": 237,
   "medium": 35,
   "high": 23,
   "holiday": 5
  },
- "first_instant": "2026-11-09T05:00:00Z",
+ "first_instant": "2026-11-09T09:30:00Z",
  "last_instant": "2026-11-27T13:30:00Z",
  "events": [
-  {
-   "id": "764b5d484d1f",
-   "ccy": "JPY",
-   "title": "Leading Indicators",
-   "impact": "low",
-   "instant": "2026-11-09T05:00:00Z",
-   "local_date": "2026-11-09",
-   "all_day": false,
-   "forecast": "116.7%",
-   "previous": "118.0%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "bdab6641b89d",
-   "ccy": "EUR",
-   "title": "German Trade Balance",
-   "impact": "low",
-   "instant": "2026-11-09T07:00:00Z",
-   "local_date": "2026-11-09",
-   "all_day": false,
-   "forecast": "19.2B",
-   "previous": "19.5B",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "b9932c6b9b55",
    "ccy": "EUR",
@@ -4270,5 +4242,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-23T00:16:12.250406Z"
+ "actuals_updated_at": "2026-11-23T07:41:45.867728Z"
 }
