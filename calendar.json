@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T18:29:46Z",
+ "generated_at": "2026-11-23T00:16:11Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,30 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 303,
+ "count": 302,
  "count_by_impact": {
-  "low": 240,
+  "low": 239,
   "medium": 35,
   "high": 23,
   "holiday": 5
  },
- "first_instant": "2026-11-08T22:30:00Z",
+ "first_instant": "2026-11-09T05:00:00Z",
  "last_instant": "2026-11-27T13:30:00Z",
  "events": [
-  {
-   "id": "cf53564cf07b",
-   "ccy": "AUD",
-   "title": "RBA Assist Gov Hunter Speaks",
-   "impact": "low",
-   "instant": "2026-11-08T22:30:00Z",
-   "local_date": "2026-11-08",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "764b5d484d1f",
    "ccy": "JPY",
@@ -3269,9 +3255,10 @@
    "all_day": false,
    "forecast": "0.8%",
    "previous": "0.7%",
-   "actual": "",
+   "actual": "1.4%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "e4f16e955f81",
@@ -3283,9 +3270,10 @@
    "all_day": false,
    "forecast": "0.5%",
    "previous": "-0.5%",
-   "actual": "",
+   "actual": "2.2%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "better"
   },
   {
    "id": "01363021ef46",
@@ -3297,7 +3285,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "49.7",
-   "actual": "",
+   "actual": "48.7",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3311,7 +3299,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "47.8",
-   "actual": "",
+   "actual": "46.2",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -4281,5 +4269,6 @@
    "source": "forexfactory",
    "feed": "thisweek"
   }
- ]
+ ],
+ "actuals_updated_at": "2026-11-23T00:16:12.250406Z"
 }
