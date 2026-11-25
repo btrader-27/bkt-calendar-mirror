@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T00:39:08Z",
+ "generated_at": "2026-11-25T09:48:44Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,114 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 264,
+ "count": 257,
  "count_by_impact": {
-  "low": 206,
-  "holiday": 5,
-  "medium": 32,
-  "high": 21
+  "low": 201,
+  "holiday": 4,
+  "high": 21,
+  "medium": 31
  },
- "first_instant": "2026-11-11T06:00:00Z",
+ "first_instant": "2026-11-11T10:34:00Z",
  "last_instant": "2026-11-27T13:30:00Z",
  "events": [
-  {
-   "id": "bcf3c59e22f3",
-   "ccy": "JPY",
-   "title": "Prelim Machine Tool Orders y/y",
-   "impact": "low",
-   "instant": "2026-11-11T06:00:00Z",
-   "local_date": "2026-11-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "60.4%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "684f7bb7508e",
-   "ccy": "EUR",
-   "title": "German Final CPI m/m",
-   "impact": "low",
-   "instant": "2026-11-11T07:00:00Z",
-   "local_date": "2026-11-11",
-   "all_day": false,
-   "forecast": "-0.2%",
-   "previous": "-0.2%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "01b015fc6bf7",
-   "ccy": "EUR",
-   "title": "French Bank Holiday",
-   "impact": "holiday",
-   "instant": "2026-11-11T07:01:00Z",
-   "local_date": "2026-11-11",
-   "all_day": true,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "dd2adf0774a1",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-11-11T08:15:00Z",
-   "local_date": "2026-11-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "1c1e492b52c4",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-11-11T08:20:00Z",
-   "local_date": "2026-11-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "70b02a88773b",
-   "ccy": "EUR",
-   "title": "Italian Industrial Production m/m",
-   "impact": "low",
-   "instant": "2026-11-11T09:00:00Z",
-   "local_date": "2026-11-11",
-   "all_day": false,
-   "forecast": "0.7%",
-   "previous": "-1.3%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6166fee045a3",
-   "ccy": "EUR",
-   "title": "ECB President Lagarde Speaks",
-   "impact": "medium",
-   "instant": "2026-11-11T09:45:00Z",
-   "local_date": "2026-11-11",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "66cd24d8084d",
    "ccy": "EUR",
@@ -3215,9 +3117,10 @@
    "all_day": false,
    "forecast": "2.5%",
    "previous": "2.4%",
-   "actual": "",
+   "actual": "2.3%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "6db53b077ab5",
@@ -3229,9 +3132,10 @@
    "all_day": false,
    "forecast": "0.2%",
    "previous": "0.2%",
-   "actual": "",
+   "actual": "0.1%",
    "source": "forexfactory",
-   "feed": "thisweek"
+   "feed": "thisweek",
+   "actual_class": "worse"
   },
   {
    "id": "f9fe790cb346",
@@ -3243,7 +3147,7 @@
    "all_day": false,
    "forecast": "",
    "previous": "-15.3",
-   "actual": "",
+   "actual": "2.3",
    "source": "forexfactory",
    "feed": "thisweek"
   },
@@ -3409,7 +3313,7 @@
    "instant": "2026-11-25T15:30:00Z",
    "local_date": "2026-11-25",
    "all_day": false,
-   "forecast": "",
+   "forecast": "2.0M",
    "previous": "3.4M",
    "actual": "",
    "source": "forexfactory",
@@ -3752,5 +3656,5 @@
    "feed": "thisweek"
   }
  ],
- "actuals_updated_at": "2026-11-25T00:39:08.839720Z"
+ "actuals_updated_at": "2026-11-25T09:48:45.061159Z"
 }
