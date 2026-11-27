@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:59:29Z",
+ "generated_at": "2026-11-27T23:25:17Z",
  "source": "forexfactory weekly feeds, mirrored via GitHub Actions",
  "currencies": [
   "AUD",
@@ -16,101 +16,16 @@
   "thisweek"
  ],
  "feeds_failed": [],
- "count": 209,
+ "count": 203,
  "count_by_impact": {
-  "low": 160,
+  "low": 154,
   "high": 18,
   "medium": 29,
   "holiday": 2
  },
- "first_instant": "2026-11-13T15:15:00Z",
+ "first_instant": "2026-11-14T00:00:00Z",
  "last_instant": "2026-11-27T13:30:00Z",
  "events": [
-  {
-   "id": "4d837de79fcb",
-   "ccy": "USD",
-   "title": "Mortgage Delinquencies",
-   "impact": "low",
-   "instant": "2026-11-13T15:15:00Z",
-   "local_date": "2026-11-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "4.37%",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "322f3ef886f1",
-   "ccy": "USD",
-   "title": "Natural Gas Storage",
-   "impact": "low",
-   "instant": "2026-11-13T15:30:00Z",
-   "local_date": "2026-11-13",
-   "all_day": false,
-   "forecast": "65B",
-   "previous": "77B",
-   "actual": "61B",
-   "source": "forexfactory",
-   "feed": "thisweek",
-   "actual_class": "better"
-  },
-  {
-   "id": "28a3dd545ccc",
-   "ccy": "USD",
-   "title": "FOMC Member Bowman Speaks",
-   "impact": "low",
-   "instant": "2026-11-13T15:50:00Z",
-   "local_date": "2026-11-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "c8a1ddffcbe9",
-   "ccy": "EUR",
-   "title": "German Buba President Nagel Speaks",
-   "impact": "low",
-   "instant": "2026-11-13T16:00:00Z",
-   "local_date": "2026-11-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "6bc493e18f8e",
-   "ccy": "USD",
-   "title": "FOMC Member Daly Speaks",
-   "impact": "low",
-   "instant": "2026-11-13T17:00:00Z",
-   "local_date": "2026-11-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
-  {
-   "id": "dc78485cafcb",
-   "ccy": "USD",
-   "title": "FOMC Financial Stability Report",
-   "impact": "low",
-   "instant": "2026-11-13T21:00:00Z",
-   "local_date": "2026-11-13",
-   "all_day": false,
-   "forecast": "",
-   "previous": "",
-   "actual": "",
-   "source": "forexfactory",
-   "feed": "thisweek"
-  },
   {
    "id": "c44aff59a4df",
    "ccy": "USD",
@@ -2982,5 +2897,5 @@
    "actual_class": "worse"
   }
  ],
- "actuals_updated_at": "2026-11-27T14:59:29.551876Z"
+ "actuals_updated_at": "2026-11-27T23:25:18.044894Z"
 }
